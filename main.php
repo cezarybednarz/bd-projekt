@@ -11,6 +11,7 @@
 <BODY>
 <h2> Lista tweetów </h2>
 
+
 <?PHP
 
   session_start(); 
@@ -28,16 +29,23 @@
     echo $e['message'];
   }
 
-  $stmt = oci_parse($conn, "SELECT * FROM test");
-
-  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
-    echo "<tr>\n<td>" . $row['ID'] . "</td></tr>";
-  }
-  
-  // jesli modyfikujemy to
-  // oci_commit($conn);
 ?>
+
+<table border="1" align=center>
+  <?PHP
+
+    $stmt = oci_parse($conn, "SELECT * FROM test");
+
+    oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+    while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
+      echo "<tr><td>" . $row['ID'] . "</td></tr>";
+    }
+    
+    // jesli modyfikujemy to
+    // oci_commit($conn);
+  ?>
+</table>
+
 
 <center><br><a href="javascript:history.back()">wróć do poprzedniej strony</a>
 
