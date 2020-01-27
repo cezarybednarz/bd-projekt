@@ -58,9 +58,13 @@ th {
 
 <table>
   <tr>
-    <th>ID</th>
-    <th>val_a</th>
-    <th>val_b</th>
+    <th>id</th>
+    <th>user</th>
+    <th>text</th>
+    <th>retweeted</th>
+    <th>favourites</th>
+    <th>retweets</th>
+    <th>replies</th>
   </tr>
   <?PHP
 
