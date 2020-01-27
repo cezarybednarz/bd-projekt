@@ -36,7 +36,7 @@
 
   // Wykonywanie wyrazenia SQL-owego
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-
+  echo "xd\n";
   // OCI_BOTH sprawia, tablica jest zarowno asocjacyjna, jak i zwykla
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
 // Use uppercase column names for the associative array indices and
