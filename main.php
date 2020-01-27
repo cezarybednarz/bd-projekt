@@ -68,14 +68,14 @@ th {
     <th>replies</th>
   </tr>
   <?PHP
-  
-    $column = "ID"
-    if (isset($_GET['column']) {
+    echo "xd";
+    $column = "ID";
+    if (isset($_GET['column'])) {
       $column = $_GET['column'];
     }
       
     $direction = "ASC"
-    if (isset($_GET['direction']) {
+    if (isset($_GET['direction'])) {
       $column = $_GET['direction'];
     }
     
