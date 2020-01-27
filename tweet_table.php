@@ -62,22 +62,22 @@ th {
   <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>/
   <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
   <p>favourites
-  <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>/
-  <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
+  <a href="tweet_table.php?direction=asc&column=favourite_count">rosnąco </a>/
+  <a href="tweet_table.php?direction=desc&column=favourite_count">malejąco </a></p>
   <p>retweets
-  <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>/
-  <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
+  <a href="tweet_table.php?direction=asc&column=retweet_count">rosnąco </a>/
+  <a href="tweet_table.php?direction=desc&column=retweet_count">malejąco </a></p>
   <p>replies
-  <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>/
-  <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
+  <a href="tweet_table.php?direction=asc&column=reply_count">rosnąco </a>/
+  <a href="tweet_table.php?direction=desc&column=reply_count">malejąco </a></p>
 
 </center>
 
 <table>
   <tr>
     <th>id</th>
-    <th width="20%">user</th>
     <th width="50%">text</th>
+    <th width="20%">user</th>
     <th>query</th>
     <th>retweeted</th>
     <th>favourites</th>
@@ -99,8 +99,8 @@ th {
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
-      echo "<td><a href='twitter.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
       echo "<td>" . $row['VAL_A'] . "</td>";
+      echo "<td><a href='twitter.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
       echo "<td>" . $row['VAL_B'] . "</td>";
       echo "</tr>";
     }
