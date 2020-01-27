@@ -73,7 +73,7 @@ th {
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
       echo "<td>" . $row['ID'] . "</td>";
-      echo "<td>" . $row['VAL_A'] . "</td>";
+      echo "<font color="red"><td>" . $row['VAL_A'] . "</td></font>";
       echo "<td>" . $row['VAL_B'] . "</td>";
       echo "</tr>";
     }
