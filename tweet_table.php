@@ -61,12 +61,15 @@ th {
   <p>ID
   <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>/
   <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
-  <a href="tweet_table.php?direction=asc&column=id">favourites rosnąco </a><br/>
-  <a href="tweet_table.php?direction=desc&column=id">favourites malejąco </a><br/>
-  <a href="tweet_table.php?direction=asc&column=id">retweets rosnąco </a><br/>
-  <a href="tweet_table.php?direction=desc&column=id">retweets malejąco </a><br/>
-  <a href="tweet_table.php?direction=asc&column=id">replies rosnąco </a><br/>
-  <a href="tweet_table.php?direction=desc&column=id">replies malejąco </a><br/><br/>
+  <p>favourites
+  <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>/
+  <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
+  <p>retweets
+  <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>/
+  <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
+  <p>replies
+  <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>/
+  <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
 
 </center>
 
