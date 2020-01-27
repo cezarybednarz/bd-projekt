@@ -4,6 +4,17 @@ DROP TABLE Tweet CASCADE CONSTRAINTS;
 DROP TABLE URL CASCADE CONSTRAINTS;
 DROP TABLE Usr CASCADE CONSTRAINTS;
 
+-- testowanie
+DROP TABLE test CASCADE CONSTRAINTS;
+CREATE TABLE test (
+    id integer NOT NULL,
+    val_a integer,
+    val_b integer
+) ;
+
+
+-- koniec testowania
+
 CREATE TABLE Hashtag (
     Tweet_id integer  NOT NULL,
     hashtag varchar2(256)  NOT NULL,
