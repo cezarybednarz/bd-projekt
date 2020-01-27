@@ -70,12 +70,14 @@ th {
   <?PHP
   
     $column = "ID"
-    if (isset($_GET['column'])
+    if (isset($_GET['column']) {
       $column = $_GET['column'];
+    }
       
     $direction = "ASC"
-    if (isset($_GET['direction'])
+    if (isset($_GET['direction']) {
       $column = $_GET['direction'];
+    }
     
     $stmt = oci_parse($conn, "SELECT * FROM test ORDER BY " . $column . " " . $direction);
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
