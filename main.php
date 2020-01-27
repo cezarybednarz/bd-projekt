@@ -1,46 +1,48 @@
 <HTML>
 
 <HEAD>
-
-    <TITLE> Analiza Twittera </TITLE>
-
+    <TITLE> Genealogia matematyczna - Naukowcy </TITLE>
 </HEAD>
 
 <BODY>
-
-<h2> Tweety </h2>
+<h2> Naukowcy </h2>
 
 <?PHP // Wchodzimy do PHP
 
-    ///////////////////////////////////
-    // Otwieranie ciasteczka sesyjnego.
-    session_start();
-    ///////////////////////////////////
+    ////////////////////////////////// 
+    // Tworzenie ciasteczka sesyjnego.
+    session_start(); 
+    // Zapisanie loginu i hasla w ciasteczku sesyjnym.
+    $_SESSION['LOGIN'] = $_POST['LOGN'];
+    $_SESSION['PASS'] = $_POST['PASW'];
+    /////////////////////////////////// 
     
-    // Nawiazywanie polaczenia z oraclem.
-    $conn = oci_connect($_SESSION['LOGIN'],$_SESSION['PASS']);
-    
+    // Nawiazywanie polaczenia z baza danych; login i haslo do studenckiego oracla; serwer bazodanowy jest domyslny. 
+    $conn = oci_connect($_POST['LOGN'],$_POST['PASW']);
+
     if (!$conn) {
-	echo "oci_connect failed XD";
+	echo "oci_connect failed\n";
 	$e = oci_error();
 	echo $e['message'];
     }
 
     // Tworzenie wyrazenia SQL-owego
-    $stmt = oci_parse($conn, "SELECT * FROM fmurlak.naukowiec WHERE promotor = " . $_GET['id']);
+    $stmt = oci_parse($conn, "SELECT * FROM fmurlak.naukowiec");
 
     // Wykonywanie wyrazenia SQL-owego
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
 
     // OCI_BOTH sprawia, tablica jest zarowno asocjacyjna, jak i zwykla
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
-	// Use the uppercase column names for the associative array indices
-	echo "<BR><A HREF=\"doktoranci.php?id=" . $row['ID'] . "\">" . $row[1] . " " . $row['NAZWISKO'] . "</A><BR>\n";
+	// Use uppercase column names for the associative array indices and
+        // numbers for the ordinary array indices.
+        echo "<BR><A HREF=\"doktoranci.php?id=" . $row['ID'] . "\">" . $row[1] . " " . $row['NAZWISKO'] . "</A><BR>\n";
     }
-
+    
     // Jesli modyfikujemy, to trzeba zrobic COMMIT:
     // oci_commit($conn);
 ?>
 
 </BODY>
 </HTML>
+
