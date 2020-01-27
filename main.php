@@ -23,6 +23,7 @@ th {
   color: white;
 }
 </style>
+
 </head>
 
 <HEAD>
@@ -69,7 +70,7 @@ th {
     
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
-      echo "<td>" . $row['id'] . "</td>";
+      echo "<td>" . $row['ID'] . "</td>";
       echo "<td>" . $row['val_a'] . "</td>";
       echo "<td>" . $row['val_b'] . "</td>";
       echo "</tr>";
