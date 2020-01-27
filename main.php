@@ -4,6 +4,27 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
 
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+
 <HEAD>
     <TITLE> Tweety </TITLE>
 </HEAD>
@@ -34,7 +55,7 @@
 
 ?>
 
-<table border="10" align=center padding="15" height="50" vertical-align="bottom">
+<table>
   <?PHP
 
     $stmt = oci_parse($conn, "SELECT * FROM test");
