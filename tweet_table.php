@@ -56,12 +56,6 @@ th {
 
 ?>
 
-<center>
-<h1> posortuj: </h1>
-  <a href="main.php?direction=asc?column=id">ID rosnąco </a>
-
-</center>
-
 <table>
   <tr>
     <th>id</th>
