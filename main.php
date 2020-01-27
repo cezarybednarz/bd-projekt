@@ -58,7 +58,7 @@ th {
 
 <center>
 <h1> posortuj: </h1>
-  <a href="main.php?direction=asc?column=id">ID rosnąco </a>
+  <a href="main.php/?direction=asc?column=id">ID rosnąco </a>
 
 </center>
 
@@ -88,7 +88,7 @@ th {
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
-      echo "<td><a href='twitter.php?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
+      echo "<td><a href='twitter.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
       echo "<td>" . $row['VAL_A'] . "</td>";
       echo "<td>" . $row['VAL_B'] . "</td>";
       echo "</tr>";
