@@ -58,7 +58,7 @@ th {
 
 <center>
 <h1> posortuj: </h1>
-  <a href="main.php/?direction=asc?column=id">ID rosnąco </a>
+  <a href="main.php?direction=asc&column=id">ID rosnąco </a>
 
 </center>
 
@@ -81,7 +81,7 @@ th {
       
     $direction = "ASC";
     if (isset($_GET['direction'])) {
-      $column = $_GET['direction'];
+      $direction = $_GET['direction'];
     }
     
     $stmt = oci_parse($conn, "SELECT * FROM test ORDER BY " . $column . " " . $direction);
