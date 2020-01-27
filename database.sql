@@ -92,6 +92,9 @@ INSERT INTO usr (id, name, screen_name, location, description, followers, friend
 INSERT INTO tweet (id, user_id, text, in_reply_to_status_id, retweeted, favourite_count, retweet_count, reply_count, query) 
            VALUES (1, 1111, 'hejka xD', NULL, 0, 410, 787, 334, 'animals');
 
+INSERT INTO tweet (id, user_id, text, in_reply_to_status_id, retweeted, favourite_count, retweet_count, reply_count, query) 
+           VALUES (2, 1111, 'elooooooooo elooooooo elooooo', 1234, 1, 4, 7, 3, 'animals');
+
 
 
 
