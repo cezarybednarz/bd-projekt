@@ -59,7 +59,7 @@ th {
 <table>
   <tr>
     <th>id</th>
-    <th width="10%">user</th>
+    <th width="20%">user</th>
     <th width="50%">text</th>
     <th>retweeted</th>
     <th>favourites</th>
