@@ -32,8 +32,7 @@
 
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
-    echo "<tr>\n";
-    echo "  <td>" . $row["id"] . "</td></tr>";
+    echo "<tr><td>" . $row['ID'] . "</td></tr>";
   }
   
   // jesli modyfikujemy to
