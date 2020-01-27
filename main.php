@@ -34,7 +34,7 @@
 
 ?>
 
-<table border="1" align=center padding="15">
+<table border="1" align=center padding="15" height="50" vertical-align="bottom">
   <?PHP
 
     $stmt = oci_parse($conn, "SELECT * FROM test");
