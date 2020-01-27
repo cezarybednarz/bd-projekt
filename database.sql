@@ -44,7 +44,7 @@ CREATE TABLE Usr (
     name varchar2(256)  NOT NULL,
     screen_name varchar2(256)  NOT NULL,
     location varchar2(256)  NULL,
-    descritption varchar2(256)  NULL,
+    description varchar2(256)  NULL,
     followers integer  NULL,
     friends integer  NULL,
     statuses_count integer  NULL,
