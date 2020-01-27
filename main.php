@@ -33,7 +33,7 @@
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
     echo "xd\n";
-    echo "<BR><A HREF=\"doktoranci.php?id=" . $row['ID'] . "\">" . $row['val_a'] . " " . $row['val_b'] . "</A><BR>\n";
+    echo $row['ID'] . " " . $row['val_a'] . " " . $row['val_b'] . "\n";
   }
   
   // jesli modyfikujemy to
