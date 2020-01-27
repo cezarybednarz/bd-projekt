@@ -4,18 +4,6 @@ DROP TABLE Tweet CASCADE CONSTRAINTS;
 DROP TABLE URL CASCADE CONSTRAINTS;
 DROP TABLE Usr CASCADE CONSTRAINTS;
 
-------------- testowanie ----------------------
-DROP TABLE test CASCADE CONSTRAINTS;
-CREATE TABLE test (
-    id integer NOT NULL,
-    val_a integer,
-    val_b integer
-) ;
-INSERT INTO test (id, val_a, val_b) VALUES (1, 2, 3);
-INSERT INTO test (id, val_a, val_b) VALUES (2, 2, 2);
-INSERT INTO test (id, val_a, val_b) VALUES (3, 3, 3);
-INSERT INTO test (id, val_a, val_b) VALUES (10, 10, 1000);
------------- koniec testowania ----------------
 
 CREATE TABLE Hashtag (
     Tweet_id integer  NOT NULL,
@@ -40,6 +28,7 @@ CREATE TABLE Tweet (
     favourite_count integer  NOT NULL,
     retweet_count integer  NOT NULL,
     reply_count integer  NOT NULL,
+    query varchar2(256) NULL,
     CONSTRAINT Tweet_pk PRIMARY KEY (id)
 ) ;
 
@@ -81,3 +70,30 @@ ALTER TABLE Tweet ADD CONSTRAINT Tweet_User
 ALTER TABLE URL ADD CONSTRAINT URL_Tweet
     FOREIGN KEY (Tweet_id)
     REFERENCES Tweet (id);
+    
+    
+    
+------------- testowanie ----------------------
+DROP TABLE test CASCADE CONSTRAINTS;
+CREATE TABLE test (
+    id integer NOT NULL,
+    val_a integer,
+    val_b integer
+) ;
+INSERT INTO test (id, val_a, val_b) VALUES (1, 2, 3);
+INSERT INTO test (id, val_a, val_b) VALUES (2, 2, 2);
+INSERT INTO test (id, val_a, val_b) VALUES (3, 3, 3);
+INSERT INTO test (id, val_a, val_b) VALUES (10, 10, 1000);
+
+
+INSERT INTO tweet (id, user_id, text, in_reply_to_status_id, retweeted, favourite_count, reply_count) 
+           VALUES (1, 1111, 'hejka xD', NULL, 0, 410, 334);
+
+
+
+
+------------ koniec testowania ----------------
+
+
+
+
