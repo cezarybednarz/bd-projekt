@@ -57,7 +57,14 @@ th {
 ?>
 
 <center>
-<h1> posortuj: </h1>
+<h4> posortuj: </h4>
+  <a href="main.php?direction=asc&column=id">ID rosnąco </a>
+  <a href="main.php?direction=asc&column=id">ID malejąco </a>
+  <a href="main.php?direction=asc&column=id">ID rosnąco </a>
+  <a href="main.php?direction=asc&column=id">ID rosnąco </a>
+  <a href="main.php?direction=asc&column=id">ID rosnąco </a>
+  <a href="main.php?direction=asc&column=id">ID rosnąco </a>
+  <a href="main.php?direction=asc&column=id">ID rosnąco </a>
   <a href="main.php?direction=asc&column=id">ID rosnąco </a>
 
 </center>
