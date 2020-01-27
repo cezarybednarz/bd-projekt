@@ -11,6 +11,7 @@
 <BODY>
 <h2> Lista tweetów </h2>
 
+<center>
 
 <?PHP
 
@@ -46,6 +47,7 @@
   ?>
 </table>
 
+</center>
 
 <center><br><a href="javascript:history.back()">wróć do poprzedniej strony</a>
 
