@@ -100,7 +100,7 @@ th {
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
       echo "<td><a href='twitter.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
-      echo "<td>" . $row['VAL_B'] . "</td>";
+      echo "<td><s>" . $row['VAL_B'] . "</s></td>";
       echo "<td>" . $row['VAL_A'] . "</td>";
       echo "</tr>";
     }
