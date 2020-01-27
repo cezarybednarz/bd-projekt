@@ -99,9 +99,9 @@ th {
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
-      echo "<td>" . $row['VAL_A'] . "</td>";
       echo "<td><a href='twitter.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
       echo "<td>" . $row['VAL_B'] . "</td>";
+      echo "<td>" . $row['VAL_A'] . "</td>";
       echo "</tr>";
     }
     // jesli modyfikujemy to
