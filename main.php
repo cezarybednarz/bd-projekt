@@ -61,30 +61,26 @@ th {
     <th>id</th>
     <th width="20%">user</th>
     <th width="50%">text</th>
+    <th>query</th>
     <th>retweeted</th>
     <th>favourites</th>
     <th>retweets</th>
     <th>replies</th>
   </tr>
   <?PHP
-
-    $stmt = oci_parse($conn, "SELECT * FROM test");
-
+    $stmt = oci_parse($conn, "SELECT * FROM TWEET");
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-    
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
       echo "<td>" . $row['ID'] . "</td>";
-      echo "<td>" . $row['VAL_A'] . "</td>";
+      echo "<font color="red"><td>" . $row['VAL_A'] . "</td></font>";
       echo "<td>" . $row['VAL_B'] . "</td>";
       echo "</tr>";
     }
-    
     // jesli modyfikujemy to
     // oci_commit($conn);
   ?>
 </table>
-
 </center>
 
 <center><br><a href="javascript:history.back()">wróć do poprzedniej strony</a>
