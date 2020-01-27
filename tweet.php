@@ -8,12 +8,6 @@
 <h2> Lista tweetów </h2>
 
 <?PHP
-
-  session_start(); 
-  //$_SESSION['LOGIN'] = $_POST['LOGN'];
-  //$_SESSION['PASS'] = $_POST['PASW'];
-  $_SESSION['LOGIN'] = 'cb406099';
-  $_SESSION['PASS'] = 'xxx';
   
   $conn = oci_connect($_SESSION['LOGIN'] , $_SESSION['PASS']);
   
@@ -34,10 +28,9 @@
   
   // jesli modyfikujemy to
   // oci_commit($conn);
-?>
 
+?>
 <center><br><a href="javascript:history.back()">wróć do poprzedniej strony</a>
 
 </BODY>
 </HTML>
-
