@@ -39,7 +39,8 @@
   echo "xd\n";
   // OCI_BOTH sprawia, tablica jest zarowno asocjacyjna, jak i zwykla
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
-      echo $_SESSION['LOGIN'] . $SESSION['PASS'];
+      echo $_SESSION['LOGIN'];
+      echo $_SESSION['PASS'];
 // Use uppercase column names for the associative array indices and
       // numbers for the ordinary array indices.
       echo "<BR><A HREF=\"doktoranci.php?id=" . $row['ID'] . "\">" . $row['val_a'] . " " . $row['val_b'] . "</A><BR>\n";
