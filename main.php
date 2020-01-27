@@ -68,7 +68,16 @@ th {
     <th>replies</th>
   </tr>
   <?PHP
-    $stmt = oci_parse($conn, "SELECT * FROM test ORDER BY ID DESC");
+  
+    $column = "ID"
+    if (isset($_GET['column'])
+      $column = $_GET['column'];
+      
+    $direction = "ASC"
+    if (isset($_GET['direction'])
+      $column = $_GET['direction'];
+    
+    $stmt = oci_parse($conn, "SELECT * FROM test ORDER BY " . $column . " " . $direction);
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
