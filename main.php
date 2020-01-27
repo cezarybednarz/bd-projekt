@@ -60,7 +60,7 @@ th {
   <tr>
     <th>id</th>
     <th>user</th>
-    <th>text</th>
+    <th width="50%">text</th>
     <th>retweeted</th>
     <th>favourites</th>
     <th>retweets</th>
