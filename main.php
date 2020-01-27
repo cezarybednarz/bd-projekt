@@ -22,9 +22,7 @@
     $_SESSION['PASS'] = 'xxx';
     
     // Nawiazywanie polaczenia z baza danych; login i haslo do studenckiego oracla; serwer bazodanowy jest domyslny. 
-    $conn = oci_connect($_SESSION['LOGIN'] , $_SESSION['PASW']);
-    
-    echo $_SESSION['LOGIN'];
+    $conn = oci_connect($_SESSION['LOGIN'] , $_SESSION['PASS']);
     
     if (!$conn) {
       
