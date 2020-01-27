@@ -56,13 +56,23 @@ th {
 ?>
 
 <table>
+  <tr>
+    <th>ID</th>
+    <th>val_a</th>
+    <th>val_b</th>
+  </tr>
   <?PHP
 
     $stmt = oci_parse($conn, "SELECT * FROM test");
 
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+    
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
-      echo "<tr><td>" . $row['ID'] . "<td>" . " xdd " . "</td></tr>";
+      echo "<tr>";
+      echo "<td>" . $row['id'] . "</td>";
+      echo "<td>" . $row['val_a'] . "</td>";
+      echo "<td>" . $row['val_b'] . "</td>";
+      echo "</tr>";
     }
     
     // jesli modyfikujemy to
