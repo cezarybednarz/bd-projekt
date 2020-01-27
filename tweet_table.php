@@ -56,6 +56,19 @@ th {
 
 ?>
 
+<center>
+<h4> posortuj: </h4>
+  <a href="main.php?direction=asc&column=id">ID rosnąco </a><br/>
+  <a href="main.php?direction=desc&column=id">ID malejąco </a><br/>
+  <a href="main.php?direction=asc&column=id">favourites rosnąco </a><br/>
+  <a href="main.php?direction=desc&column=id">favourites malejąco </a><br/>
+  <a href="main.php?direction=asc&column=id">retweets rosnąco </a><br/>
+  <a href="main.php?direction=desc&column=id">retweets malejąco </a><br/>
+  <a href="main.php?direction=asc&column=id">replies rosnąco </a><br/>
+  <a href="main.php?direction=desc&column=id">replies malejąco </a><br/><br/>
+
+</center>
+
 <table>
   <tr>
     <th>id</th>
@@ -75,14 +88,14 @@ th {
       
     $direction = "ASC";
     if (isset($_GET['direction'])) {
-      $column = $_GET['direction'];
+      $direction = $_GET['direction'];
     }
     
     $stmt = oci_parse($conn, "SELECT * FROM test ORDER BY " . $column . " " . $direction);
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
-      echo "<td><a href='twitter.php?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
+      echo "<td><a href='twitter.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
       echo "<td>" . $row['VAL_A'] . "</td>";
       echo "<td>" . $row['VAL_B'] . "</td>";
       echo "</tr>";
