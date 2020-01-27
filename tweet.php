@@ -1,14 +1,15 @@
 <HTML>
 
 <HEAD>
-    <TITLE> Lista tweetów </TITLE>
+    <TITLE> Tweet </TITLE>
 </HEAD>
 
 <BODY>
-<h2> Lista tweetów </h2>
+<h2> Tweet </h2>
 
 <?PHP
   
+  session_start();
   $conn = oci_connect($_SESSION['LOGIN'] , $_SESSION['PASS']);
   
   if (!$conn) {
@@ -21,7 +22,6 @@
   $stmt = oci_parse($conn, "SELECT * FROM test");
 
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  echo "xd\n";
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<BR><A HREF=\"doktoranci.php?id=" . $row['ID'] . "\">" . $row['val_a'] . " " . $row['val_b'] . "</A><BR>\n";
   }
