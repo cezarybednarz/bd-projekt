@@ -18,16 +18,16 @@
     //$_SESSION['PASS'] = $_POST['PASW'];
     /////////////////////////////////// 
     
-    $_SESSION['LOGIN'] = "cb406099";
-    $_SESSION['PASS'] = "xxx";
+    $_SESSION['LOGIN'] = 'cb406099';
+    $_SESSION['PASS'] = 'xxx';
     
     // Nawiazywanie polaczenia z baza danych; login i haslo do studenckiego oracla; serwer bazodanowy jest domyslny. 
     $conn = oci_connect($_POST['LOGN'],$_POST['PASW']);
 
     if (!$conn) {
-	echo "oci_connect failed\n";
-	$e = oci_error();
-	echo $e['message'];
+      echo "oci_connect failed\n";
+    	$e = oci_error();
+	    echo $e['message'];
     }
 
     // Tworzenie wyrazenia SQL-owego
