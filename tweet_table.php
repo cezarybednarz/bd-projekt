@@ -77,7 +77,7 @@ th {
   <tr>
     <th>id</th>
     <th width="50%">text</th>
-    <th width="20%">user</th>
+    <th>user_id</th>
     <th>query</th>
     <th>retweeted</th>
     <th>favourites</th>
@@ -95,13 +95,18 @@ th {
       $direction = $_GET['direction'];
     }
     
-    $stmt = oci_parse($conn, "SELECT * FROM test ORDER BY " . $column . " " . $direction);
+    $stmt = oci_parse($conn, "SELECT * FROM tweet ORDER BY " . $column . " " . $direction);
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
-      echo "<td><a href='twitter.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
-      echo "<td><small>" . $row['VAL_B'] . "</small></td>";
-      echo "<td>" . $row['VAL_A'] . "</td>";
+      echo "<td><a href='tweet.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
+      echo "<td><small>" . $row['TEXT'] . "</small></td>";
+      echo "<td><a href='user.php/?id=" . $row['USER_ID'] . "'>" . $row['USER_ID'] . "</a></td>";
+      echo "<td>" . $row['RETWEETED'] . "</td>";
+      echo "<td>" . $row['FAVOURITE_COUNT'] . "</td>";
+      echo "<td>" . $row['RETWEET_COUNT'] . "</td>";
+      echo "<td>" . $row['REPLY_COUNT'] . "</td>";
+      echo "<td>" . $row['QUERY'] . "</td>";
       echo "</tr>";
     }
     // jesli modyfikujemy to

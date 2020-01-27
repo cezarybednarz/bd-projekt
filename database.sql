@@ -23,7 +23,6 @@ CREATE TABLE Tweet (
     id integer  NOT NULL,
     user_id integer  NOT NULL,
     text varchar2(256)  NOT NULL,
-    in_reply_to_status_id integer  NULL,
     retweeted number(1)  NOT NULL,
     favourite_count integer  NOT NULL,
     retweet_count integer  NOT NULL,
@@ -89,11 +88,11 @@ INSERT INTO test (id, val_a, val_b) VALUES (10, 10, 1000);
 INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) 
         VALUES  (1111, 'Adam', 'adas', 'Warszawa', 'siema lubie costam', 3100, 24, 10101);
 
-INSERT INTO tweet (id, user_id, text, in_reply_to_status_id, retweeted, favourite_count, retweet_count, reply_count, query) 
-           VALUES (1, 1111, 'hejka xD', NULL, 0, 410, 787, 334, 'animals');
+INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) 
+           VALUES (1, 1111, 'hejka xD', 0, 410, 787, 334, 'animals');
 
---INSERT INTO tweet (id, user_id, text, in_reply_to_status_id, retweeted, favourite_count, retweet_count, reply_count, query) 
---           VALUES (2, 1111, 'elooooooooo elooooooo elooooo', 1234, 1, 4, 7, 3, 'animals');
+--INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) 
+--           VALUES (2, 1111, 'elooooooooo elooooooo elooooo', 1, 4, 7, 3, 'animals');
 
 
 
