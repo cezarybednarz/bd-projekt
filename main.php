@@ -9,9 +9,11 @@
 </HEAD>
 
 <BODY>
-<h2> Lista tweetów </h2>
 
 <center>
+
+<h2> Lista tweetów </h2>
+
 
 <?PHP
 
