@@ -86,6 +86,9 @@ INSERT INTO test (id, val_a, val_b) VALUES (3, 3, 3);
 INSERT INTO test (id, val_a, val_b) VALUES (10, 10, 1000);
 
 
+INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) 
+        VALUES  (1111, 'Adam', 'adas', 'Warszawa', 'siema lubie costam', 3100, 24, 10101);
+
 INSERT INTO tweet (id, user_id, text, in_reply_to_status_id, retweeted, favourite_count, retweet_count, reply_count, query) 
            VALUES (1, 1111, 'hejka xD', NULL, 0, 410, 787, 334, 'animals');
 
