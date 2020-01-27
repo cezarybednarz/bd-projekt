@@ -65,7 +65,7 @@ th {
   <a href="main.php?direction=asc&column=id">retweets rosnąco </a><br/>
   <a href="main.php?direction=desc&column=id">retweets malejąco </a><br/>
   <a href="main.php?direction=asc&column=id">replies rosnąco </a><br/>
-  <a href="main.php?direction=desc&column=id">replies malejąco </a><br/>
+  <a href="main.php?direction=desc&column=id">replies malejąco </a><br/><br/>
 
 </center>
 
