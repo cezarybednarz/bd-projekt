@@ -27,7 +27,7 @@
     }
 
     // Tworzenie wyrazenia SQL-owego
-    $stmt = oci_parse($conn, "SELECT * FROM fmurlak.naukowiec");
+    $stmt = oci_parse($conn, "SELECT * FROM test");
 
     // Wykonywanie wyrazenia SQL-owego
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
