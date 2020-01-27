@@ -21,7 +21,7 @@
     $conn = oci_connect($_SESSION['LOGIN'],$_SESSION['PASS']);
     
     if (!$conn) {
-	echo "oci_connect failed";
+	echo "oci_connect failed XD";
 	$e = oci_error();
 	echo $e['message'];
     }
