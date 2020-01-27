@@ -58,8 +58,9 @@ th {
 
 <center>
 <h4> posortuj: </h4>
-  <a href="tweet_table.php?direction=asc&column=id">ID rosnąco </a><br/>
-  <a href="tweet_table.php?direction=desc&column=id">ID malejąco </a><br/>
+  <p>ID
+  <a href="tweet_table.php?direction=asc&column=id">rosnąco </a>
+  <a href="tweet_table.php?direction=desc&column=id">malejąco </a></p>
   <a href="tweet_table.php?direction=asc&column=id">favourites rosnąco </a><br/>
   <a href="tweet_table.php?direction=desc&column=id">favourites malejąco </a><br/>
   <a href="tweet_table.php?direction=asc&column=id">retweets rosnąco </a><br/>
