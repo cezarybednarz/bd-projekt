@@ -68,7 +68,7 @@ th {
     <th>replies</th>
   </tr>
   <?PHP
-    $stmt = oci_parse($conn, "SELECT * FROM TWEET");
+    $stmt = oci_parse($conn, "SELECT * FROM TEST");
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
