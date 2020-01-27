@@ -1,7 +1,7 @@
 <HTML>
 
 <HEAD>
-    <TITLE> Lista tweetów </TITLE>
+    <TITLE> Tweety </TITLE>
 </HEAD>
 
 <BODY>
@@ -27,9 +27,9 @@
   $stmt = oci_parse($conn, "SELECT * FROM test");
 
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  echo "xd\n";
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
-      echo "<BR><A HREF=\"doktoranci.php?id=" . $row['ID'] . "\">" . $row['val_a'] . " " . $row['val_b'] . "</A><BR>\n";
+    echo "xd\n";
+    echo "<BR><A HREF=\"doktoranci.php?id=" . $row['ID'] . "\">" . $row['val_a'] . " " . $row['val_b'] . "</A><BR>\n";
   }
   
   // jesli modyfikujemy to
