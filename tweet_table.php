@@ -120,6 +120,8 @@ th {
 
 <center><br><a href="javascript:history.back()">wróć do poprzedniej strony</a>
 
+<center><br><a href="index.html">wróć do strony głównej</a>
+
 </BODY>
 </HTML>
 

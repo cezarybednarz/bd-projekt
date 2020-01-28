@@ -103,8 +103,6 @@ INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count,
 COMMIT WORK;
 
 
-
-
 ------------ koniec testowania ----------------
 
 
