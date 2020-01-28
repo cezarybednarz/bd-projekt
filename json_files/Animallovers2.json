@@ -1,0 +1,2986 @@
+{
+  "statuses": [
+    {
+      "created_at": "Mon Jan 27 15:11:53 +0000 2020",
+      "id": 1221813082697224200,
+      "id_str": "1221813082697224192",
+      "text": "#animales #animals #animal #perros #mascotas #pets #dog #dogs #love #gatos #pet #animallovers #amoranimal #gato… https://t.co/QBmLC2itJp",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "animales",
+            "indices": [
+              0,
+              9
+            ]
+          },
+          {
+            "text": "animals",
+            "indices": [
+              10,
+              18
+            ]
+          },
+          {
+            "text": "animal",
+            "indices": [
+              19,
+              26
+            ]
+          },
+          {
+            "text": "perros",
+            "indices": [
+              27,
+              34
+            ]
+          },
+          {
+            "text": "mascotas",
+            "indices": [
+              35,
+              44
+            ]
+          },
+          {
+            "text": "pets",
+            "indices": [
+              45,
+              50
+            ]
+          },
+          {
+            "text": "dog",
+            "indices": [
+              51,
+              55
+            ]
+          },
+          {
+            "text": "dogs",
+            "indices": [
+              56,
+              61
+            ]
+          },
+          {
+            "text": "love",
+            "indices": [
+              62,
+              67
+            ]
+          },
+          {
+            "text": "gatos",
+            "indices": [
+              68,
+              74
+            ]
+          },
+          {
+            "text": "pet",
+            "indices": [
+              75,
+              79
+            ]
+          },
+          {
+            "text": "animallovers",
+            "indices": [
+              80,
+              93
+            ]
+          },
+          {
+            "text": "amoranimal",
+            "indices": [
+              94,
+              105
+            ]
+          },
+          {
+            "text": "gato",
+            "indices": [
+              106,
+              111
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/QBmLC2itJp",
+            "expanded_url": "https://twitter.com/i/web/status/1221813082697224192",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              113,
+              136
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "und",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3353644571,
+        "id_str": "3353644571",
+        "name": "ADAT",
+        "screen_name": "AsociacionADAT",
+        "location": "Torrent, Valencia",
+        "description": "Asociación Defensa Animal Torrent - ADAT. Somos una asociación sin ánimo de lucro que vela por los animales y sus derechos. Torrent-Valencia ( España )",
+        "url": "https://t.co/TCUbkvw9Ch",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/TCUbkvw9Ch",
+                "expanded_url": "https://adat.protecms.com/",
+                "display_url": "adat.protecms.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 414,
+        "friends_count": 317,
+        "listed_count": 7,
+        "created_at": "Wed Jul 01 18:52:08 +0000 2015",
+        "favourites_count": 1811,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 3061,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1144051661536735232/m0cH3NFP_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1144051661536735232/m0cH3NFP_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3353644571/1563566216",
+        "profile_link_color": "FFCC4D",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "und"
+    },
+    {
+      "created_at": "Mon Jan 27 15:08:09 +0000 2020",
+      "id": 1221812143651278800,
+      "id_str": "1221812143651278848",
+      "text": "RT @olisgang: This fallen tree seems to be providing new enrichment for pigmy goats Bill and Ben.\n\n#Vegan #animalrescue #AnimalRights #frie…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "Vegan",
+            "indices": [
+              99,
+              105
+            ]
+          },
+          {
+            "text": "animalrescue",
+            "indices": [
+              106,
+              119
+            ]
+          },
+          {
+            "text": "AnimalRights",
+            "indices": [
+              120,
+              133
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "olisgang",
+            "name": "Sheep Ahoy Rescue",
+            "id": 3075609112,
+            "id_str": "3075609112",
+            "indices": [
+              3,
+              12
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1283352716,
+        "id_str": "1283352716",
+        "name": "joelle.Vegan4life Ⓥ",
+        "screen_name": "joelle47019650",
+        "location": "London, England",
+        "description": "Animal Rights Activist #Enviromentalist she/they #GoVegan #BanFur #bangreyhoundracing #EndSpeciesism 💚🐾🌱🌍🖤",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 5596,
+        "friends_count": 4937,
+        "listed_count": 271,
+        "created_at": "Wed Mar 20 14:03:37 +0000 2013",
+        "favourites_count": 191367,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 97133,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1162306997880053761/7TdCNxcp_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1162306997880053761/7TdCNxcp_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1283352716/1572126137",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Jan 27 10:14:41 +0000 2020",
+        "id": 1221738287007764500,
+        "id_str": "1221738287007764480",
+        "text": "This fallen tree seems to be providing new enrichment for pigmy goats Bill and Ben.\n\n#Vegan #animalrescue… https://t.co/3JGVuf6W68",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "Vegan",
+              "indices": [
+                85,
+                91
+              ]
+            },
+            {
+              "text": "animalrescue",
+              "indices": [
+                92,
+                105
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/3JGVuf6W68",
+              "expanded_url": "https://twitter.com/i/web/status/1221738287007764480",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                107,
+                130
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3075609112,
+          "id_str": "3075609112",
+          "name": "Sheep Ahoy Rescue",
+          "screen_name": "olisgang",
+          "location": "Kent, United Kingdom ",
+          "description": "Registered Charity & Vegan Sanctuary for abused or abandoned sheep and goats - We are putting right what humans do wrong...\nOur Patron is @vegannutrition1",
+          "url": "https://t.co/GYlSiCo6dE",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/GYlSiCo6dE",
+                  "expanded_url": "http://www.sheepahoy.org.uk",
+                  "display_url": "sheepahoy.org.uk",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 1089,
+          "friends_count": 1788,
+          "listed_count": 4,
+          "created_at": "Fri Mar 06 19:17:17 +0000 2015",
+          "favourites_count": 593,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 252,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/573944734231613442/M8-KFqVh_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/573944734231613442/M8-KFqVh_normal.jpeg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3075609112/1425674092",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 13,
+        "favorite_count": 25,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 13,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 15:06:37 +0000 2020",
+      "id": 1221811755418079200,
+      "id_str": "1221811755418079232",
+      "text": "RT @AudgePaudge: This handsome boy is in need of some overdue love and care. Please share, pledge, or rescue to save his life! #mondaythoug…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AudgePaudge",
+            "name": "Audrey B. Loveland",
+            "id": 16062010,
+            "id_str": "16062010",
+            "indices": [
+              3,
+              15
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 319685637,
+        "id_str": "319685637",
+        "name": "Princesse",
+        "screen_name": "Princesse106",
+        "location": "Bréhal",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1424,
+        "friends_count": 1709,
+        "listed_count": 5,
+        "created_at": "Sat Jun 18 15:12:05 +0000 2011",
+        "favourites_count": 177575,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 101201,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1099707202204520449/EFSqc_eD_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1099707202204520449/EFSqc_eD_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/319685637/1438613558",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Jan 27 05:40:02 +0000 2020",
+        "id": 1221669171391615000,
+        "id_str": "1221669171391614984",
+        "text": "This handsome boy is in need of some overdue love and care. Please share, pledge, or rescue to save his life!… https://t.co/1Kkf3ASBmg",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/1Kkf3ASBmg",
+              "expanded_url": "https://twitter.com/i/web/status/1221669171391614984",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                111,
+                134
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 16062010,
+          "id_str": "16062010",
+          "name": "Audrey B. Loveland",
+          "screen_name": "AudgePaudge",
+          "location": "Traipsing thru my subconscious",
+          "description": "Wife/Writer/Poet/Artist/Author of The Madness of Art Memoir on mental illness. #mentalhealthawareness #bipolarstrong #stopthestigma",
+          "url": "https://t.co/gDdKTVnAsd",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/gDdKTVnAsd",
+                  "expanded_url": "http://www.linkedin.com/in/AudreyBautzLoveland",
+                  "display_url": "linkedin.com/in/AudreyBautz…",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 240,
+          "friends_count": 1300,
+          "listed_count": 10,
+          "created_at": "Sun Aug 31 03:21:00 +0000 2008",
+          "favourites_count": 381,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 533,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "BADFCD",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/704769228440772611/ZO9SLTT6_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/704769228440772611/ZO9SLTT6_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/16062010/1456865103",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "F2E195",
+          "profile_sidebar_fill_color": "FFF7CC",
+          "profile_text_color": "0C3E53",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1221243957079789600,
+        "quoted_status_id_str": "1221243957079789568",
+        "quoted_status": {
+          "created_at": "Sun Jan 26 01:30:23 +0000 2020",
+          "id": 1221243957079789600,
+          "id_str": "1221243957079789568",
+          "text": "#A321177 #Memphis #TN 🆘💔😥 Cashier isn’t a good name for a 1yo dog in a KILL shelter but if you #Adopt #Foster… https://t.co/y16fVKKEbx",
+          "truncated": true,
+          "entities": {
+            "hashtags": [
+              {
+                "text": "A321177",
+                "indices": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "text": "Memphis",
+                "indices": [
+                  9,
+                  17
+                ]
+              },
+              {
+                "text": "TN",
+                "indices": [
+                  18,
+                  21
+                ]
+              },
+              {
+                "text": "Adopt",
+                "indices": [
+                  95,
+                  101
+                ]
+              },
+              {
+                "text": "Foster",
+                "indices": [
+                  102,
+                  109
+                ]
+              }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/y16fVKKEbx",
+                "expanded_url": "https://twitter.com/i/web/status/1221243957079789568",
+                "display_url": "twitter.com/i/web/status/1…",
+                "indices": [
+                  111,
+                  134
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 1120158990,
+            "id_str": "1120158990",
+            "name": "Sylvia Wissmann",
+            "screen_name": "stwissmann",
+            "location": "",
+            "description": "Love all animals especially doggies! Stop hunting, animal abuse+animal testing! Reform ALL #Kill shelters+educate those who dump pets like phones!",
+            "url": null,
+            "entities": {
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 11053,
+            "friends_count": 8258,
+            "listed_count": 116,
+            "created_at": "Fri Jan 25 20:08:59 +0000 2013",
+            "favourites_count": 73263,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 299288,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/3251875397/7359410643f604355be516ec5a567c2a_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/3251875397/7359410643f604355be516ec5a567c2a_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1120158990/1453058756",
+            "profile_link_color": "94D487",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 92,
+          "favorite_count": 53,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
+        "retweet_count": 21,
+        "favorite_count": 16,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": true,
+      "quoted_status_id": 1221243957079789600,
+      "quoted_status_id_str": "1221243957079789568",
+      "retweet_count": 21,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 15:06:14 +0000 2020",
+      "id": 1221811659183882200,
+      "id_str": "1221811659183882241",
+      "text": "RT @AudgePaudge: This handsome boy is in need of some overdue love and care. Please share, pledge, or rescue to save his life! #mondaythoug…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AudgePaudge",
+            "name": "Audrey B. Loveland",
+            "id": 16062010,
+            "id_str": "16062010",
+            "indices": [
+              3,
+              15
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 421568471,
+        "id_str": "421568471",
+        "name": "Theresa Macanelli",
+        "screen_name": "SEALMacsgirl",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 549,
+        "friends_count": 92,
+        "listed_count": 2,
+        "created_at": "Sat Nov 26 03:33:25 +0000 2011",
+        "favourites_count": 186079,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 118847,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Jan 27 05:40:02 +0000 2020",
+        "id": 1221669171391615000,
+        "id_str": "1221669171391614984",
+        "text": "This handsome boy is in need of some overdue love and care. Please share, pledge, or rescue to save his life!… https://t.co/1Kkf3ASBmg",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/1Kkf3ASBmg",
+              "expanded_url": "https://twitter.com/i/web/status/1221669171391614984",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                111,
+                134
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 16062010,
+          "id_str": "16062010",
+          "name": "Audrey B. Loveland",
+          "screen_name": "AudgePaudge",
+          "location": "Traipsing thru my subconscious",
+          "description": "Wife/Writer/Poet/Artist/Author of The Madness of Art Memoir on mental illness. #mentalhealthawareness #bipolarstrong #stopthestigma",
+          "url": "https://t.co/gDdKTVnAsd",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/gDdKTVnAsd",
+                  "expanded_url": "http://www.linkedin.com/in/AudreyBautzLoveland",
+                  "display_url": "linkedin.com/in/AudreyBautz…",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 240,
+          "friends_count": 1300,
+          "listed_count": 10,
+          "created_at": "Sun Aug 31 03:21:00 +0000 2008",
+          "favourites_count": 381,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": true,
+          "verified": false,
+          "statuses_count": 533,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "BADFCD",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme12/bg.gif",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme12/bg.gif",
+          "profile_background_tile": true,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/704769228440772611/ZO9SLTT6_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/704769228440772611/ZO9SLTT6_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/16062010/1456865103",
+          "profile_link_color": "1B95E0",
+          "profile_sidebar_border_color": "F2E195",
+          "profile_sidebar_fill_color": "FFF7CC",
+          "profile_text_color": "0C3E53",
+          "profile_use_background_image": true,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": true,
+        "quoted_status_id": 1221243957079789600,
+        "quoted_status_id_str": "1221243957079789568",
+        "quoted_status": {
+          "created_at": "Sun Jan 26 01:30:23 +0000 2020",
+          "id": 1221243957079789600,
+          "id_str": "1221243957079789568",
+          "text": "#A321177 #Memphis #TN 🆘💔😥 Cashier isn’t a good name for a 1yo dog in a KILL shelter but if you #Adopt #Foster… https://t.co/y16fVKKEbx",
+          "truncated": true,
+          "entities": {
+            "hashtags": [
+              {
+                "text": "A321177",
+                "indices": [
+                  0,
+                  8
+                ]
+              },
+              {
+                "text": "Memphis",
+                "indices": [
+                  9,
+                  17
+                ]
+              },
+              {
+                "text": "TN",
+                "indices": [
+                  18,
+                  21
+                ]
+              },
+              {
+                "text": "Adopt",
+                "indices": [
+                  95,
+                  101
+                ]
+              },
+              {
+                "text": "Foster",
+                "indices": [
+                  102,
+                  109
+                ]
+              }
+            ],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+              {
+                "url": "https://t.co/y16fVKKEbx",
+                "expanded_url": "https://twitter.com/i/web/status/1221243957079789568",
+                "display_url": "twitter.com/i/web/status/1…",
+                "indices": [
+                  111,
+                  134
+                ]
+              }
+            ]
+          },
+          "metadata": {
+            "iso_language_code": "en",
+            "result_type": "recent"
+          },
+          "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+          "in_reply_to_status_id": null,
+          "in_reply_to_status_id_str": null,
+          "in_reply_to_user_id": null,
+          "in_reply_to_user_id_str": null,
+          "in_reply_to_screen_name": null,
+          "user": {
+            "id": 1120158990,
+            "id_str": "1120158990",
+            "name": "Sylvia Wissmann",
+            "screen_name": "stwissmann",
+            "location": "",
+            "description": "Love all animals especially doggies! Stop hunting, animal abuse+animal testing! Reform ALL #Kill shelters+educate those who dump pets like phones!",
+            "url": null,
+            "entities": {
+              "description": {
+                "urls": []
+              }
+            },
+            "protected": false,
+            "followers_count": 11053,
+            "friends_count": 8258,
+            "listed_count": 116,
+            "created_at": "Fri Jan 25 20:08:59 +0000 2013",
+            "favourites_count": 73263,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 299288,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/3251875397/7359410643f604355be516ec5a567c2a_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/3251875397/7359410643f604355be516ec5a567c2a_normal.jpeg",
+            "profile_banner_url": "https://pbs.twimg.com/profile_banners/1120158990/1453058756",
+            "profile_link_color": "94D487",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+          },
+          "geo": null,
+          "coordinates": null,
+          "place": null,
+          "contributors": null,
+          "is_quote_status": false,
+          "retweet_count": 92,
+          "favorite_count": 53,
+          "favorited": false,
+          "retweeted": false,
+          "possibly_sensitive": false,
+          "lang": "en"
+        },
+        "retweet_count": 21,
+        "favorite_count": 16,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": true,
+      "quoted_status_id": 1221243957079789600,
+      "quoted_status_id_str": "1221243957079789568",
+      "retweet_count": 21,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 15:05:14 +0000 2020",
+      "id": 1221811407668248600,
+      "id_str": "1221811407668248578",
+      "text": "RT @olisgang: Elvis has a very important message.\n\nFor the link see pinned tweet.\n\nThank you.\n\n#sheep #animalrescue #animallovers #friendsn…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "sheep",
+            "indices": [
+              95,
+              101
+            ]
+          },
+          {
+            "text": "animalrescue",
+            "indices": [
+              102,
+              115
+            ]
+          },
+          {
+            "text": "animallovers",
+            "indices": [
+              116,
+              129
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "olisgang",
+            "name": "Sheep Ahoy Rescue",
+            "id": 3075609112,
+            "id_str": "3075609112",
+            "indices": [
+              3,
+              12
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 421568471,
+        "id_str": "421568471",
+        "name": "Theresa Macanelli",
+        "screen_name": "SEALMacsgirl",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 549,
+        "friends_count": 92,
+        "listed_count": 2,
+        "created_at": "Sat Nov 26 03:33:25 +0000 2011",
+        "favourites_count": 186079,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 118847,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Jan 27 10:13:46 +0000 2020",
+        "id": 1221738056820183000,
+        "id_str": "1221738056820183042",
+        "text": "Elvis has a very important message.\n\nFor the link see pinned tweet.\n\nThank you.\n\n#sheep #animalrescue #animallovers… https://t.co/fXpQfxNrsB",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "sheep",
+              "indices": [
+                81,
+                87
+              ]
+            },
+            {
+              "text": "animalrescue",
+              "indices": [
+                88,
+                101
+              ]
+            },
+            {
+              "text": "animallovers",
+              "indices": [
+                102,
+                115
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/fXpQfxNrsB",
+              "expanded_url": "https://twitter.com/i/web/status/1221738056820183042",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3075609112,
+          "id_str": "3075609112",
+          "name": "Sheep Ahoy Rescue",
+          "screen_name": "olisgang",
+          "location": "Kent, United Kingdom ",
+          "description": "Registered Charity & Vegan Sanctuary for abused or abandoned sheep and goats - We are putting right what humans do wrong...\nOur Patron is @vegannutrition1",
+          "url": "https://t.co/GYlSiCo6dE",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/GYlSiCo6dE",
+                  "expanded_url": "http://www.sheepahoy.org.uk",
+                  "display_url": "sheepahoy.org.uk",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 1089,
+          "friends_count": 1788,
+          "listed_count": 4,
+          "created_at": "Fri Mar 06 19:17:17 +0000 2015",
+          "favourites_count": 593,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 252,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/573944734231613442/M8-KFqVh_normal.jpeg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/573944734231613442/M8-KFqVh_normal.jpeg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3075609112/1425674092",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 31,
+        "favorite_count": 63,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 31,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 15:03:54 +0000 2020",
+      "id": 1221811071641456600,
+      "id_str": "1221811071641456640",
+      "text": "When you believe in animal rights, you even love ❤️ each other more. #animalrights #animalactivist… https://t.co/0MWYz8W3Tu",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "animalrights",
+            "indices": [
+              69,
+              82
+            ]
+          },
+          {
+            "text": "animalactivist",
+            "indices": [
+              83,
+              98
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/0MWYz8W3Tu",
+            "expanded_url": "https://twitter.com/i/web/status/1221811071641456640",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              100,
+              123
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 28325145,
+        "id_str": "28325145",
+        "name": "John Orlandini, Johnnyo",
+        "screen_name": "Johnnyorescue",
+        "location": "Global ",
+        "description": "John Orlandini/ official page Animal Welfare, Humanitarian, Vegan,Doc/Reality/Tv Mentor,My Rep. https://t.co/BlA6hUfdCG /Publicist Angel Howansky",
+        "url": "https://t.co/UIvH5J1gHb",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/UIvH5J1gHb",
+                "expanded_url": "http://www.Johnorlandini.com",
+                "display_url": "Johnorlandini.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/BlA6hUfdCG",
+                "expanded_url": "http://PiperMantisLiterary.com",
+                "display_url": "PiperMantisLiterary.com",
+                "indices": [
+                  96,
+                  119
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 679,
+        "friends_count": 613,
+        "listed_count": 22,
+        "created_at": "Thu Apr 02 12:09:28 +0000 2009",
+        "favourites_count": 103,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 24280,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "1A1B1F",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/869930185138872320/xP_jfD4V_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/869930185138872320/xP_jfD4V_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/28325145/1470582451",
+        "profile_link_color": "2FC2EF",
+        "profile_sidebar_border_color": "181A1E",
+        "profile_sidebar_fill_color": "252429",
+        "profile_text_color": "666666",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 15:03:37 +0000 2020",
+      "id": 1221811001693069300,
+      "id_str": "1221811001693069312",
+      "text": "When you believe in animal rights, you even love ❤️ each other more. #animalrights #animalactivist… https://t.co/7fBvHiMj5Z",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "animalrights",
+            "indices": [
+              69,
+              82
+            ]
+          },
+          {
+            "text": "animalactivist",
+            "indices": [
+              83,
+              98
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/7fBvHiMj5Z",
+            "expanded_url": "https://twitter.com/i/web/status/1221811001693069312",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              100,
+              123
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 25286114,
+        "id_str": "25286114",
+        "name": "Johnnyo Activst, Humanitarian",
+        "screen_name": "johnnyo_activst",
+        "location": "Global ",
+        "description": "John Orlandini/ official page Animal Welfare, Humanitarian, Vegan,Doc/Reality/Tv Mentor,My Rep. https://t.co/BlA6hUfdCG /Publicist Angel Howansky",
+        "url": "https://t.co/UIvH5J1gHb",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/UIvH5J1gHb",
+                "expanded_url": "http://www.Johnorlandini.com",
+                "display_url": "Johnorlandini.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/BlA6hUfdCG",
+                "expanded_url": "http://PiperMantisLiterary.com",
+                "display_url": "PiperMantisLiterary.com",
+                "indices": [
+                  96,
+                  119
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 11254,
+        "friends_count": 1032,
+        "listed_count": 357,
+        "created_at": "Thu Mar 19 12:58:39 +0000 2009",
+        "favourites_count": 373,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 25803,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "030000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/928785030616412160/gnHQCAp8_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/928785030616412160/gnHQCAp8_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/25286114/1483229134",
+        "profile_link_color": "9C4303",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "0D0101",
+        "profile_text_color": "871210",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 15:02:29 +0000 2020",
+      "id": 1221810714681258000,
+      "id_str": "1221810714681257985",
+      "text": "Lucy was adopted! Congratulations!\n#adoptdontshop #animals #animallovers #cats #fureverfamily #animal #animallover… https://t.co/abJglWkX9V",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "adoptdontshop",
+            "indices": [
+              35,
+              49
+            ]
+          },
+          {
+            "text": "animals",
+            "indices": [
+              50,
+              58
+            ]
+          },
+          {
+            "text": "animallovers",
+            "indices": [
+              59,
+              72
+            ]
+          },
+          {
+            "text": "cats",
+            "indices": [
+              73,
+              78
+            ]
+          },
+          {
+            "text": "fureverfamily",
+            "indices": [
+              79,
+              93
+            ]
+          },
+          {
+            "text": "animal",
+            "indices": [
+              94,
+              101
+            ]
+          },
+          {
+            "text": "animallover",
+            "indices": [
+              102,
+              114
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/abJglWkX9V",
+            "expanded_url": "https://twitter.com/i/web/status/1221810714681257985",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://www.hootsuite.com\" rel=\"nofollow\">Hootsuite Inc.</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3194865939,
+        "id_str": "3194865939",
+        "name": "UV Humane Society",
+        "screen_name": "UVHumaneSociety",
+        "location": "Enfield, NH",
+        "description": "Compassionately connecting people and pets",
+        "url": "http://t.co/AyQOKgtWBu",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/AyQOKgtWBu",
+                "expanded_url": "http://www.uvhs.org",
+                "display_url": "uvhs.org",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 99,
+        "friends_count": 31,
+        "listed_count": 6,
+        "created_at": "Wed Apr 22 14:21:16 +0000 2015",
+        "favourites_count": 32,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1193,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1131909263813677057/eo3HbzCe_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1131909263813677057/eo3HbzCe_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3194865939/1558703351",
+        "profile_link_color": "94D487",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 15:01:27 +0000 2020",
+      "id": 1221810457029369900,
+      "id_str": "1221810457029369857",
+      "text": "B e s i t o s  p o r  m o n t o n e s \n\n#kiss #besitos #besos #perros #gatos #animales #mascotas #mandria #bogota… https://t.co/qFCMjLGLL3",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "kiss",
+            "indices": [
+              40,
+              45
+            ]
+          },
+          {
+            "text": "besitos",
+            "indices": [
+              46,
+              54
+            ]
+          },
+          {
+            "text": "besos",
+            "indices": [
+              55,
+              61
+            ]
+          },
+          {
+            "text": "perros",
+            "indices": [
+              62,
+              69
+            ]
+          },
+          {
+            "text": "gatos",
+            "indices": [
+              70,
+              76
+            ]
+          },
+          {
+            "text": "animales",
+            "indices": [
+              77,
+              86
+            ]
+          },
+          {
+            "text": "mascotas",
+            "indices": [
+              87,
+              96
+            ]
+          },
+          {
+            "text": "mandria",
+            "indices": [
+              97,
+              105
+            ]
+          },
+          {
+            "text": "bogota",
+            "indices": [
+              106,
+              113
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/qFCMjLGLL3",
+            "expanded_url": "https://twitter.com/i/web/status/1221810457029369857",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              115,
+              138
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "es",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://www.later.com\" rel=\"nofollow\">LaterMedia</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1003439129051492400,
+        "id_str": "1003439129051492352",
+        "name": "Mandria",
+        "screen_name": "Mandria_",
+        "location": "Bogotá, D.C., Colombia",
+        "description": "BOUTIQUE DE LUJO PARA MASCOTAS🌟🐾 Instagram: mandria.petboutique facebook: mandria whatsapp: 3234916698🇨🇴|(+57)3234916698🌏 Worldwide Shipping\n#perros #gatos",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 104,
+        "friends_count": 1345,
+        "listed_count": 0,
+        "created_at": "Mon Jun 04 00:51:46 +0000 2018",
+        "favourites_count": 2,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 369,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1041022809999388672/YW9Qdhkq_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1041022809999388672/YW9Qdhkq_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1003439129051492352/1538425151",
+        "profile_link_color": "F58EA8",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "es"
+    },
+    {
+      "created_at": "Mon Jan 27 15:01:15 +0000 2020",
+      "id": 1221810407050039300,
+      "id_str": "1221810407050039297",
+      "text": "RT @fragolinarossa8: 🐨~*\n\n🍓Mi illumino a lungo\ndell’oro che trovo \nin fondo a un abbraccio🍓\n\n🖋Lucien Becker🇫🇷 \n\n🐨~*\n\n#ARitmoDelCuore 💜\n\n#In…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "ARitmoDelCuore",
+            "indices": [
+              117,
+              132
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "fragolinarossa8",
+            "name": "🍓 Linda 🍓",
+            "id": 3130618019,
+            "id_str": "3130618019",
+            "indices": [
+              3,
+              19
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "it",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 237015955,
+        "id_str": "237015955",
+        "name": "silvietta",
+        "screen_name": "Silvietta_03",
+        "location": "toscana italia",
+        "description": "Il bambino che non gioca non è un bambino, ma l'adulto che non gioca ha perso per sempre il bambino che ha dentro di sé. [P.N.] 〰〰〰〰\n▶➡➡➡ NO TRENINI! ⬅⬅⬅◀",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1547,
+        "friends_count": 1369,
+        "listed_count": 24,
+        "created_at": "Tue Jan 11 22:01:57 +0000 2011",
+        "favourites_count": 20306,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 14298,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "89C9FA",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/687728460995936257/zy-efCyF_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/687728460995936257/zy-efCyF_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/237015955/1521382408",
+        "profile_link_color": "9266CC",
+        "profile_sidebar_border_color": "C6E2EE",
+        "profile_sidebar_fill_color": "DAECF4",
+        "profile_text_color": "663B12",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Tue Jan 21 17:35:17 +0000 2020",
+        "id": 1219674841089036300,
+        "id_str": "1219674841089036288",
+        "text": "🐨~*\n\n🍓Mi illumino a lungo\ndell’oro che trovo \nin fondo a un abbraccio🍓\n\n🖋Lucien Becker🇫🇷 \n\n🐨~*\n\n#ARitmoDelCuore 💜… https://t.co/bXFnNARzmW",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "ARitmoDelCuore",
+              "indices": [
+                96,
+                111
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/bXFnNARzmW",
+              "expanded_url": "https://twitter.com/i/web/status/1219674841089036288",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                115,
+                138
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "it",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3130618019,
+          "id_str": "3130618019",
+          "name": "🍓 Linda 🍓",
+          "screen_name": "fragolinarossa8",
+          "location": "",
+          "description": "♥︎A chi è amato non importa nulla di cosa c’è intorno... percepisce solo l’amore♥︎ #ARitmoDelCuore My account @ARitmoDelCuore 💜🍓",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 9075,
+          "friends_count": 2573,
+          "listed_count": 88,
+          "created_at": "Tue Mar 31 11:01:37 +0000 2015",
+          "favourites_count": 167260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 182861,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1036387072687398913/W2LuVC_A_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1036387072687398913/W2LuVC_A_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3130618019/1578259157",
+          "profile_link_color": "981CEB",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 287,
+        "favorite_count": 599,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "it"
+      },
+      "is_quote_status": false,
+      "retweet_count": 287,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "it"
+    },
+    {
+      "created_at": "Mon Jan 27 14:57:41 +0000 2020",
+      "id": 1221809510043541500,
+      "id_str": "1221809510043541504",
+      "text": "RT @torarelaxtime: Good morning dear friends.\nI hope you a wonderful and blessed day.\n#animallovers #GoodMorningTwitterWorld #GoodMorningWo…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "animallovers",
+            "indices": [
+              86,
+              99
+            ]
+          },
+          {
+            "text": "GoodMorningTwitterWorld",
+            "indices": [
+              100,
+              124
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "torarelaxtime",
+            "name": "tora😸🐾",
+            "id": 816947950345560000,
+            "id_str": "816947950345560064",
+            "indices": [
+              3,
+              17
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 740782758121857000,
+        "id_str": "740782758121857024",
+        "name": "FayKatina",
+        "screen_name": "Katin6a",
+        "location": "",
+        "description": "Come dance with me!\nhttps://t.co/erfOIMFWky",
+        "url": "https://t.co/erfOIMFWky",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/erfOIMFWky",
+                "expanded_url": "https://bit.ly/35RCHPq",
+                "display_url": "bit.ly/35RCHPq",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/erfOIMFWky",
+                "expanded_url": "https://bit.ly/35RCHPq",
+                "display_url": "bit.ly/35RCHPq",
+                "indices": [
+                  20,
+                  43
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 88,
+        "friends_count": 20,
+        "listed_count": 0,
+        "created_at": "Thu Jun 09 05:49:07 +0000 2016",
+        "favourites_count": 2741,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 7999,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/740783357844455425/jZYXywAB_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/740783357844455425/jZYXywAB_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sat Jan 25 22:26:38 +0000 2020",
+        "id": 1221197712718102500,
+        "id_str": "1221197712718102529",
+        "text": "Good morning dear friends.\nI hope you a wonderful and blessed day.\n#animallovers #GoodMorningTwitterWorld… https://t.co/mkWqxLoMOP",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "animallovers",
+              "indices": [
+                67,
+                80
+              ]
+            },
+            {
+              "text": "GoodMorningTwitterWorld",
+              "indices": [
+                81,
+                105
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/mkWqxLoMOP",
+              "expanded_url": "https://twitter.com/i/web/status/1221197712718102529",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                107,
+                130
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 816947950345560000,
+          "id_str": "816947950345560064",
+          "name": "tora😸🐾",
+          "screen_name": "torarelaxtime",
+          "location": "Japan🇯🇵",
+          "description": "I love #music #catsoftwitter #cat #landscape #nature #motoGP #WRC #panda #vr46 #coldrain #Kyoto #lastlove0501 Thank you as always my friends👍 I'm♂",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 7137,
+          "friends_count": 83,
+          "listed_count": 94,
+          "created_at": "Thu Jan 05 10:02:24 +0000 2017",
+          "favourites_count": 147415,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 231928,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "F5F8FA",
+          "profile_background_image_url": null,
+          "profile_background_image_url_https": null,
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/816951669594288128/OtzNoCLr_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/816951669594288128/OtzNoCLr_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/816947950345560064/1562163683",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 83,
+        "favorite_count": 153,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 83,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 14:57:33 +0000 2020",
+      "id": 1221809474274496500,
+      "id_str": "1221809474274496512",
+      "text": "RT @fragolinarossa8: 🐨~*\n\n🍓Mi illumino a lungo\ndell’oro che trovo \nin fondo a un abbraccio🍓\n\n🖋Lucien Becker🇫🇷 \n\n🐨~*\n\n#ARitmoDelCuore 💜\n\n#In…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "ARitmoDelCuore",
+            "indices": [
+              117,
+              132
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "fragolinarossa8",
+            "name": "🍓 Linda 🍓",
+            "id": 3130618019,
+            "id_str": "3130618019",
+            "indices": [
+              3,
+              19
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "it",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1034381512127524900,
+        "id_str": "1034381512127524864",
+        "name": "Vidan Taki",
+        "screen_name": "vidan_taki",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2810,
+        "friends_count": 5020,
+        "listed_count": 10,
+        "created_at": "Tue Aug 28 10:05:45 +0000 2018",
+        "favourites_count": 128744,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 106640,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1055784782578286593/hj8pyXKb_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1055784782578286593/hj8pyXKb_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Tue Jan 21 17:35:17 +0000 2020",
+        "id": 1219674841089036300,
+        "id_str": "1219674841089036288",
+        "text": "🐨~*\n\n🍓Mi illumino a lungo\ndell’oro che trovo \nin fondo a un abbraccio🍓\n\n🖋Lucien Becker🇫🇷 \n\n🐨~*\n\n#ARitmoDelCuore 💜… https://t.co/bXFnNARzmW",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "ARitmoDelCuore",
+              "indices": [
+                96,
+                111
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/bXFnNARzmW",
+              "expanded_url": "https://twitter.com/i/web/status/1219674841089036288",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                115,
+                138
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "it",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3130618019,
+          "id_str": "3130618019",
+          "name": "🍓 Linda 🍓",
+          "screen_name": "fragolinarossa8",
+          "location": "",
+          "description": "♥︎A chi è amato non importa nulla di cosa c’è intorno... percepisce solo l’amore♥︎ #ARitmoDelCuore My account @ARitmoDelCuore 💜🍓",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 9075,
+          "friends_count": 2573,
+          "listed_count": 88,
+          "created_at": "Tue Mar 31 11:01:37 +0000 2015",
+          "favourites_count": 167260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 182861,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1036387072687398913/W2LuVC_A_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1036387072687398913/W2LuVC_A_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3130618019/1578259157",
+          "profile_link_color": "981CEB",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 287,
+        "favorite_count": 599,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "it"
+      },
+      "is_quote_status": false,
+      "retweet_count": 287,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "it"
+    },
+    {
+      "created_at": "Mon Jan 27 14:54:12 +0000 2020",
+      "id": 1221808631861186600,
+      "id_str": "1221808631861186562",
+      "text": "RT @fragolinarossa8: ♡。~*\n\n🍓True beauty is born\nthrough our actions \nand aspirations \nand in the kindness \nwe offer to others 🍓\n\n🖋Alek Wek…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "fragolinarossa8",
+            "name": "🍓 Linda 🍓",
+            "id": 3130618019,
+            "id_str": "3130618019",
+            "indices": [
+              3,
+              19
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3408923489,
+        "id_str": "3408923489",
+        "name": "Cactus",
+        "screen_name": "jhainley1",
+        "location": "Gods hands",
+        "description": "🙏Keep it in prayer🍃💞  https://t.co/jHBO0tFJ76📸&🎥by:Cactus🌵  Architect/ProjectManager/Dad/Creator/Gamer/Xbox.PS4🎮 🙌  #daSnakZ GTAcrew  🍃#CactusTweets_ #CrewWithNoName",
+        "url": "https://t.co/tdSTfaMGsN",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/tdSTfaMGsN",
+                "expanded_url": "https://www.youtube.com/channel/UCsEdJpI1O2I8WTPZlMHBtLQ",
+                "display_url": "youtube.com/channel/UCsEdJ…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/jHBO0tFJ76",
+                "expanded_url": "http://All.Media",
+                "display_url": "All.Media",
+                "indices": [
+                  22,
+                  45
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 3520,
+        "friends_count": 404,
+        "listed_count": 106,
+        "created_at": "Sat Aug 08 17:45:40 +0000 2015",
+        "favourites_count": 252260,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 308885,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/917753779562471427/zX5E_X3o_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/917753779562471427/zX5E_X3o_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3408923489/1519399583",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sun Jan 19 08:54:07 +0000 2020",
+        "id": 1218818909324836900,
+        "id_str": "1218818909324836865",
+        "text": "♡。~*\n\n🍓True beauty is born\nthrough our actions \nand aspirations \nand in the kindness \nwe offer to others 🍓\n\n🖋Alek W… https://t.co/xlyPz9kVSq",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/xlyPz9kVSq",
+              "expanded_url": "https://twitter.com/i/web/status/1218818909324836865",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3130618019,
+          "id_str": "3130618019",
+          "name": "🍓 Linda 🍓",
+          "screen_name": "fragolinarossa8",
+          "location": "",
+          "description": "♥︎A chi è amato non importa nulla di cosa c’è intorno... percepisce solo l’amore♥︎ #ARitmoDelCuore My account @ARitmoDelCuore 💜🍓",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 9075,
+          "friends_count": 2573,
+          "listed_count": 88,
+          "created_at": "Tue Mar 31 11:01:37 +0000 2015",
+          "favourites_count": 167260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 182861,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1036387072687398913/W2LuVC_A_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1036387072687398913/W2LuVC_A_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3130618019/1578259157",
+          "profile_link_color": "981CEB",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 197,
+        "favorite_count": 306,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 197,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Jan 27 14:54:05 +0000 2020",
+      "id": 1221808602849185800,
+      "id_str": "1221808602849185793",
+      "text": "RT @fragolinarossa8: 🐨~*\n\n🍓Mi illumino a lungo\ndell’oro che trovo \nin fondo a un abbraccio🍓\n\n🖋Lucien Becker🇫🇷 \n\n🐨~*\n\n#ARitmoDelCuore 💜\n\n#In…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "ARitmoDelCuore",
+            "indices": [
+              117,
+              132
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "fragolinarossa8",
+            "name": "🍓 Linda 🍓",
+            "id": 3130618019,
+            "id_str": "3130618019",
+            "indices": [
+              3,
+              19
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "it",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3408923489,
+        "id_str": "3408923489",
+        "name": "Cactus",
+        "screen_name": "jhainley1",
+        "location": "Gods hands",
+        "description": "🙏Keep it in prayer🍃💞  https://t.co/jHBO0tFJ76📸&🎥by:Cactus🌵  Architect/ProjectManager/Dad/Creator/Gamer/Xbox.PS4🎮 🙌  #daSnakZ GTAcrew  🍃#CactusTweets_ #CrewWithNoName",
+        "url": "https://t.co/tdSTfaMGsN",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/tdSTfaMGsN",
+                "expanded_url": "https://www.youtube.com/channel/UCsEdJpI1O2I8WTPZlMHBtLQ",
+                "display_url": "youtube.com/channel/UCsEdJ…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/jHBO0tFJ76",
+                "expanded_url": "http://All.Media",
+                "display_url": "All.Media",
+                "indices": [
+                  22,
+                  45
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 3520,
+        "friends_count": 404,
+        "listed_count": 106,
+        "created_at": "Sat Aug 08 17:45:40 +0000 2015",
+        "favourites_count": 252260,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 308885,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/917753779562471427/zX5E_X3o_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/917753779562471427/zX5E_X3o_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3408923489/1519399583",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Tue Jan 21 17:35:17 +0000 2020",
+        "id": 1219674841089036300,
+        "id_str": "1219674841089036288",
+        "text": "🐨~*\n\n🍓Mi illumino a lungo\ndell’oro che trovo \nin fondo a un abbraccio🍓\n\n🖋Lucien Becker🇫🇷 \n\n🐨~*\n\n#ARitmoDelCuore 💜… https://t.co/bXFnNARzmW",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            {
+              "text": "ARitmoDelCuore",
+              "indices": [
+                96,
+                111
+              ]
+            }
+          ],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/bXFnNARzmW",
+              "expanded_url": "https://twitter.com/i/web/status/1219674841089036288",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                115,
+                138
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "it",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 3130618019,
+          "id_str": "3130618019",
+          "name": "🍓 Linda 🍓",
+          "screen_name": "fragolinarossa8",
+          "location": "",
+          "description": "♥︎A chi è amato non importa nulla di cosa c’è intorno... percepisce solo l’amore♥︎ #ARitmoDelCuore My account @ARitmoDelCuore 💜🍓",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 9075,
+          "friends_count": 2573,
+          "listed_count": 88,
+          "created_at": "Tue Mar 31 11:01:37 +0000 2015",
+          "favourites_count": 167260,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 182861,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1036387072687398913/W2LuVC_A_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1036387072687398913/W2LuVC_A_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3130618019/1578259157",
+          "profile_link_color": "981CEB",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "regular"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 287,
+        "favorite_count": 599,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "it"
+      },
+      "is_quote_status": false,
+      "retweet_count": 287,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "it"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.067,
+    "max_id": 1221813082697224200,
+    "max_id_str": "1221813082697224192",
+    "next_results": "?max_id=1221808602849185792&q=animallovers&include_entities=1",
+    "query": "animallovers",
+    "refresh_url": "?since_id=1221813082697224192&q=animallovers&include_entities=1",
+    "count": 15,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}
