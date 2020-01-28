@@ -36,8 +36,9 @@ th {
 
 <h2> Lista tweetów </h2>
 
-<center><br><a href="index.html">wróć do strony głównej</a>
-<center><br><a href="javascript:history.back()">wróć do poprzedniej strony</a>
+<center><a href="index.html">wróć do strony głównej</a></br>
+
+<center><a href="javascript:history.back()">wróć do poprzedniej strony</a></br>
 
 
 <?PHP
