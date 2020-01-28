@@ -75,12 +75,11 @@ th {
     
     $data = json_decode($tweetjson, true);
     
-    echo count($data['statuses']);
-    
     for($i = 0; $i < count($data['statuses']); $i++) {
       $tweet = $data['statuses'][i];
       $usr   = $tweet['user'];
       
+      echo $usr['id'];
       $stmt = oci_parse($conn, "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (". $usr['id'] .","
                                   . $usr['name'].","
                                   . $usr['screen_name'].","
@@ -90,7 +89,7 @@ th {
                                   . $usr['friends_count'].","
                                   . $usr['favourites_count'].");");
       if(!oci_execute($stmt, OCI_NO_AUTO_COMMIT)) {
-        echo "ERROR! tweet " . i . "already exists in database, skipping</br>";
+        echo "ERROR! tweet " . $i . "already exists in database, skipping</br>";
       }    
       oci_commit($conn);  
     }
