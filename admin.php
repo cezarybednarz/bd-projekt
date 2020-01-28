@@ -73,13 +73,12 @@ th {
       echo "wrong file name";
     }
     
-    $data = json_decode($tweetjson, true);
+    $data = json_decode($tweetjson);
     
-    foreach($data['statuses'] as $key => $val) {
-      $usr   = $tweet['user'];
+    foreach($data->statuses as $tweet) {
       
-      echo data['statuses'][$key]['id'];
-      
+      echo $tweet->id;
+      /*
       echo $data['search_metadata']['query'];
       echo "<p>" . $data['statuses'][0] . " XDDD</p>";
       $stmt = oci_parse($conn, "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (". $usr['id'] .","
@@ -94,6 +93,7 @@ th {
         echo "ERROR! tweet " . $i . " already exists in database, skipping</br>";
       }    
       oci_commit($conn);  
+      */
     }
     
   }
