@@ -75,7 +75,7 @@ th {
     
     $data = json_decode($tweetjson, true);
     
-    for(int i = 0; i < count($data['statuses']); i++) {
+    for($i = 0; $i < count($data['statuses']); $i++) {
       echo $data['statuses'][i];
     }
     
