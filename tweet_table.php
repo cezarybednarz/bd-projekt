@@ -95,7 +95,7 @@ th {
       $direction = $_GET['direction'];
     }
     
-    $stmt = oci_parse($conn, "SELECT * FROM tweet ORDER BY " . $column . " " . $direction);
+    //$stmt = oci_parse($conn, "SELECT * FROM tweet ORDER BY " . $column . " " . $direction);
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
