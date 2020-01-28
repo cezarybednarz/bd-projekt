@@ -79,17 +79,22 @@ CREATE TABLE test (
     val_a integer,
     val_b integer
 ) ;
+
 INSERT INTO test (id, val_a, val_b) VALUES (1, 2, 3);
+COMMIT WORK;
 INSERT INTO test (id, val_a, val_b) VALUES (2, 2, 2);
+COMMIT WORK;
 INSERT INTO test (id, val_a, val_b) VALUES (3, 3, 3);
+COMMIT WORK;
 INSERT INTO test (id, val_a, val_b) VALUES (10, 10, 1000);
+COMMIT WORK;
 
 
-INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) 
-        VALUES  (1111, 'Adam', 'adas', 'Warszawa', 'siema lubie costam', 3100, 24, 10101);
+INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES  (1, 'Adam', 'adas', 'Warszawa', 'siema lubie costam', 3100, 24, 10101);
+COMMIT WORK;
 
-INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) 
-           VALUES (1, 1111, 'hejka xD', 0, 410, 787, 334, 'animals');
+INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) VALUES (1, 1, 'hejka xD', 0, 410, 787, 334, 'animals');
+COMMIT WORK;
 
 --INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) 
 --           VALUES (2, 1111, 'elooooooooo elooooooo elooooo', 1, 4, 7, 3, 'animals');
