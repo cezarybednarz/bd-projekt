@@ -72,10 +72,21 @@ th {
   echo "<b>reply_count: </b>" . $row['REPLY_COUNT'] . "</br>";
   echo "<b>query: </b>" . $row['QUERY'] . "</br>";
   
-  echo "<b>hashtags: </b>";
+  echo "<b>hashtags: </b></br>";
   
-  echo "<b>URLs: </b>";
+  $hash = oci_parse($conn, "SELECT hashtag FROM hashtag WHERE TWEET_ID=" . $_GET['id']);
+  oci_execute($hash, OCI_NO_AUTO_COMMIT);
+  while (($hash_row = oci_fetch_array($hash, OCI_BOTH))) {
+    echo $hash_row['HASHTAG'] . "</br>";
+  }
   
+  echo "<b>URLs: </b></br>";
+  
+  $url = oci_parse($conn, "SELECT url FROM url WHERE TWEET_ID=" . $_GET['id']);
+  oci_execute($url, OCI_NO_AUTO_COMMIT);
+  while (($url_row = oci_fetch_array($url, OCI_BOTH))) {
+    echo $url_row['HASHTAG'] . "</br>";
+  }
   
 ?>
 

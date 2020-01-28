@@ -102,6 +102,20 @@ COMMIT WORK;
 INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) VALUES (2, 1111, 'elooooooooo elooooooo elooooo', 1, 4, 7, 3, 'animals');
 COMMIT WORK;
 
+INSERT INTO hashtag (tweet_id, hashtag, id) VALUES (1, '#costam', 2);
+COMMIT WORK;
+
+INSERT INTO hashtag (tweet_id, hashtag, id) VALUES (1, '#noniewiem', 7);
+COMMIT WORK;
+
+INSERT INTO hashtag (tweet_id, hashtag, id) VALUES (2, '#costam', 3);
+COMMIT WORK;
+
+INSERT INTO url (tweet_id, url, id) VALUES (1, 'https://aaaaaaaaaaa.a', 1);
+COMMIT WORK;
+
+INSERT INTO url (tweet_id, url, id) VALUES (1, 'http://vvvvvaaa.a', 2);
+COMMIT WORK;
 
 ------------ koniec testowania ----------------
 
