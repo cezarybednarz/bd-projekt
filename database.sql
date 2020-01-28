@@ -93,7 +93,7 @@ COMMIT WORK;
 INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES  (1, 'Adam', 'adas', 'Warszawa', 'siema lubie costam', 3100, 24, 10101);
 COMMIT WORK;
 
-INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES  (1111, 'Adam', 'adas', 'Warszawa', 'siema lubie costam', 3100, 24, 10101);
+INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES  (1111, 'Kacper', 'kkkacper', 'Warszawa', 'EIII', 333300, 233334, 10333101);
 COMMIT WORK;
 
 INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) VALUES (1, 1, 'hejka xD', 0, 410, 787, 334, 'animals');
