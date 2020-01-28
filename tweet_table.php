@@ -102,7 +102,7 @@ th {
       echo "<td><a href='tweet.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
       echo "<td><small>" . $row['TEXT'] . "</small></td>";
       echo "<td><a href='user.php/?id=" . $row['USER_ID'] . "'>" . $row['USER_ID'] . "</a></td>";
-      echo "<td>" . $row['RETWEETED'] = 1 ? echo "yes" : echo "no" . "</td>";
+      echo "<td>" . $row['RETWEETED'] = 1 ? "yes" : "no" . "</td>";
       echo "<td>" . $row['FAVOURITE_COUNT'] . "</td>";
       echo "<td>" . $row['RETWEET_COUNT'] . "</td>";
       echo "<td>" . $row['REPLY_COUNT'] . "</td>";
