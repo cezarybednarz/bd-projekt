@@ -76,13 +76,12 @@ th {
 <table>
   <tr>
     <th>id</th>
-    <th width="50%">text</th>
-    <th>user_id</th>
-    <th>retweeted</th>
-    <th>favourites</th>
-    <th>retweets</th>
-    <th>replies</th>
-    <th>query</th>
+    <th>name</th>
+    <th>screen_name</th>
+    <th>location</th>
+    <th>followers</th>
+    <th>friends</th>
+    <th>statuses</th>
   </tr>
   <?PHP
     $column = "ID";
@@ -95,18 +94,17 @@ th {
       $direction = $_GET['direction'];
     }
     
-    $stmt = oci_parse($conn, "SELECT * FROM tweet ORDER BY " . $column . " " . $direction);
+    $stmt = oci_parse($conn, "SELECT * FROM usr ORDER BY " . $column . " " . $direction);
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
       echo "<tr>";
-      echo "<td><a href='tweet.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
-      echo "<td><small>" . $row['TEXT'] . "</small></td>";
-      echo "<td><a href='user.php/?id=" . $row['USER_ID'] . "'>" . $row['USER_ID'] . "</a></td>";
-      echo "<td>" . $row['RETWEETED'] . "</td>";
-      echo "<td>" . $row['FAVOURITE_COUNT'] . "</td>";
-      echo "<td>" . $row['RETWEET_COUNT'] . "</td>";
-      echo "<td>" . $row['REPLY_COUNT'] . "</td>";
-      echo "<td><i>" . $row['QUERY'] . "</i></td>";
+      echo "<td><a href='user.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
+      echo "<td>" . $row['NAME'] . "</td>";
+      echo "<td>" . $row['SCREEN_NAME'] . "</td>";
+      echo "<td>" . $row['LOCATION'] . "</td>";
+      echo "<td>" . $row['FOLLOWERS'] . "</td>";
+      echo "<td>" . $row['FRIENDS'] . "</td>";
+      echo "<td>" . $row['STATUSES_COUNT'] . "</td>";
       echo "</tr>";
     }
     //jesli modyfikujemy to
