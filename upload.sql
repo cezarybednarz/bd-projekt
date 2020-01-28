@@ -1,14 +1,55 @@
 
 SET SERVEROUTPUT ON;
 
+DROP TABLE json_documents PURGE;
 
-CREATE OR REPLACE FUNCTION parse_tweet(char_json IN VARCHAR2) 
-RETURN VARCHAR2
-IS
-  json JSON_OBJECT_T;
-BEGIN
-  json := JSON_OBJECT.parse(char_json);
-END;
-/
-  
-SHOW ERRORS;
+CREATE TABLE json_documents (
+  id    RAW(16) NOT NULL,
+  data  CLOB,
+  CONSTRAINT json_documents_pk PRIMARY KEY (id),
+  CONSTRAINT json_documents_json CHECK (data IS JSON (STRICT))
+);
+
+
+INSERT INTO json_documents (id, data)
+VALUES (SYS_GUID(),
+        '{
+          "FirstName"      : "John",
+          "LastName"       : "Doe",
+          "Job"            : "Clerk",
+          "Address"        : {
+                              "Street"   : "99 My Street",
+                              "City"     : "My City",
+                              "Country"  : "UK",
+                              "Postcode" : "A12 34B"
+                             },
+          "ContactDetails" : {
+                              "Email"    : "john.doe@example.com",
+                              "Phone"    : "44 123 123456",
+                              "Twitter"  : "@johndoe"
+                             },
+          "DateOfBirth"    : "01-JAN-1980",
+          "Active"         : true
+         }');
+
+INSERT INTO json_documents (id, data)
+VALUES (SYS_GUID(),
+        '{
+          "FirstName"      : "Jayne",
+          "LastName"       : "Doe",
+          "Job"            : "Manager",
+          "Address"        : {
+                              "Street"   : "100 My Street",
+                              "City"     : "My City",
+                              "Country"  : "UK",
+                              "Postcode" : "A12 34B"
+                             },
+          "ContactDetails" : {
+                              "Email"    : "jayne.doe@example.com",
+                              "Phone"    : ""
+                             },
+          "DateOfBirth"    : "01-JAN-1982",
+          "Active"         : false
+         }');
+
+COMMIT;
