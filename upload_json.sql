@@ -18,473 +18,85 @@ VALUES (SYS_GUID(), systimestamp,
         '{
   "statuses": [
     {
-      "created_at": "Fri Dec 20 08:58:42 +0000 2019",
-      "id": 1207948427755176000,
-      "id_str": "1207948427755175936",
-      "text": "RT @RMnaTT: #Wspominki\n20 grudnia 2018 roku - ostatni - jak dotąd - mecz oficjalny między Zagłębiem Sosnowiec a Legią Warszawa. \n\nWśród str…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "Wspominki",
-            "indices": [
-              12,
-              22
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "RMnaTT",
-            "name": "Rafał Majchrzak",
-            "id": 731208917901033500,
-            "id_str": "731208917901033472",
-            "indices": [
-              3,
-              10
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 3482937200,
-        "id_str": "3482937200",
-        "name": "Footroll",
-        "screen_name": "FootrollPL",
-        "location": "Warszawa, Mazowieckie",
-        "description": "Najlepsze trollowanie piłki w Polsce. Zachęcamy do zaglądania także na kanał na YouTube: https://t.co/A57WKKqknF",
-        "url": "https://t.co/Mw5nOq11sy",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/Mw5nOq11sy",
-                "expanded_url": "https://footroll.pl/",
-                "display_url": "footroll.pl",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": [
-              {
-                "url": "https://t.co/A57WKKqknF",
-                "expanded_url": "https://www.youtube.com/channel/UCxmalaHMEL83ixpIwWfRZjg",
-                "display_url": "youtube.com/channel/UCxmal…",
-                "indices": [
-                  89,
-                  112
-                ]
-              }
-            ]
-          }
-        },
-        "protected": false,
-        "followers_count": 7515,
-        "friends_count": 155,
-        "listed_count": 6,
-        "created_at": "Mon Sep 07 15:07:55 +0000 2015",
-        "favourites_count": 9216,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 10924,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "000000",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1195389089677283329/coBtCKBw_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1195389089677283329/coBtCKBw_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3482937200/1573837944",
-        "profile_link_color": "4A913C",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "000000",
-        "profile_text_color": "000000",
-        "profile_use_background_image": false,
-        "has_extended_profile": true,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Dec 20 08:46:59 +0000 2019",
-        "id": 1207945480908476400,
-        "id_str": "1207945480908476416",
-        "text": "#Wspominki\n20 grudnia 2018 roku - ostatni - jak dotąd - mecz oficjalny między Zagłębiem Sosnowiec a Legią Warszawa.… https://t.co/iBkRJdxwzo",
-        "truncated": true,
-        "entities": {
-          "hashtags": [
-            {
-              "text": "Wspominki",
-              "indices": [
-                0,
-                10
-              ]
-            }
-          ],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/iBkRJdxwzo",
-              "expanded_url": "https://twitter.com/i/web/status/1207945480908476416",
-              "display_url": "twitter.com/i/web/status/1…",
-              "indices": [
-                117,
-                140
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 731208917901033500,
-          "id_str": "731208917901033472",
-          "name": "Rafał Majchrzak",
-          "screen_name": "RMnaTT",
-          "location": "",
-          "description": "",
-          "url": "https://t.co/768A8hPSTQ",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/768A8hPSTQ",
-                  "expanded_url": "http://facebook.com/rafa.majchrzak",
-                  "display_url": "facebook.com/rafa.majchrzak",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 2330,
-          "friends_count": 853,
-          "listed_count": 3,
-          "created_at": "Fri May 13 19:46:06 +0000 2016",
-          "favourites_count": 59825,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": false,
-          "verified": false,
-          "statuses_count": 12936,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "000000",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1156184275915628545/NaWZNOtV_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1156184275915628545/NaWZNOtV_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/731208917901033472/1559380874",
-          "profile_link_color": "19CF86",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "000000",
-          "profile_text_color": "000000",
-          "profile_use_background_image": false,
-          "has_extended_profile": true,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": true,
-        "quoted_status_id": 1075867115423494100,
-        "quoted_status_id_str": "1075867115423494144",
-        "quoted_status": {
-          "created_at": "Thu Dec 20 21:34:43 +0000 2018",
-          "id": 1075867115423494100,
-          "id_str": "1075867115423494144",
-          "text": "Rollercoaster w Sosnowcu! 🎢 #ZSOLEG #LegiaWalczącaDoKońca https://t.co/cLdDRNU6H8",
-          "truncated": false,
-          "entities": {
-            "hashtags": [
-              {
-                "text": "ZSOLEG",
-                "indices": [
-                  28,
-                  35
-                ]
-              },
-              {
-                "text": "LegiaWalczącaDoKońca",
-                "indices": [
-                  36,
-                  57
-                ]
-              }
-            ],
-            "symbols": [],
-            "user_mentions": [],
-            "urls": [],
-            "media": [
-              {
-                "id": 1075866889925132300,
-                "id_str": "1075866889925132288",
-                "indices": [
-                  58,
-                  81
-                ],
-                "media_url": "http://pbs.twimg.com/media/Du4_PHeXgAAu-JU.jpg",
-                "media_url_https": "https://pbs.twimg.com/media/Du4_PHeXgAAu-JU.jpg",
-                "url": "https://t.co/cLdDRNU6H8",
-                "display_url": "pic.twitter.com/cLdDRNU6H8",
-                "expanded_url": "https://twitter.com/LegiaWarszawa/status/1075867115423494144/photo/1",
-                "type": "photo",
-                "sizes": {
-                  "thumb": {
-                    "w": 150,
-                    "h": 150,
-                    "resize": "crop"
-                  },
-                  "medium": {
-                    "w": 960,
-                    "h": 540,
-                    "resize": "fit"
-                  },
-                  "small": {
-                    "w": 680,
-                    "h": 383,
-                    "resize": "fit"
-                  },
-                  "large": {
-                    "w": 960,
-                    "h": 540,
-                    "resize": "fit"
-                  }
-                }
-              }
-            ]
-          },
-          "extended_entities": {
-            "media": [
-              {
-                "id": 1075866889925132300,
-                "id_str": "1075866889925132288",
-                "indices": [
-                  58,
-                  81
-                ],
-                "media_url": "http://pbs.twimg.com/media/Du4_PHeXgAAu-JU.jpg",
-                "media_url_https": "https://pbs.twimg.com/media/Du4_PHeXgAAu-JU.jpg",
-                "url": "https://t.co/cLdDRNU6H8",
-                "display_url": "pic.twitter.com/cLdDRNU6H8",
-                "expanded_url": "https://twitter.com/LegiaWarszawa/status/1075867115423494144/photo/1",
-                "type": "photo",
-                "sizes": {
-                  "thumb": {
-                    "w": 150,
-                    "h": 150,
-                    "resize": "crop"
-                  },
-                  "medium": {
-                    "w": 960,
-                    "h": 540,
-                    "resize": "fit"
-                  },
-                  "small": {
-                    "w": 680,
-                    "h": 383,
-                    "resize": "fit"
-                  },
-                  "large": {
-                    "w": 960,
-                    "h": 540,
-                    "resize": "fit"
-                  }
-                }
-              }
-            ]
-          },
-          "metadata": {
-            "iso_language_code": "pl",
-            "result_type": "recent"
-          },
-          "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
-          "in_reply_to_status_id": null,
-          "in_reply_to_status_id_str": null,
-          "in_reply_to_user_id": null,
-          "in_reply_to_user_id_str": null,
-          "in_reply_to_screen_name": null,
-          "user": {
-            "id": 55007258,
-            "id_str": "55007258",
-            "name": "Legia Warszawa",
-            "screen_name": "LegiaWarszawa",
-            "location": "Polska - Warszawa",
-            "description": "Oficjalne konto najlepszego klubu piłkarskiego w Polsce.",
-            "url": "https://t.co/pFfsfdgLMh",
-            "entities": {
-              "url": {
-                "urls": [
-                  {
-                    "url": "https://t.co/pFfsfdgLMh",
-                    "expanded_url": "http://www.legia.com",
-                    "display_url": "legia.com",
-                    "indices": [
-                      0,
-                      23
-                    ]
-                  }
-                ]
-              },
-              "description": {
-                "urls": []
-              }
-            },
-            "protected": false,
-            "followers_count": 298626,
-            "friends_count": 169,
-            "listed_count": 374,
-            "created_at": "Wed Jul 08 19:52:06 +0000 2009",
-            "favourites_count": 12451,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": true,
-            "verified": true,
-            "statuses_count": 53389,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "131516",
-            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
-            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
-            "profile_background_tile": false,
-            "profile_image_url": "http://pbs.twimg.com/profile_images/1192732451631697921/dOYnVaRs_normal.jpg",
-            "profile_image_url_https": "https://pbs.twimg.com/profile_images/1192732451631697921/dOYnVaRs_normal.jpg",
-            "profile_banner_url": "https://pbs.twimg.com/profile_banners/55007258/1572096864",
-            "profile_link_color": "008332",
-            "profile_sidebar_border_color": "FFFFFF",
-            "profile_sidebar_fill_color": "EFEFEF",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": false,
-            "default_profile": false,
-            "default_profile_image": false,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-          },
-          "geo": null,
-          "coordinates": null,
-          "place": null,
-          "contributors": null,
-          "is_quote_status": false,
-          "retweet_count": 22,
-          "favorite_count": 188,
-          "favorited": false,
-          "retweeted": false,
-          "possibly_sensitive": false,
-          "lang": "pl"
-        },
-        "retweet_count": 1,
-        "favorite_count": 1,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "pl"
-      },
-      "is_quote_status": true,
-      "quoted_status_id": 1075867115423494100,
-      "quoted_status_id_str": "1075867115423494144",
-      "retweet_count": 1,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:56:11 +0000 2019",
-      "id": 1207947796499832800,
-      "id_str": "1207947796499832832",
-      "text": "RT @JanArtymowski: Doświadczeni lekarze odeszli, ale 'prolajferzy' mogą się cieszyć. Oddział prof. Dębskiego rok po jego śmierci https://t.…",
-      "truncated": false,
+      "created_at": "Fri Dec 20 07:51:15 +0000 2019",
+      "id": 1207931452303839200,
+      "id_str": "1207931452303839237",
+      "text": "@OskarSierpinski @ManFromBarracks @PaxusLegatus @Tomasz45739197 Bany to się daje za chamstwo i inwektywy , nie za p… https://t.co/m6Fr8XvqOW",
+      "truncated": true,
       "entities": {
         "hashtags": [],
         "symbols": [],
         "user_mentions": [
           {
-            "screen_name": "JanArtymowski",
-            "name": "jan artymowski",
-            "id": 140622656,
-            "id_str": "140622656",
+            "screen_name": "OskarSierpinski",
+            "name": "Oskar Sierpiński",
+            "id": 1195358878822781000,
+            "id_str": "1195358878822780934",
             "indices": [
-              3,
-              17
+              0,
+              16
+            ]
+          },
+          {
+            "screen_name": "ManFromBarracks",
+            "name": "PrawyBudzik🇵🇱⏰",
+            "id": 1057611949410791400,
+            "id_str": "1057611949410791426",
+            "indices": [
+              17,
+              33
+            ]
+          },
+          {
+            "screen_name": "PaxusLegatus",
+            "name": "Szkoda szczempić ryja",
+            "id": 3413643831,
+            "id_str": "3413643831",
+            "indices": [
+              34,
+              47
+            ]
+          },
+          {
+            "screen_name": "Tomasz45739197",
+            "name": "Tomasz (Tomi)",
+            "id": 1129819835414843400,
+            "id_str": "1129819835414843392",
+            "indices": [
+              48,
+              63
             ]
           }
         ],
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/m6Fr8XvqOW",
+            "expanded_url": "https://twitter.com/i/web/status/1207931452303839237",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
       },
       "metadata": {
         "iso_language_code": "pl",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": 1207928280210391000,
+      "in_reply_to_status_id_str": "1207928280210391041",
+      "in_reply_to_user_id": 1195358878822781000,
+      "in_reply_to_user_id_str": "1195358878822780934",
+      "in_reply_to_screen_name": "OskarSierpinski",
       "user": {
-        "id": 2468889991,
-        "id_str": "2468889991",
-        "name": "dobson",
-        "screen_name": "dobson733",
-        "location": "",
-        "description": "",
+        "id": 891151849759408100,
+        "id_str": "891151849759408128",
+        "name": "Piotr",
+        "screen_name": "PiotrNo02045211",
+        "location": "Legnica ",
+        "description": "W świecie Twittera\nW iluzji zdarzeń \nCos tam napiszę\nTo polityka \nTo o kobiecie \nSerce na dłoni niose\nMoże ktoś  zechce \nMoże nie\nTak płynie dzień za dniem",
         "url": null,
         "entities": {
           "description": {
@@ -492,627 +104,16 @@ VALUES (SYS_GUID(), systimestamp,
           }
         },
         "protected": false,
-        "followers_count": 623,
-        "friends_count": 987,
-        "listed_count": 100,
-        "created_at": "Tue Apr 29 07:02:38 +0000 2014",
-        "favourites_count": 24493,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 247227,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "000000",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/861164009336307712/WbTy5341_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/861164009336307712/WbTy5341_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2468889991/1428230159",
-        "profile_link_color": "3B94D9",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "000000",
-        "profile_text_color": "000000",
-        "profile_use_background_image": false,
-        "has_extended_profile": false,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Dec 20 08:13:06 +0000 2019",
-        "id": 1207936951321596000,
-        "id_str": "1207936951321595904",
-        "text": "Doświadczeni lekarze odeszli, ale 'prolajferzy' mogą się cieszyć. Oddział prof. Dębskiego rok po jego śmierci https://t.co/qMNmPnmzsS",
-        "truncated": false,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/qMNmPnmzsS",
-              "expanded_url": "https://warszawa.wyborcza.pl/warszawa/7,54420,25522163.html",
-              "display_url": "warszawa.wyborcza.pl/warszawa/7,544…",
-              "indices": [
-                110,
-                133
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 140622656,
-          "id_str": "140622656",
-          "name": "jan artymowski",
-          "screen_name": "JanArtymowski",
-          "location": "Poland",
-          "description": "Sekretarz Generalny Stronnictwa Demokratycznego",
-          "url": "https://t.co/9MhTNADEqO",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/9MhTNADEqO",
-                  "expanded_url": "http://artymowski.pl",
-                  "display_url": "artymowski.pl",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 6477,
-          "friends_count": 3926,
-          "listed_count": 84,
-          "created_at": "Thu May 06 00:35:44 +0000 2010",
-          "favourites_count": 28088,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": true,
-          "verified": false,
-          "statuses_count": 35721,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "C0DEED",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1040834035398975488/Q58RBl5Y_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1040834035398975488/Q58RBl5Y_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/140622656/1478851361",
-          "profile_link_color": "1DA1F2",
-          "profile_sidebar_border_color": "C0DEED",
-          "profile_sidebar_fill_color": "DDEEF6",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": true,
-          "default_profile": true,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 3,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "pl"
-      },
-      "is_quote_status": false,
-      "retweet_count": 2,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:55:34 +0000 2019",
-      "id": 1207947640698220500,
-      "id_str": "1207947640698220545",
-      "text": "RT @LegiaNet: Zakończyć ten rok wygraną❗️\n\n⚽ Zagłębie Lubin - Legia Warszawa\n🕠 20:30\n🏟 Lubin, ul. Marii Skłodowskiej-Curie 98\n🏆 20. kolejka…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "LegiaNet",
-            "name": "Legia.Net",
-            "id": 399912837,
-            "id_str": "399912837",
-            "indices": [
-              3,
-              12
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 292375313,
-        "id_str": "292375313",
-        "name": "JUSTYNA 🇵🇱",
-        "screen_name": "Justynkapolska",
-        "location": "Brwinów, Polska 🇵🇱 💖",
-        "description": "» MY NAME IS JUSTYNA ~ POLISH 🇵🇱, I'M 27 YEARS ~ I LiVE iN FRANCE ~ #POLSKA 🇵🇱 💕",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 1353,
-        "friends_count": 113,
-        "listed_count": 288,
-        "created_at": "Tue May 03 15:08:50 +0000 2011",
-        "favourites_count": 8,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 197672,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "FFFFFF",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1196202912759848960/wva-Rk5t_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1196202912759848960/wva-Rk5t_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/292375313/1544117485",
-        "profile_link_color": "19CF86",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "00B7FF",
-        "profile_text_color": "FAF2FA",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "regular"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Dec 20 08:09:13 +0000 2019",
-        "id": 1207935974170333200,
-        "id_str": "1207935974170333184",
-        "text": "Zakończyć ten rok wygraną❗️\n\n⚽ Zagłębie Lubin - Legia Warszawa\n🕠 20:30\n🏟 Lubin, ul. Marii Skłodowskiej-Curie 98\n🏆 2… https://t.co/FCJqPKcW1q",
-        "truncated": true,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/FCJqPKcW1q",
-              "expanded_url": "https://twitter.com/i/web/status/1207935974170333184",
-              "display_url": "twitter.com/i/web/status/1…",
-              "indices": [
-                117,
-                140
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 399912837,
-          "id_str": "399912837",
-          "name": "Legia.Net",
-          "screen_name": "LegiaNet",
-          "location": "Warszawa",
-          "description": "https://t.co/R0PsqvTnZo - Serwis informacyjny o Legii Warszawa! Relacje, wywiady, artykuły, komentarze, zdjęcia, materiały wideo i wiele innych!",
-          "url": "https://t.co/R0PsqvTnZo",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/R0PsqvTnZo",
-                  "expanded_url": "http://www.legia.net",
-                  "display_url": "legia.net",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": [
-                {
-                  "url": "https://t.co/R0PsqvTnZo",
-                  "expanded_url": "http://www.legia.net",
-                  "display_url": "legia.net",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            }
-          },
-          "protected": false,
-          "followers_count": 30009,
-          "friends_count": 88,
-          "listed_count": 86,
-          "created_at": "Fri Oct 28 07:09:16 +0000 2011",
-          "favourites_count": 4787,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": true,
-          "verified": true,
-          "statuses_count": 28275,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "071C09",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/766256413157056512/c5TDiADc_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/766256413157056512/c5TDiADc_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/399912837/1527267484",
-          "profile_link_color": "045233",
-          "profile_sidebar_border_color": "FFFFFF",
-          "profile_sidebar_fill_color": "E3E2DE",
-          "profile_text_color": "634047",
-          "profile_use_background_image": true,
-          "has_extended_profile": false,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 1,
-        "favorite_count": 28,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "pl"
-      },
-      "is_quote_status": false,
-      "retweet_count": 1,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:54:59 +0000 2019",
-      "id": 1207947493209718800,
-      "id_str": "1207947493209718787",
-      "text": "RT @warszawa: Mam tak samo jak Ty, miasto moje, a w nim… piękny mural na ul. Płytowej. 😍 Podobizna Czesława Niemena pojawiła się nieopodal…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "warszawa",
-            "name": "Warszawa",
-            "id": 199290168,
-            "id_str": "199290168",
-            "indices": [
-              3,
-              12
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 292375313,
-        "id_str": "292375313",
-        "name": "JUSTYNA 🇵🇱",
-        "screen_name": "Justynkapolska",
-        "location": "Brwinów, Polska 🇵🇱 💖",
-        "description": "» MY NAME IS JUSTYNA ~ POLISH 🇵🇱, I'M 27 YEARS ~ I LiVE iN FRANCE ~ #POLSKA 🇵🇱 💕",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 1353,
-        "friends_count": 113,
-        "listed_count": 288,
-        "created_at": "Tue May 03 15:08:50 +0000 2011",
-        "favourites_count": 8,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 197672,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "FFFFFF",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1196202912759848960/wva-Rk5t_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1196202912759848960/wva-Rk5t_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/292375313/1544117485",
-        "profile_link_color": "19CF86",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "00B7FF",
-        "profile_text_color": "FAF2FA",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "regular"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Dec 20 08:33:02 +0000 2019",
-        "id": 1207941966790582300,
-        "id_str": "1207941966790582272",
-        "text": "Mam tak samo jak Ty, miasto moje, a w nim… piękny mural na ul. Płytowej. 😍 Podobizna Czesława Niemena pojawiła się… https://t.co/VxaTdx51f0",
-        "truncated": true,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/VxaTdx51f0",
-              "expanded_url": "https://twitter.com/i/web/status/1207941966790582272",
-              "display_url": "twitter.com/i/web/status/1…",
-              "indices": [
-                116,
-                139
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 199290168,
-          "id_str": "199290168",
-          "name": "Warszawa",
-          "screen_name": "warszawa",
-          "location": "Warszawa, Mazowieckie",
-          "description": "Ćwierkamy o #Warszawa. Profil oficjalny m.st. Warszawy.",
-          "url": "http://t.co/SKFjW2167I",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "http://t.co/SKFjW2167I",
-                  "expanded_url": "http://www.um.warszawa.pl",
-                  "display_url": "um.warszawa.pl",
-                  "indices": [
-                    0,
-                    22
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 269980,
-          "friends_count": 169,
-          "listed_count": 226,
-          "created_at": "Wed Oct 06 14:07:01 +0000 2010",
-          "favourites_count": 12336,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": true,
-          "verified": false,
-          "statuses_count": 26999,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "FFFFFF",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1096833583791202306/aw7jodpY_normal.png",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1096833583791202306/aw7jodpY_normal.png",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/199290168/1570037559",
-          "profile_link_color": "0771B7",
-          "profile_sidebar_border_color": "FFFFFF",
-          "profile_sidebar_fill_color": "E1E1E1",
-          "profile_text_color": "616161",
-          "profile_use_background_image": true,
-          "has_extended_profile": false,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 2,
-        "favorite_count": 7,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "pl"
-      },
-      "is_quote_status": false,
-      "retweet_count": 2,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:54:26 +0000 2019",
-      "id": 1207947354223136800,
-      "id_str": "1207947354223136768",
-      "text": "RT @wirtualnemedia: .@LegiaWarszawa w zeszłym sezonie z 30 mln zł straty. Zmalały wpływy od sponsorów, z biletów i praw tv, wzrosły z trans…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "wirtualnemedia",
-            "name": "Wirtualnemedia.pl",
-            "id": 77230979,
-            "id_str": "77230979",
-            "indices": [
-              3,
-              18
-            ]
-          },
-          {
-            "screen_name": "LegiaWarszawa",
-            "name": "Legia Warszawa",
-            "id": 55007258,
-            "id_str": "55007258",
-            "indices": [
-              21,
-              35
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 1015664274226769900,
-        "id_str": "1015664274226769920",
-        "name": "Nata(L)ia",
-        "screen_name": "diesnatalis_",
-        "location": "",
-        "description": "Legia Warszawa. Z rzeczy najmniej ważnych piłka nożna jest najważniejsza - JPII. Zdjęcia: @mat_kostrzewa",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 290,
-        "friends_count": 521,
-        "listed_count": 0,
-        "created_at": "Sat Jul 07 18:30:07 +0000 2018",
-        "favourites_count": 12352,
+        "followers_count": 4022,
+        "friends_count": 3203,
+        "listed_count": 10,
+        "created_at": "Sat Jul 29 04:22:12 +0000 2017",
+        "favourites_count": 141959,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 2449,
+        "statuses_count": 31778,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
@@ -1121,15 +122,15 @@ VALUES (SYS_GUID(), systimestamp,
         "profile_background_image_url": null,
         "profile_background_image_url_https": null,
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1135176948697767936/GzdbCF-L_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1135176948697767936/GzdbCF-L_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1015664274226769920/1575877276",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1200745767432073216/b_qpEkB6_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1200745767432073216/b_qpEkB6_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/891151849759408128/1574878788",
         "profile_link_color": "1DA1F2",
         "profile_sidebar_border_color": "C0DEED",
         "profile_sidebar_fill_color": "DDEEF6",
         "profile_text_color": "333333",
         "profile_use_background_image": true,
-        "has_extended_profile": false,
+        "has_extended_profile": true,
         "default_profile": true,
         "default_profile_image": false,
         "following": false,
@@ -1141,158 +142,42 @@ VALUES (SYS_GUID(), systimestamp,
       "coordinates": null,
       "place": null,
       "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Dec 20 08:40:23 +0000 2019",
-        "id": 1207943819620163600,
-        "id_str": "1207943819620163584",
-        "text": ".@LegiaWarszawa w zeszłym sezonie z 30 mln zł straty. Zmalały wpływy od sponsorów, z biletów i praw tv, wzrosły z t… https://t.co/kWXmg5itRq",
-        "truncated": true,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [
-            {
-              "screen_name": "LegiaWarszawa",
-              "name": "Legia Warszawa",
-              "id": 55007258,
-              "id_str": "55007258",
-              "indices": [
-                1,
-                15
-              ]
-            }
-          ],
-          "urls": [
-            {
-              "url": "https://t.co/kWXmg5itRq",
-              "expanded_url": "https://twitter.com/i/web/status/1207943819620163584",
-              "display_url": "twitter.com/i/web/status/1…",
-              "indices": [
-                117,
-                140
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 77230979,
-          "id_str": "77230979",
-          "name": "Wirtualnemedia.pl",
-          "screen_name": "wirtualnemedia",
-          "location": "",
-          "description": "Największy polski portal informacyjny o mediach, internecie, reklamie, marketingu, PR",
-          "url": "https://t.co/XHVJUDswIJ",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/XHVJUDswIJ",
-                  "expanded_url": "https://www.wirtualnemedia.pl/",
-                  "display_url": "wirtualnemedia.pl",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 42177,
-          "friends_count": 662,
-          "listed_count": 310,
-          "created_at": "Fri Sep 25 14:53:00 +0000 2009",
-          "favourites_count": 156,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": false,
-          "verified": true,
-          "statuses_count": 37839,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "C0DEED",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1129585320297738240/sf8NEniQ_normal.png",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1129585320297738240/sf8NEniQ_normal.png",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/77230979/1558149119",
-          "profile_link_color": "1DA1F2",
-          "profile_sidebar_border_color": "C0DEED",
-          "profile_sidebar_fill_color": "DDEEF6",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": false,
-          "default_profile": true,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 8,
-        "favorite_count": 5,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "pl"
-      },
       "is_quote_status": false,
-      "retweet_count": 8,
+      "retweet_count": 0,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "lang": "pl"
     },
     {
-      "created_at": "Fri Dec 20 08:52:56 +0000 2019",
-      "id": 1207946976559534000,
-      "id_str": "1207946976559534080",
-      "text": "Jak ustalił reporter @tvnwarszawa - mężczyzna wraz z trójką kompanów chwilę wcześniej zostali wyrzuceni z klubu.\n\nhttps://t.co/HuOCc4IFVY",
-      "truncated": false,
+      "created_at": "Fri Dec 20 07:44:47 +0000 2019",
+      "id": 1207929825543020500,
+      "id_str": "1207929825543020544",
+      "text": "@KsFutsalLeszno  na pewno zakończy I rundę rozgrywek nad kreską. Porażka z Piastem Gliwice zbytnio nie popsuła nast… https://t.co/exguwWTQ8S",
+      "truncated": true,
       "entities": {
         "hashtags": [],
         "symbols": [],
         "user_mentions": [
           {
-            "screen_name": "tvnwarszawa",
-            "name": "TVN Warszawa",
-            "id": 39568364,
-            "id_str": "39568364",
+            "screen_name": "KsFutsalLeszno",
+            "name": "KS Futsal Leszno 🇵🇱1920💯",
+            "id": 765213944332030000,
+            "id_str": "765213944332029952",
             "indices": [
-              21,
-              33
+              0,
+              15
             ]
           }
         ],
         "urls": [
           {
-            "url": "https://t.co/HuOCc4IFVY",
-            "expanded_url": "https://tvn24.pl/tvnwarszawa/ulice/warszawa-wypadek-na-wierzbowej-kierowca-pod-wplywem-alkoholu-wczesniej-wyrzucili-ich-z-klubu-nagranie-2612763",
-            "display_url": "tvn24.pl/tvnwarszawa/ul…",
+            "url": "https://t.co/exguwWTQ8S",
+            "expanded_url": "https://twitter.com/i/web/status/1207929825543020544",
+            "display_url": "twitter.com/i/web/status/1…",
             "indices": [
-              114,
-              137
+              117,
+              140
             ]
           }
         ]
@@ -1301,27 +186,27 @@ VALUES (SYS_GUID(), systimestamp,
         "iso_language_code": "pl",
         "result_type": "recent"
       },
-      "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
+      "in_reply_to_user_id": 765213944332030000,
+      "in_reply_to_user_id_str": "765213944332029952",
+      "in_reply_to_screen_name": "KsFutsalLeszno",
       "user": {
-        "id": 39568364,
-        "id_str": "39568364",
-        "name": "TVN Warszawa",
-        "screen_name": "tvnwarszawa",
-        "location": "Warszawa",
-        "description": "Najszybsze informacje i zawsze aktualny serwis wideo z Warszawy.\n\nCzłonek rodziny @tvn24.",
-        "url": "http://t.co/LEKxKX2KCE",
+        "id": 2974650663,
+        "id_str": "2974650663",
+        "name": "Futsal Ekstraklasa",
+        "screen_name": "FutsalEkstra",
+        "location": "",
+        "description": "",
+        "url": "http://t.co/UUVrhCXnlD",
         "entities": {
           "url": {
             "urls": [
               {
-                "url": "http://t.co/LEKxKX2KCE",
-                "expanded_url": "http://www.tvnwarszawa.pl",
-                "display_url": "tvnwarszawa.pl",
+                "url": "http://t.co/UUVrhCXnlD",
+                "expanded_url": "http://www.futsalekstraklasa.pl",
+                "display_url": "futsalekstraklasa.pl",
                 "indices": [
                   0,
                   22
@@ -1334,945 +219,16 @@ VALUES (SYS_GUID(), systimestamp,
           }
         },
         "protected": false,
-        "followers_count": 307387,
-        "friends_count": 20,
-        "listed_count": 383,
-        "created_at": "Tue May 12 19:02:00 +0000 2009",
-        "favourites_count": 10,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": true,
-        "statuses_count": 60564,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "BDD639",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/875694889287245824/N0sZ9iyf_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/875694889287245824/N0sZ9iyf_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/39568364/1479885459",
-        "profile_link_color": "1B95E0",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "99CC33",
-        "profile_text_color": "3E4415",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:52:40 +0000 2019",
-      "id": 1207946909505216500,
-      "id_str": "1207946909505216513",
-      "text": "Jest sprawozdanie finansowe Legii w KRS.⬇️\n\n#Legia\n\nhttps://t.co/4BeJ4enTpr",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "Legia",
-            "indices": [
-              44,
-              50
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [],
-        "urls": [
-          {
-            "url": "https://t.co/4BeJ4enTpr",
-            "expanded_url": "https://www.wirtualnemedia.pl/artykul/legia-warszawa-wyniki-finansowe-2019-roku-bilety-sponsorzy-i-transmisje-zarobki-pilkarzy-transfer-sebastian-szymanski",
-            "display_url": "wirtualnemedia.pl/artykul/legia-…",
-            "indices": [
-              52,
-              75
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 1633035042,
-        "id_str": "1633035042",
-        "name": "Kuba Majewski",
-        "screen_name": "QbasLL",
-        "location": "Warszawa",
-        "description": "tata Olusia, https://t.co/EzEPpcUPIM, doktor nauk prawnych, specjalizacja: bezpieczeństwo imprez masowych.",
-        "url": "https://t.co/YbXQhYRx78",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/YbXQhYRx78",
-                "expanded_url": "http://jakubmajewski.com",
-                "display_url": "jakubmajewski.com",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
-            ]
-          },
-          "description": {
-            "urls": [
-              {
-                "url": "https://t.co/EzEPpcUPIM",
-                "expanded_url": "http://Legionisci.com",
-                "display_url": "Legionisci.com",
-                "indices": [
-                  13,
-                  36
-                ]
-              }
-            ]
-          }
-        },
-        "protected": false,
-        "followers_count": 6183,
-        "friends_count": 140,
-        "listed_count": 12,
-        "created_at": "Tue Jul 30 14:33:07 +0000 2013",
-        "favourites_count": 18666,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 19644,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "3B94D9",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1047094316508897280/Bep97uUn_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1047094316508897280/Bep97uUn_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1633035042/1511768445",
-        "profile_link_color": "3B94D9",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "000000",
-        "profile_text_color": "000000",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:51:13 +0000 2019",
-      "id": 1207946543162155000,
-      "id_str": "1207946543162155008",
-      "text": "RT @rzeczpospolita: Jest zgoda na zatrzymanie i areszt sędziego z #Warszawa \n\nhttps://t.co/XYOGj5zUPt",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "Warszawa",
-            "indices": [
-              66,
-              75
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "rzeczpospolita",
-            "name": "Rzeczpospolita",
-            "id": 194399035,
-            "id_str": "194399035",
-            "indices": [
-              3,
-              18
-            ]
-          }
-        ],
-        "urls": [
-          {
-            "url": "https://t.co/XYOGj5zUPt",
-            "expanded_url": "http://bit.ly/34ExlpD",
-            "display_url": "bit.ly/34ExlpD",
-            "indices": [
-              78,
-              101
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 265934255,
-        "id_str": "265934255",
-        "name": "Maciej Stańczyk",
-        "screen_name": "stanczykmaciej",
-        "location": "Kraków, Warszawa",
-        "description": "Sport, turystyka, polityka. \nNiech wasza mowa będzie: Tak, tak; nie, nie. A co nadto jest, od Złego pochodzi #PolskaJestPiękna #OłtarzePolskie",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 6104,
-        "friends_count": 2126,
-        "listed_count": 53,
-        "created_at": "Mon Mar 14 11:10:08 +0000 2011",
-        "favourites_count": 57280,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 52028,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "115E11",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1121834519613644800/1pS0q3Xc_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1121834519613644800/1pS0q3Xc_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/265934255/1396533729",
-        "profile_link_color": "357DBD",
-        "profile_sidebar_border_color": "FFFFFF",
-        "profile_sidebar_fill_color": "63544F",
-        "profile_text_color": "33333C",
-        "profile_use_background_image": true,
-        "has_extended_profile": true,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Dec 20 08:50:11 +0000 2019",
-        "id": 1207946282800681000,
-        "id_str": "1207946282800680960",
-        "text": "Jest zgoda na zatrzymanie i areszt sędziego z #Warszawa \n\nhttps://t.co/XYOGj5zUPt",
-        "truncated": false,
-        "entities": {
-          "hashtags": [
-            {
-              "text": "Warszawa",
-              "indices": [
-                46,
-                55
-              ]
-            }
-          ],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/XYOGj5zUPt",
-              "expanded_url": "http://bit.ly/34ExlpD",
-              "display_url": "bit.ly/34ExlpD",
-              "indices": [
-                58,
-                81
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 194399035,
-          "id_str": "194399035",
-          "name": "Rzeczpospolita",
-          "screen_name": "rzeczpospolita",
-          "location": "Polska",
-          "description": "Rzeczpospolita to jeden z liderów prasy codziennej w Polsce. Jest najczęściej cytowaną gazetą w kraju. Oto jedyny oficjalny profil Rz.",
-          "url": "https://t.co/lg4AvBS252",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/lg4AvBS252",
-                  "expanded_url": "http://www.rp.pl",
-                  "display_url": "rp.pl",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 183201,
-          "friends_count": 563,
-          "listed_count": 857,
-          "created_at": "Fri Sep 24 01:14:56 +0000 2010",
-          "favourites_count": 1837,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": false,
-          "verified": true,
-          "statuses_count": 165461,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "F7F7F7",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1087349179230445570/WznQGNHL_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1087349179230445570/WznQGNHL_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/194399035/1574175259",
-          "profile_link_color": "CC0000",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "F3F3F3",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": false,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 1,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "pl"
-      },
-      "is_quote_status": false,
-      "retweet_count": 3,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:50:32 +0000 2019",
-      "id": 1207946372617556000,
-      "id_str": "1207946372617555968",
-      "text": "RT @MirekRozanski: @MON_GOV_PL @1BLTr_Warszawa @mblaszczak Są to śmigłowce jedynie dla pilotów i na pokazy ( PIKNIKI ) w obecnej konfigurac…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "MirekRozanski",
-            "name": "Mirosław Różański",
-            "id": 1346168804,
-            "id_str": "1346168804",
-            "indices": [
-              3,
-              17
-            ]
-          },
-          {
-            "screen_name": "MON_GOV_PL",
-            "name": "Ministerstwo Obrony Narodowej 🇵🇱",
-            "id": 358136787,
-            "id_str": "358136787",
-            "indices": [
-              19,
-              30
-            ]
-          },
-          {
-            "screen_name": "1BLTr_Warszawa",
-            "name": "@1BLTr",
-            "id": 760782291048206300,
-            "id_str": "760782291048206336",
-            "indices": [
-              31,
-              46
-            ]
-          },
-          {
-            "screen_name": "mblaszczak",
-            "name": "Mariusz Błaszczak",
-            "id": 138048156,
-            "id_str": "138048156",
-            "indices": [
-              47,
-              58
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 4250317419,
-        "id_str": "4250317419",
-        "name": "Arek",
-        "screen_name": "slowianin2014",
-        "location": "",
-        "description": "",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 8,
-        "friends_count": 144,
-        "listed_count": 0,
-        "created_at": "Sun Nov 22 15:06:43 +0000 2015",
-        "favourites_count": 3257,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 1940,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/668446509269127168/cDVOYhA7_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/668446509269127168/cDVOYhA7_normal.jpg",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Thu Dec 19 18:51:07 +0000 2019",
-        "id": 1207735127905841200,
-        "id_str": "1207735127905841153",
-        "text": "@MON_GOV_PL @1BLTr_Warszawa @mblaszczak Są to śmigłowce jedynie dla pilotów i na pokazy ( PIKNIKI ) w obecnej konfi… https://t.co/R2U7XVUNdT",
-        "truncated": true,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [
-            {
-              "screen_name": "MON_GOV_PL",
-              "name": "Ministerstwo Obrony Narodowej 🇵🇱",
-              "id": 358136787,
-              "id_str": "358136787",
-              "indices": [
-                0,
-                11
-              ]
-            },
-            {
-              "screen_name": "1BLTr_Warszawa",
-              "name": "@1BLTr",
-              "id": 760782291048206300,
-              "id_str": "760782291048206336",
-              "indices": [
-                12,
-                27
-              ]
-            },
-            {
-              "screen_name": "mblaszczak",
-              "name": "Mariusz Błaszczak",
-              "id": 138048156,
-              "id_str": "138048156",
-              "indices": [
-                28,
-                39
-              ]
-            }
-          ],
-          "urls": [
-            {
-              "url": "https://t.co/R2U7XVUNdT",
-              "expanded_url": "https://twitter.com/i/web/status/1207735127905841153",
-              "display_url": "twitter.com/i/web/status/1…",
-              "indices": [
-                117,
-                140
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-        "in_reply_to_status_id": 1207611521045532700,
-        "in_reply_to_status_id_str": "1207611521045532672",
-        "in_reply_to_user_id": 358136787,
-        "in_reply_to_user_id_str": "358136787",
-        "in_reply_to_screen_name": "MON_GOV_PL",
-        "user": {
-          "id": 1346168804,
-          "id_str": "1346168804",
-          "name": "Mirosław Różański",
-          "screen_name": "MirekRozanski",
-          "location": "Polska",
-          "description": "Prezes Fundacji Bezpieczeństwa i Rozwoju STRATPOINTS",
-          "url": "https://t.co/39iYWeiywD",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/39iYWeiywD",
-                  "expanded_url": "http://www.stratpoints.eu",
-                  "display_url": "stratpoints.eu",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 15588,
-          "friends_count": 193,
-          "listed_count": 62,
-          "created_at": "Fri Apr 12 06:46:21 +0000 2013",
-          "favourites_count": 3697,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": false,
-          "verified": false,
-          "statuses_count": 5007,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "C0DEED",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/836534370752155648/hwTrzRfv_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/836534370752155648/hwTrzRfv_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1346168804/1488280290",
-          "profile_link_color": "1DA1F2",
-          "profile_sidebar_border_color": "C0DEED",
-          "profile_sidebar_fill_color": "DDEEF6",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": false,
-          "default_profile": true,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 20,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "pl"
-      },
-      "is_quote_status": false,
-      "retweet_count": 3,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:50:28 +0000 2019",
-      "id": 1207946357958488000,
-      "id_str": "1207946357958488064",
-      "text": "RT @rzeczpospolita: Jest zgoda na zatrzymanie i areszt sędziego z #Warszawa \n\nhttps://t.co/XYOGj5zUPt",
-      "truncated": false,
-      "entities": {
-        "hashtags": [
-          {
-            "text": "Warszawa",
-            "indices": [
-              66,
-              75
-            ]
-          }
-        ],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "rzeczpospolita",
-            "name": "Rzeczpospolita",
-            "id": 194399035,
-            "id_str": "194399035",
-            "indices": [
-              3,
-              18
-            ]
-          }
-        ],
-        "urls": [
-          {
-            "url": "https://t.co/XYOGj5zUPt",
-            "expanded_url": "http://bit.ly/34ExlpD",
-            "display_url": "bit.ly/34ExlpD",
-            "indices": [
-              78,
-              101
-            ]
-          }
-        ]
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 864355611521175600,
-        "id_str": "864355611521175555",
-        "name": "Krzysztof Grabowski #SilniRazem",
-        "screen_name": "krzyszt84690756",
-        "location": "",
-        "description": "",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 695,
-        "friends_count": 197,
+        "followers_count": 746,
+        "friends_count": 52,
         "listed_count": 4,
-        "created_at": "Tue May 16 05:43:31 +0000 2017",
-        "favourites_count": 64409,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 54937,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "F5F8FA",
-        "profile_background_image_url": null,
-        "profile_background_image_url_https": null,
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1029243606102691842/WIbLCG08_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1029243606102691842/WIbLCG08_normal.jpg",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Fri Dec 20 08:50:11 +0000 2019",
-        "id": 1207946282800681000,
-        "id_str": "1207946282800680960",
-        "text": "Jest zgoda na zatrzymanie i areszt sędziego z #Warszawa \n\nhttps://t.co/XYOGj5zUPt",
-        "truncated": false,
-        "entities": {
-          "hashtags": [
-            {
-              "text": "Warszawa",
-              "indices": [
-                46,
-                55
-              ]
-            }
-          ],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/XYOGj5zUPt",
-              "expanded_url": "http://bit.ly/34ExlpD",
-              "display_url": "bit.ly/34ExlpD",
-              "indices": [
-                58,
-                81
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 194399035,
-          "id_str": "194399035",
-          "name": "Rzeczpospolita",
-          "screen_name": "rzeczpospolita",
-          "location": "Polska",
-          "description": "Rzeczpospolita to jeden z liderów prasy codziennej w Polsce. Jest najczęściej cytowaną gazetą w kraju. Oto jedyny oficjalny profil Rz.",
-          "url": "https://t.co/lg4AvBS252",
-          "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/lg4AvBS252",
-                  "expanded_url": "http://www.rp.pl",
-                  "display_url": "rp.pl",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 183201,
-          "friends_count": 563,
-          "listed_count": 857,
-          "created_at": "Fri Sep 24 01:14:56 +0000 2010",
-          "favourites_count": 1837,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": false,
-          "verified": true,
-          "statuses_count": 165461,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "F7F7F7",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1087349179230445570/WznQGNHL_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1087349179230445570/WznQGNHL_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/194399035/1574175259",
-          "profile_link_color": "CC0000",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "F3F3F3",
-          "profile_text_color": "333333",
-          "profile_use_background_image": true,
-          "has_extended_profile": false,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 3,
-        "favorite_count": 1,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "pl"
-      },
-      "is_quote_status": false,
-      "retweet_count": 3,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "possibly_sensitive": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:50:12 +0000 2019",
-      "id": 1207946287221530600,
-      "id_str": "1207946287221530624",
-      "text": "RT @AdKopysc: Z okazji zbliżających się Świąt Bożego Narodzenia🎄, przypomnienie od @SGGW_Warszawa👏👇i prośba (bo te Święta to przeżycie duch…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
-          {
-            "screen_name": "AdKopysc",
-            "name": "Adam Kopyść",
-            "id": 707894820568768500,
-            "id_str": "707894820568768512",
-            "indices": [
-              3,
-              12
-            ]
-          },
-          {
-            "screen_name": "SGGW_Warszawa",
-            "name": "SGGW w Warszawie",
-            "id": 198659808,
-            "id_str": "198659808",
-            "indices": [
-              83,
-              97
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 939934896306511900,
-        "id_str": "939934896306511872",
-        "name": "Jerzy H. Czembor",
-        "screen_name": "CzemborJerzyH",
-        "location": "",
-        "description": "Plant Pathology, Plant Breeding, IPM, Barley, Wheat, Triticale, Powdery mildew, Rusts, Biodiversity, Genebank, Germplasm, Genetic resources, Molecular markers",
-        "url": null,
-        "entities": {
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 724,
-        "friends_count": 1943,
-        "listed_count": 7,
-        "created_at": "Sun Dec 10 19:08:37 +0000 2017",
-        "favourites_count": 7794,
+        "created_at": "Mon Jan 12 13:26:51 +0000 2015",
+        "favourites_count": 419,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": true,
         "verified": false,
-        "statuses_count": 13123,
+        "statuses_count": 1168,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
@@ -2281,10 +237,10 @@ VALUES (SYS_GUID(), systimestamp,
         "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/939938886725357568/M1nwZmZM_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/939938886725357568/M1nwZmZM_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/939934896306511872/1533823379",
-        "profile_link_color": "1B95E0",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1167894210218876928/NY6UcQKJ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1167894210218876928/NY6UcQKJ_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2974650663/1567282947",
+        "profile_link_color": "0C2A4E",
         "profile_sidebar_border_color": "000000",
         "profile_sidebar_fill_color": "000000",
         "profile_text_color": "000000",
@@ -2301,35 +257,258 @@ VALUES (SYS_GUID(), systimestamp,
       "coordinates": null,
       "place": null,
       "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Fri Dec 20 07:42:01 +0000 2019",
+      "id": 1207929131444424700,
+      "id_str": "1207929131444424704",
+      "text": "RT @Parys_Furs: Dzień dobry:) #parysfurs #furlove #parysfurscollection #fur #furfashion #realfur #luxuryoutfit #realfurcoat #furcoat #furs…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "parysfurs",
+            "indices": [
+              30,
+              40
+            ]
+          },
+          {
+            "text": "furlove",
+            "indices": [
+              41,
+              49
+            ]
+          },
+          {
+            "text": "parysfurscollection",
+            "indices": [
+              50,
+              70
+            ]
+          },
+          {
+            "text": "fur",
+            "indices": [
+              71,
+              75
+            ]
+          },
+          {
+            "text": "furfashion",
+            "indices": [
+              76,
+              87
+            ]
+          },
+          {
+            "text": "realfur",
+            "indices": [
+              88,
+              96
+            ]
+          },
+          {
+            "text": "luxuryoutfit",
+            "indices": [
+              97,
+              110
+            ]
+          },
+          {
+            "text": "realfurcoat",
+            "indices": [
+              111,
+              123
+            ]
+          },
+          {
+            "text": "furcoat",
+            "indices": [
+              124,
+              132
+            ]
+          },
+          {
+            "text": "furs",
+            "indices": [
+              133,
+              138
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Parys_Furs",
+            "name": "PARYS FURS",
+            "id": 932521600523669500,
+            "id_str": "932521600523669504",
+            "indices": [
+              3,
+              14
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://drippinglolly.tumblr.com/fashionbot\" rel=\"nofollow\">Lily Scarlet</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 72847489,
+        "id_str": "72847489",
+        "name": "NokoNokoEcho",
+        "screen_name": "sexygeeks0",
+        "location": "World Wide Web",
+        "description": "♡♡ LOVEFUR ♡♡",
+        "url": "https://t.co/kHSLAKx0cN",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/kHSLAKx0cN",
+                "expanded_url": "http://laceyxlaney.tumblr.com/",
+                "display_url": "laceyxlaney.tumblr.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 572,
+        "friends_count": 300,
+        "listed_count": 18,
+        "created_at": "Wed Sep 09 13:07:52 +0000 2009",
+        "favourites_count": 2268,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 12440,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFFFFF",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme15/bg.png",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/943807788245045248/BydHbhyF_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/943807788245045248/BydHbhyF_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/72847489/1513856238",
+        "profile_link_color": "FF0066",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
       "retweeted_status": {
-        "created_at": "Fri Dec 20 07:15:27 +0000 2019",
-        "id": 1207922446369771500,
-        "id_str": "1207922446369771521",
-        "text": "Z okazji zbliżających się Świąt Bożego Narodzenia🎄, przypomnienie od @SGGW_Warszawa👏👇i prośba (bo te Święta to prze… https://t.co/MPPFTyIg1O",
+        "created_at": "Fri Dec 20 07:29:53 +0000 2019",
+        "id": 1207926074723721200,
+        "id_str": "1207926074723721217",
+        "text": "Dzień dobry:) #parysfurs #furlove #parysfurscollection #fur #furfashion #realfur #luxuryoutfit #realfurcoat… https://t.co/nk8yb6ILnM",
         "truncated": true,
         "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [
+          "hashtags": [
             {
-              "screen_name": "SGGW_Warszawa",
-              "name": "SGGW w Warszawie",
-              "id": 198659808,
-              "id_str": "198659808",
+              "text": "parysfurs",
               "indices": [
-                69,
-                83
+                14,
+                24
+              ]
+            },
+            {
+              "text": "furlove",
+              "indices": [
+                25,
+                33
+              ]
+            },
+            {
+              "text": "parysfurscollection",
+              "indices": [
+                34,
+                54
+              ]
+            },
+            {
+              "text": "fur",
+              "indices": [
+                55,
+                59
+              ]
+            },
+            {
+              "text": "furfashion",
+              "indices": [
+                60,
+                71
+              ]
+            },
+            {
+              "text": "realfur",
+              "indices": [
+                72,
+                80
+              ]
+            },
+            {
+              "text": "luxuryoutfit",
+              "indices": [
+                81,
+                94
+              ]
+            },
+            {
+              "text": "realfurcoat",
+              "indices": [
+                95,
+                107
               ]
             }
           ],
+          "symbols": [],
+          "user_mentions": [],
           "urls": [
             {
-              "url": "https://t.co/MPPFTyIg1O",
-              "expanded_url": "https://twitter.com/i/web/status/1207922446369771521",
+              "url": "https://t.co/nk8yb6ILnM",
+              "expanded_url": "https://twitter.com/i/web/status/1207926074723721217",
               "display_url": "twitter.com/i/web/status/1…",
               "indices": [
-                117,
-                140
+                109,
+                132
               ]
             }
           ]
@@ -2338,49 +517,36 @@ VALUES (SYS_GUID(), systimestamp,
           "iso_language_code": "pl",
           "result_type": "recent"
         },
-        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-          "id": 707894820568768500,
-          "id_str": "707894820568768512",
-          "name": "Adam Kopyść",
-          "screen_name": "AdKopysc",
-          "location": "Warszawa, Polska",
-          "description": "#doceńRolnika👩🏼‍🌾👨🏻‍🌾 bo #JestRolnikJestŻywność🍲 / fan @stalgorzow1947 / #RolnictwoZrównoważone w @bayer4crops / tt prywatnie",
-          "url": "https://t.co/5KKvSY4UCa",
+          "id": 932521600523669500,
+          "id_str": "932521600523669504",
+          "name": "PARYS FURS",
+          "screen_name": "Parys_Furs",
+          "location": "",
+          "description": "Jesteśmy firmą szyjącą i sprzedającą naturalne futra.",
+          "url": null,
           "entities": {
-            "url": {
-              "urls": [
-                {
-                  "url": "https://t.co/5KKvSY4UCa",
-                  "expanded_url": "http://bit.ly/2ldPPw2",
-                  "display_url": "bit.ly/2ldPPw2",
-                  "indices": [
-                    0,
-                    23
-                  ]
-                }
-              ]
-            },
             "description": {
               "urls": []
             }
           },
           "protected": false,
-          "followers_count": 408,
-          "friends_count": 379,
-          "listed_count": 4,
-          "created_at": "Thu Mar 10 11:44:12 +0000 2016",
-          "favourites_count": 5743,
+          "followers_count": 65,
+          "friends_count": 65,
+          "listed_count": 0,
+          "created_at": "Mon Nov 20 08:10:49 +0000 2017",
+          "favourites_count": 20,
           "utc_offset": null,
           "time_zone": null,
           "geo_enabled": false,
           "verified": false,
-          "statuses_count": 1619,
+          "statuses_count": 691,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -2389,9 +555,8 @@ VALUES (SYS_GUID(), systimestamp,
           "profile_background_image_url": null,
           "profile_background_image_url_https": null,
           "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1104358750331330560/A6qj6ERb_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1104358750331330560/A6qj6ERb_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/707894820568768512/1537732675",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/932522637242322945/rYJzHi1q_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/932522637242322945/rYJzHi1q_normal.jpg",
           "profile_link_color": "1DA1F2",
           "profile_sidebar_border_color": "C0DEED",
           "profile_sidebar_fill_color": "DDEEF6",
@@ -2410,46 +575,38 @@ VALUES (SYS_GUID(), systimestamp,
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 6,
-        "favorite_count": 9,
+        "retweet_count": 1,
+        "favorite_count": 1,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
         "lang": "pl"
       },
       "is_quote_status": false,
-      "retweet_count": 6,
+      "retweet_count": 1,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "lang": "pl"
     },
     {
-      "created_at": "Fri Dec 20 08:50:11 +0000 2019",
-      "id": 1207946282800681000,
-      "id_str": "1207946282800680960",
-      "text": "Jest zgoda na zatrzymanie i areszt sędziego z #Warszawa \n\nhttps://t.co/XYOGj5zUPt",
-      "truncated": false,
+      "created_at": "Fri Dec 20 07:35:24 +0000 2019",
+      "id": 1207927466343440400,
+      "id_str": "1207927466343440385",
+      "text": "Krótka złota sukienka cekinowa z długim rękawem. Sukienka na wesele, sukienka na sylwestra, sukienka na imprezę,… https://t.co/BEAE82i9kH",
+      "truncated": true,
       "entities": {
-        "hashtags": [
-          {
-            "text": "Warszawa",
-            "indices": [
-              46,
-              55
-            ]
-          }
-        ],
+        "hashtags": [],
         "symbols": [],
         "user_mentions": [],
         "urls": [
           {
-            "url": "https://t.co/XYOGj5zUPt",
-            "expanded_url": "http://bit.ly/34ExlpD",
-            "display_url": "bit.ly/34ExlpD",
+            "url": "https://t.co/BEAE82i9kH",
+            "expanded_url": "https://twitter.com/i/web/status/1207927466343440385",
+            "display_url": "twitter.com/i/web/status/1…",
             "indices": [
-              58,
-              81
+              114,
+              137
             ]
           }
         ]
@@ -2458,27 +615,27 @@ VALUES (SYS_GUID(), systimestamp,
         "iso_language_code": "pl",
         "result_type": "recent"
       },
-      "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
       "in_reply_to_status_id": null,
       "in_reply_to_status_id_str": null,
       "in_reply_to_user_id": null,
       "in_reply_to_user_id_str": null,
       "in_reply_to_screen_name": null,
       "user": {
-        "id": 194399035,
-        "id_str": "194399035",
-        "name": "Rzeczpospolita",
-        "screen_name": "rzeczpospolita",
-        "location": "Polska",
-        "description": "Rzeczpospolita to jeden z liderów prasy codziennej w Polsce. Jest najczęściej cytowaną gazetą w kraju. Oto jedyny oficjalny profil Rz.",
-        "url": "https://t.co/lg4AvBS252",
+        "id": 262588476,
+        "id_str": "262588476",
+        "name": "Lejdi",
+        "screen_name": "LejdiPl",
+        "location": "Poland",
+        "description": "https://t.co/CbOn6j934u",
+        "url": "https://t.co/CbOn6j934u",
         "entities": {
           "url": {
             "urls": [
               {
-                "url": "https://t.co/lg4AvBS252",
-                "expanded_url": "http://www.rp.pl",
-                "display_url": "rp.pl",
+                "url": "https://t.co/CbOn6j934u",
+                "expanded_url": "http://www.lejdi.pl",
+                "display_url": "lejdi.pl",
                 "indices": [
                   0,
                   23
@@ -2487,39 +644,49 @@ VALUES (SYS_GUID(), systimestamp,
             ]
           },
           "description": {
-            "urls": []
+            "urls": [
+              {
+                "url": "https://t.co/CbOn6j934u",
+                "expanded_url": "http://www.lejdi.pl",
+                "display_url": "lejdi.pl",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
           }
         },
         "protected": false,
-        "followers_count": 183201,
-        "friends_count": 563,
-        "listed_count": 857,
-        "created_at": "Fri Sep 24 01:14:56 +0000 2010",
-        "favourites_count": 1837,
+        "followers_count": 41,
+        "friends_count": 10,
+        "listed_count": 0,
+        "created_at": "Tue Mar 08 10:21:15 +0000 2011",
+        "favourites_count": 24,
         "utc_offset": null,
         "time_zone": null,
-        "geo_enabled": false,
-        "verified": true,
-        "statuses_count": 165461,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 11006,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "F7F7F7",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme7/bg.gif",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme7/bg.gif",
+        "profile_background_color": "EDECE9",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1087349179230445570/WznQGNHL_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1087349179230445570/WznQGNHL_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/194399035/1574175259",
-        "profile_link_color": "CC0000",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "F3F3F3",
-        "profile_text_color": "333333",
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/262588476/1507885219",
+        "profile_link_color": "088253",
+        "profile_sidebar_border_color": "D3D2CF",
+        "profile_sidebar_fill_color": "E3E2DE",
+        "profile_text_color": "634047",
         "profile_use_background_image": true,
         "has_extended_profile": false,
         "default_profile": false,
-        "default_profile_image": false,
+        "default_profile_image": true,
         "following": false,
         "follow_request_sent": false,
         "notifications": false,
@@ -2530,53 +697,109 @@ VALUES (SYS_GUID(), systimestamp,
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 3,
-      "favorite_count": 1,
+      "retweet_count": 0,
+      "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "possibly_sensitive": false,
       "lang": "pl"
     },
     {
-      "created_at": "Fri Dec 20 08:49:24 +0000 2019",
-      "id": 1207946088126255000,
-      "id_str": "1207946088126255104",
-      "text": "@warszawa A na stacji Wilanowska schody ruchome od pół roku popsute...",
-      "truncated": false,
+      "created_at": "Fri Dec 20 07:29:53 +0000 2019",
+      "id": 1207926074723721200,
+      "id_str": "1207926074723721217",
+      "text": "Dzień dobry:) #parysfurs #furlove #parysfurscollection #fur #furfashion #realfur #luxuryoutfit #realfurcoat… https://t.co/nk8yb6ILnM",
+      "truncated": true,
       "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
+        "hashtags": [
           {
-            "screen_name": "warszawa",
-            "name": "Warszawa",
-            "id": 199290168,
-            "id_str": "199290168",
+            "text": "parysfurs",
             "indices": [
-              0,
-              9
+              14,
+              24
+            ]
+          },
+          {
+            "text": "furlove",
+            "indices": [
+              25,
+              33
+            ]
+          },
+          {
+            "text": "parysfurscollection",
+            "indices": [
+              34,
+              54
+            ]
+          },
+          {
+            "text": "fur",
+            "indices": [
+              55,
+              59
+            ]
+          },
+          {
+            "text": "furfashion",
+            "indices": [
+              60,
+              71
+            ]
+          },
+          {
+            "text": "realfur",
+            "indices": [
+              72,
+              80
+            ]
+          },
+          {
+            "text": "luxuryoutfit",
+            "indices": [
+              81,
+              94
+            ]
+          },
+          {
+            "text": "realfurcoat",
+            "indices": [
+              95,
+              107
             ]
           }
         ],
-        "urls": []
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/nk8yb6ILnM",
+            "expanded_url": "https://twitter.com/i/web/status/1207926074723721217",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              109,
+              132
+            ]
+          }
+        ]
       },
       "metadata": {
         "iso_language_code": "pl",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-      "in_reply_to_status_id": 1207908494009151500,
-      "in_reply_to_status_id_str": "1207908494009151488",
-      "in_reply_to_user_id": 199290168,
-      "in_reply_to_user_id_str": "199290168",
-      "in_reply_to_screen_name": "warszawa",
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
       "user": {
-        "id": 2741592383,
-        "id_str": "2741592383",
-        "name": "traper",
-        "screen_name": "traper_24",
+        "id": 932521600523669500,
+        "id_str": "932521600523669504",
+        "name": "PARYS FURS",
+        "screen_name": "Parys_Furs",
         "location": "",
-        "description": "",
+        "description": "Jesteśmy firmą szyjącą i sprzedającą naturalne futra.",
         "url": null,
         "entities": {
           "description": {
@@ -2584,26 +807,26 @@ VALUES (SYS_GUID(), systimestamp,
           }
         },
         "protected": false,
-        "followers_count": 6,
-        "friends_count": 40,
+        "followers_count": 65,
+        "friends_count": 65,
         "listed_count": 0,
-        "created_at": "Wed Aug 13 09:30:50 +0000 2014",
-        "favourites_count": 96,
+        "created_at": "Mon Nov 20 08:10:49 +0000 2017",
+        "favourites_count": 20,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 301,
+        "statuses_count": 691,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/666020055029833729/K04E9N05_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/666020055029833729/K04E9N05_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/932522637242322945/rYJzHi1q_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/932522637242322945/rYJzHi1q_normal.jpg",
         "profile_link_color": "1DA1F2",
         "profile_sidebar_border_color": "C0DEED",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -2622,249 +845,73 @@ VALUES (SYS_GUID(), systimestamp,
       "place": null,
       "contributors": null,
       "is_quote_status": false,
-      "retweet_count": 0,
-      "favorite_count": 0,
+      "retweet_count": 1,
+      "favorite_count": 1,
       "favorited": false,
       "retweeted": false,
+      "possibly_sensitive": false,
       "lang": "pl"
     },
     {
-      "created_at": "Fri Dec 20 08:49:01 +0000 2019",
-      "id": 1207945992282267600,
-      "id_str": "1207945992282267654",
-      "text": "RT @JanBaran999: Warszawa nie radzi sobie z uchwalaniem planów zagospodarowania przestrzennego. Przykładem jest moja dzielnica, Praga-Połud…",
-      "truncated": false,
+      "created_at": "Fri Dec 20 07:05:15 +0000 2019",
+      "id": 1207919877958357000,
+      "id_str": "1207919877958356993",
+      "text": "@PolskaKobieta @D_Tarczynski Być może Panie o których wspomniałaś z tego powodu malują ale niestety nie tylko ta gr… https://t.co/j5yJfa4t6l",
+      "truncated": true,
       "entities": {
         "hashtags": [],
         "symbols": [],
         "user_mentions": [
           {
-            "screen_name": "JanBaran999",
-            "name": "Janek Baran",
-            "id": 2805209977,
-            "id_str": "2805209977",
+            "screen_name": "PolskaKobieta",
+            "name": "JoLkA Z PoLsKi ✝️ Jeszcze Polska nie zginęła!🇵🇱✌",
+            "id": 818748422866006000,
+            "id_str": "818748422866006016",
             "indices": [
-              3,
-              15
-            ]
-          }
-        ],
-        "urls": []
-      },
-      "metadata": {
-        "iso_language_code": "pl",
-        "result_type": "recent"
-      },
-      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
-      "user": {
-        "id": 1960626020,
-        "id_str": "1960626020",
-        "name": "Miasto Jest Nasze 🌳🚊♻️",
-        "screen_name": "MiastoJestNasze",
-        "location": "Warsaw, Poland",
-        "description": "Największy ruch miejski w 🇵🇱 aktywny w Warszawie od 6 lat! Nasze ostatnie akcje: #ChodziOżycie #Betonoza #MamNaToPapier #NowyŁadParkingowy",
-        "url": "https://t.co/6cBygWsl2Q",
-        "entities": {
-          "url": {
-            "urls": [
-              {
-                "url": "https://t.co/6cBygWsl2Q",
-                "expanded_url": "http://miastojestnasze.org",
-                "display_url": "miastojestnasze.org",
-                "indices": [
-                  0,
-                  23
-                ]
-              }
+              0,
+              14
             ]
           },
-          "description": {
-            "urls": []
-          }
-        },
-        "protected": false,
-        "followers_count": 9740,
-        "friends_count": 923,
-        "listed_count": 69,
-        "created_at": "Mon Oct 14 12:47:46 +0000 2013",
-        "favourites_count": 20291,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": true,
-        "verified": false,
-        "statuses_count": 23482,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "000000",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/1138051464721502208/5xM6JafE_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1138051464721502208/5xM6JafE_normal.jpg",
-        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1960626020/1560095498",
-        "profile_link_color": "FFC30B",
-        "profile_sidebar_border_color": "000000",
-        "profile_sidebar_fill_color": "000000",
-        "profile_text_color": "000000",
-        "profile_use_background_image": false,
-        "has_extended_profile": false,
-        "default_profile": false,
-        "default_profile_image": false,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-      },
-      "geo": null,
-      "coordinates": null,
-      "place": null,
-      "contributors": null,
-      "retweeted_status": {
-        "created_at": "Thu Dec 19 14:22:21 +0000 2019",
-        "id": 1207667491331334100,
-        "id_str": "1207667491331334146",
-        "text": "Warszawa nie radzi sobie z uchwalaniem planów zagospodarowania przestrzennego. Przykładem jest moja dzielnica, Prag… https://t.co/NKAyL2GkSS",
-        "truncated": true,
-        "entities": {
-          "hashtags": [],
-          "symbols": [],
-          "user_mentions": [],
-          "urls": [
-            {
-              "url": "https://t.co/NKAyL2GkSS",
-              "expanded_url": "https://twitter.com/i/web/status/1207667491331334146",
-              "display_url": "twitter.com/i/web/status/1…",
-              "indices": [
-                117,
-                140
-              ]
-            }
-          ]
-        },
-        "metadata": {
-          "iso_language_code": "pl",
-          "result_type": "recent"
-        },
-        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-          "id": 2805209977,
-          "id_str": "2805209977",
-          "name": "Janek Baran",
-          "screen_name": "JanBaran999",
-          "location": "",
-          "description": "Ekonomia, Warszawa | doktorant UW | Stowarzyszenie Miasto Jest Nasze | jedynie prywatne opinie.",
-          "url": null,
-          "entities": {
-            "description": {
-              "urls": []
-            }
-          },
-          "protected": false,
-          "followers_count": 306,
-          "friends_count": 272,
-          "listed_count": 0,
-          "created_at": "Fri Sep 12 08:21:48 +0000 2014",
-          "favourites_count": 1209,
-          "utc_offset": null,
-          "time_zone": null,
-          "geo_enabled": false,
-          "verified": false,
-          "statuses_count": 450,
-          "lang": null,
-          "contributors_enabled": false,
-          "is_translator": false,
-          "is_translation_enabled": false,
-          "profile_background_color": "000000",
-          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
-          "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/722896020221210626/IIkJihKw_normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/722896020221210626/IIkJihKw_normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2805209977/1503949067",
-          "profile_link_color": "FAB81E",
-          "profile_sidebar_border_color": "000000",
-          "profile_sidebar_fill_color": "000000",
-          "profile_text_color": "000000",
-          "profile_use_background_image": false,
-          "has_extended_profile": false,
-          "default_profile": false,
-          "default_profile_image": false,
-          "following": false,
-          "follow_request_sent": false,
-          "notifications": false,
-          "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 5,
-        "favorite_count": 12,
-        "favorited": false,
-        "retweeted": false,
-        "possibly_sensitive": false,
-        "lang": "pl"
-      },
-      "is_quote_status": false,
-      "retweet_count": 5,
-      "favorite_count": 0,
-      "favorited": false,
-      "retweeted": false,
-      "lang": "pl"
-    },
-    {
-      "created_at": "Fri Dec 20 08:48:15 +0000 2019",
-      "id": 1207945799230988300,
-      "id_str": "1207945799230988288",
-      "text": "RT @slonka17: Z pracy odeszli doświadczeni specjaliści, z poradni badań prenatalnych przeniesiono personel, a w tym roku wykonano połowę mn…",
-      "truncated": false,
-      "entities": {
-        "hashtags": [],
-        "symbols": [],
-        "user_mentions": [
           {
-            "screen_name": "slonka17",
-            "name": "Baśka 🇵🇱 🇪🇺 🏳️‍🌈 💋",
-            "id": 3000776210,
-            "id_str": "3000776210",
+            "screen_name": "D_Tarczynski",
+            "name": "TARCZYŃSKI Dominik",
+            "id": 347228796,
+            "id_str": "347228796",
             "indices": [
-              3,
-              12
+              15,
+              28
             ]
           }
         ],
-        "urls": []
+        "urls": [
+          {
+            "url": "https://t.co/j5yJfa4t6l",
+            "expanded_url": "https://twitter.com/i/web/status/1207919877958356993",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
       },
       "metadata": {
         "iso_language_code": "pl",
         "result_type": "recent"
       },
-      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
-      "in_reply_to_status_id": null,
-      "in_reply_to_status_id_str": null,
-      "in_reply_to_user_id": null,
-      "in_reply_to_user_id_str": null,
-      "in_reply_to_screen_name": null,
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": 1207736424746946600,
+      "in_reply_to_status_id_str": "1207736424746946560",
+      "in_reply_to_user_id": 818748422866006000,
+      "in_reply_to_user_id_str": "818748422866006016",
+      "in_reply_to_screen_name": "PolskaKobieta",
       "user": {
-        "id": 124900630,
-        "id_str": "124900630",
-        "name": "Czesław Gawłowski",
-        "screen_name": "czegie1",
-        "location": "Warsaw, Mazovia",
-        "description": "",
+        "id": 709378091278319600,
+        "id_str": "709378091278319616",
+        "name": "Pani Ivo",
+        "screen_name": "Ivo642712",
+        "location": "",
+        "description": "Katol.Moher.Prawa strona.\nAlergia: lewactwo ❤️✝️🇵🇱💯♀️",
         "url": null,
         "entities": {
           "description": {
@@ -2872,26 +919,27 @@ VALUES (SYS_GUID(), systimestamp,
           }
         },
         "protected": false,
-        "followers_count": 327,
-        "friends_count": 839,
-        "listed_count": 0,
-        "created_at": "Sun Mar 21 00:16:42 +0000 2010",
-        "favourites_count": 74941,
+        "followers_count": 2796,
+        "friends_count": 4352,
+        "listed_count": 23,
+        "created_at": "Mon Mar 14 13:58:11 +0000 2016",
+        "favourites_count": 108952,
         "utc_offset": null,
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 34664,
+        "statuses_count": 70403,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
         "is_translation_enabled": false,
-        "profile_background_color": "C0DEED",
-        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
-        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
         "profile_background_tile": false,
-        "profile_image_url": "http://pbs.twimg.com/profile_images/764965773/Perseverance_by_CristinaPenescu_normal.jpg",
-        "profile_image_url_https": "https://pbs.twimg.com/profile_images/764965773/Perseverance_by_CristinaPenescu_normal.jpg",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1060229337423724544/cYQa0yOV_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1060229337423724544/cYQa0yOV_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/709378091278319616/1541613954",
         "profile_link_color": "1DA1F2",
         "profile_sidebar_border_color": "C0DEED",
         "profile_sidebar_fill_color": "DDEEF6",
@@ -2909,11 +957,103 @@ VALUES (SYS_GUID(), systimestamp,
       "coordinates": null,
       "place": null,
       "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Fri Dec 20 05:40:43 +0000 2019",
+      "id": 1207898603714465800,
+      "id_str": "1207898603714465792",
+      "text": "RT @Gabi_Aga_: Obejrzyjcie koniecznie jeśli lubicie taniec. Jeśli nie lubicie też obejrzyjcie. Na Sylwestra się przyda😁Chłopcy prezentują t…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "Gabi_Aga_",
+            "name": "Gabrysia",
+            "id": 2584174872,
+            "id_str": "2584174872",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Mobile Web (M2)</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 3864127937,
+        "id_str": "3864127937",
+        "name": "Włodzimierz Depta",
+        "screen_name": "DeptaWlodek",
+        "location": "Nowa Huta",
+        "description": "Koniec komuny jest bliski. \"Nasi\" dogadali się z komuną. Sprzedali się za srebrniki. Myśleli, że komuchy będą ich szanować, a stali się ich wyrobnikami.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 568,
+        "friends_count": 33,
+        "listed_count": 11,
+        "created_at": "Sun Oct 04 18:44:43 +0000 2015",
+        "favourites_count": 98874,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 49631,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1018556103104323587/-18qQcJF_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1018556103104323587/-18qQcJF_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/3864127937/1535270398",
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
       "retweeted_status": {
-        "created_at": "Fri Dec 20 08:24:06 +0000 2019",
-        "id": 1207939720426197000,
-        "id_str": "1207939720426196992",
-        "text": "Z pracy odeszli doświadczeni specjaliści, z poradni badań prenatalnych przeniesiono personel, a w tym roku wykonano… https://t.co/VNpnIgDOAt",
+        "created_at": "Thu Dec 19 16:58:33 +0000 2019",
+        "id": 1207706798431621000,
+        "id_str": "1207706798431621120",
+        "text": "Obejrzyjcie koniecznie jeśli lubicie taniec. Jeśli nie lubicie też obejrzyjcie. Na Sylwestra się przyda😁Chłopcy pre… https://t.co/eDDpdaDrTk",
         "truncated": true,
         "entities": {
           "hashtags": [],
@@ -2921,8 +1061,8 @@ VALUES (SYS_GUID(), systimestamp,
           "user_mentions": [],
           "urls": [
             {
-              "url": "https://t.co/VNpnIgDOAt",
-              "expanded_url": "https://twitter.com/i/web/status/1207939720426196992",
+              "url": "https://t.co/eDDpdaDrTk",
+              "expanded_url": "https://twitter.com/i/web/status/1207706798431621120",
               "display_url": "twitter.com/i/web/status/1…",
               "indices": [
                 117,
@@ -2935,19 +1075,19 @@ VALUES (SYS_GUID(), systimestamp,
           "iso_language_code": "pl",
           "result_type": "recent"
         },
-        "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
         "in_reply_to_status_id": null,
         "in_reply_to_status_id_str": null,
         "in_reply_to_user_id": null,
         "in_reply_to_user_id_str": null,
         "in_reply_to_screen_name": null,
         "user": {
-          "id": 3000776210,
-          "id_str": "3000776210",
-          "name": "Baśka 🇵🇱 🇪🇺 🏳️‍🌈 💋",
-          "screen_name": "slonka17",
-          "location": "Warszawa ",
-          "description": "Gorszy sort, antyklerykał. Kocham myślących ludzi, sport, książki i zwierzęta. Przeklinam. Prywatne opinie. Za chamstwo ban.\n#MuremZaKasią",
+          "id": 2584174872,
+          "id_str": "2584174872",
+          "name": "Gabrysia",
+          "screen_name": "Gabi_Aga_",
+          "location": "Polska",
+          "description": "...Ale zbaw mnie od nienawiści\nI ocal mnie od pogardy Panie...\n\n\nProśba: proszę o nieoznaczanie mnie w łańcuszkach. Thx :)",
           "url": null,
           "entities": {
             "description": {
@@ -2955,16 +1095,16 @@ VALUES (SYS_GUID(), systimestamp,
             }
           },
           "protected": false,
-          "followers_count": 3228,
-          "friends_count": 2195,
-          "listed_count": 9,
-          "created_at": "Thu Jan 29 07:37:52 +0000 2015",
-          "favourites_count": 61079,
+          "followers_count": 3270,
+          "friends_count": 1285,
+          "listed_count": 4,
+          "created_at": "Mon Jun 23 15:34:21 +0000 2014",
+          "favourites_count": 90363,
           "utc_offset": null,
           "time_zone": null,
-          "geo_enabled": true,
+          "geo_enabled": false,
           "verified": false,
-          "statuses_count": 21084,
+          "statuses_count": 40835,
           "lang": null,
           "contributors_enabled": false,
           "is_translator": false,
@@ -2973,10 +1113,10 @@ VALUES (SYS_GUID(), systimestamp,
           "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
           "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
           "profile_background_tile": false,
-          "profile_image_url": "http://pbs.twimg.com/profile_images/1114255654439591938/jnJILRu__normal.jpg",
-          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1114255654439591938/jnJILRu__normal.jpg",
-          "profile_banner_url": "https://pbs.twimg.com/profile_banners/3000776210/1422601967",
-          "profile_link_color": "1B95E0",
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1168217389646917634/1Ez5c1mL_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1168217389646917634/1Ez5c1mL_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/2584174872/1572588036",
+          "profile_link_color": "981CEB",
           "profile_sidebar_border_color": "000000",
           "profile_sidebar_fill_color": "000000",
           "profile_text_color": "000000",
@@ -2994,28 +1134,1167 @@ VALUES (SYS_GUID(), systimestamp,
         "place": null,
         "contributors": null,
         "is_quote_status": false,
-        "retweet_count": 13,
-        "favorite_count": 19,
+        "retweet_count": 3,
+        "favorite_count": 26,
         "favorited": false,
         "retweeted": false,
         "possibly_sensitive": false,
         "lang": "pl"
       },
       "is_quote_status": false,
-      "retweet_count": 13,
+      "retweet_count": 3,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Fri Dec 20 05:08:37 +0000 2019",
+      "id": 1207890525321416700,
+      "id_str": "1207890525321416705",
+      "text": "@SylwiaSpurek Podatniczki? A kto to? Co to za moda #jprdl",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "jprdl",
+            "indices": [
+              51,
+              57
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "SylwiaSpurek",
+            "name": "Sylwia Spurek",
+            "id": 4577469077,
+            "id_str": "4577469077",
+            "indices": [
+              0,
+              13
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": 1207615041656283100,
+      "in_reply_to_status_id_str": "1207615041656283136",
+      "in_reply_to_user_id": 4577469077,
+      "in_reply_to_user_id_str": "4577469077",
+      "in_reply_to_screen_name": "SylwiaSpurek",
+      "user": {
+        "id": 1150022669489848300,
+        "id_str": "1150022669489848320",
+        "name": "Przemysław Grochala",
+        "screen_name": "przemekgrochala",
+        "location": "Jastrzębie-Zdrój, Polska",
+        "description": "Mój punkt widzenia.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 32,
+        "friends_count": 24,
+        "listed_count": 0,
+        "created_at": "Sat Jul 13 12:42:25 +0000 2019",
+        "favourites_count": 4309,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1804,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1150022983135744001/DedoGdA2_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1150022983135744001/DedoGdA2_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1150022669489848320/1563022486",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
       "favorite_count": 0,
       "favorited": false,
       "retweeted": false,
       "lang": "pl"
+    },
+    {
+      "created_at": "Fri Dec 20 05:03:15 +0000 2019",
+      "id": 1207889175468478500,
+      "id_str": "1207889175468478464",
+      "text": "TADASHI SHOJI one-piece dress nylon red sequins https://t.co/SAhfUGNRzX #fashiondesigner #onlineshopping #handmade… https://t.co/aj4LoZ6p8Z",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "fashiondesigner",
+            "indices": [
+              72,
+              88
+            ]
+          },
+          {
+            "text": "onlineshopping",
+            "indices": [
+              89,
+              104
+            ]
+          },
+          {
+            "text": "handmade",
+            "indices": [
+              105,
+              114
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/SAhfUGNRzX",
+            "expanded_url": "https://ift.tt/2PCUggC",
+            "display_url": "ift.tt/2PCUggC",
+            "indices": [
+              48,
+              71
+            ]
+          },
+          {
+            "url": "https://t.co/aj4LoZ6p8Z",
+            "expanded_url": "https://twitter.com/i/web/status/1207889175468478464",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1188429534380605400,
+        "id_str": "1188429534380605441",
+        "name": "fashiontrends",
+        "screen_name": "ModetrendA",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 3,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Sun Oct 27 12:17:44 +0000 2019",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 477,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1188430687046684672/kfr2Y3Kk_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1188430687046684672/kfr2Y3Kk_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1188429534380605441/1572179204",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Fri Dec 20 04:15:22 +0000 2019",
+      "id": 1207877125941977000,
+      "id_str": "1207877125941977088",
+      "text": "RT @re_Natka08: @D_Tarczynski Jakaś chora moda na permanentne ordynarnie brwi, w usta botoks czy inny syf i wyglądają jak krzyżówka Kleopat…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "re_Natka08",
+            "name": "Pani Renatka 🚜🇵🇱👩‍👩‍👧‍👦✝",
+            "id": 1204819732022599700,
+            "id_str": "1204819732022599681",
+            "indices": [
+              3,
+              14
+            ]
+          },
+          {
+            "screen_name": "D_Tarczynski",
+            "name": "TARCZYŃSKI Dominik",
+            "id": 347228796,
+            "id_str": "347228796",
+            "indices": [
+              16,
+              29
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 4276134747,
+        "id_str": "4276134747",
+        "name": "Krzysztof W",
+        "screen_name": "krzyko64",
+        "location": "",
+        "description": "Potomek chłopa pańszczyźnianego z alergią na czerwoną zarazę ! Hebojcies sie ludziska kazdyn w swoi kolibie !",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 133,
+        "friends_count": 86,
+        "listed_count": 4,
+        "created_at": "Wed Nov 25 16:29:14 +0000 2015",
+        "favourites_count": 5616,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 9493,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1139571582303657985/mJkCtJ3v_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1139571582303657985/mJkCtJ3v_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Dec 19 20:56:42 +0000 2019",
+        "id": 1207766729293783000,
+        "id_str": "1207766729293783040",
+        "text": "@D_Tarczynski Jakaś chora moda na permanentne ordynarnie brwi, w usta botoks czy inny syf i wyglądają jak krzyżówka… https://t.co/04rjBfDWCF",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "D_Tarczynski",
+              "name": "TARCZYŃSKI Dominik",
+              "id": 347228796,
+              "id_str": "347228796",
+              "indices": [
+                0,
+                13
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/04rjBfDWCF",
+              "expanded_url": "https://twitter.com/i/web/status/1207766729293783040",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "pl",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": 1207734375309303800,
+        "in_reply_to_status_id_str": "1207734375309303810",
+        "in_reply_to_user_id": 347228796,
+        "in_reply_to_user_id_str": "347228796",
+        "in_reply_to_screen_name": "D_Tarczynski",
+        "user": {
+          "id": 1204819732022599700,
+          "id_str": "1204819732022599681",
+          "name": "Pani Renatka 🚜🇵🇱👩‍👩‍👧‍👦✝",
+          "screen_name": "re_Natka08",
+          "location": "Wielka Polska 🇵🇱✝",
+          "description": "Ciemnogród",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 2818,
+          "friends_count": 1717,
+          "listed_count": 0,
+          "created_at": "Wed Dec 11 17:46:42 +0000 2019",
+          "favourites_count": 3178,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 475,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1205449648732868611/1GYqBUTa_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1205449648732868611/1GYqBUTa_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1204819732022599681/1576219591",
+          "profile_link_color": "106F70",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 23,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pl"
+      },
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Fri Dec 20 02:17:18 +0000 2019",
+      "id": 1207847410946453500,
+      "id_str": "1207847410946453506",
+      "text": "@KonradPiasecki W dorosłość wchodzą kolejne roczniki nie pamiętające PRLu.\n\nSwoje zrobiła obecna od kilku lat \"moda… https://t.co/IMltdOiq3L",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "KonradPiasecki",
+            "name": "Konrad_Piasecki",
+            "id": 69513730,
+            "id_str": "69513730",
+            "indices": [
+              0,
+              15
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/IMltdOiq3L",
+            "expanded_url": "https://twitter.com/i/web/status/1207847410946453506",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": 1207296317921382400,
+      "in_reply_to_status_id_str": "1207296317921382400",
+      "in_reply_to_user_id": 69513730,
+      "in_reply_to_user_id_str": "69513730",
+      "in_reply_to_screen_name": "KonradPiasecki",
+      "user": {
+        "id": 1096891885854117900,
+        "id_str": "1096891885854117893",
+        "name": "Wróbel 🇵🇱",
+        "screen_name": "glorifyday",
+        "location": "Droga mleczna",
+        "description": "Szary człowiek.\n\nPopieram wszystkie inicjatywy opozycyjne, w tym akcję #SilniRazem. Tylko wspólnie możemy wygrać z kombinatem nienawiści i pogardy.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 881,
+        "friends_count": 1218,
+        "listed_count": 4,
+        "created_at": "Sat Feb 16 21:59:39 +0000 2019",
+        "favourites_count": 13297,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 19330,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1112200565772169216/H6I5EL13_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1112200565772169216/H6I5EL13_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1096891885854117893/1571065779",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Fri Dec 20 01:01:38 +0000 2019",
+      "id": 1207828370123296800,
+      "id_str": "1207828370123296768",
+      "text": "@pawelbae @LelenMat @FilipGorecki86 @SKacper21 @sport_tvppl @Adrian512Gd Ja dorzucę moda na Skokawce XD",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "pawelbae",
+            "name": "Paweł Baran",
+            "id": 4163239858,
+            "id_str": "4163239858",
+            "indices": [
+              0,
+              9
+            ]
+          },
+          {
+            "screen_name": "LelenMat",
+            "name": "Mateusz Leleń",
+            "id": 1229402792,
+            "id_str": "1229402792",
+            "indices": [
+              10,
+              19
+            ]
+          },
+          {
+            "screen_name": "FilipGorecki86",
+            "name": "FilipG.",
+            "id": 1124858305,
+            "id_str": "1124858305",
+            "indices": [
+              20,
+              35
+            ]
+          },
+          {
+            "screen_name": "SKacper21",
+            "name": "Kacper Śliz",
+            "id": 746639457898668000,
+            "id_str": "746639457898668032",
+            "indices": [
+              36,
+              46
+            ]
+          },
+          {
+            "screen_name": "sport_tvppl",
+            "name": "TVP Sport",
+            "id": 107377588,
+            "id_str": "107377588",
+            "indices": [
+              47,
+              59
+            ]
+          },
+          {
+            "screen_name": "Adrian512Gd",
+            "name": "Adrian Dworakowski",
+            "id": 995455101392257000,
+            "id_str": "995455101392257026",
+            "indices": [
+              60,
+              72
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": 1207765887526297600,
+      "in_reply_to_status_id_str": "1207765887526297601",
+      "in_reply_to_user_id": 4163239858,
+      "in_reply_to_user_id_str": "4163239858",
+      "in_reply_to_screen_name": "pawelbae",
+      "user": {
+        "id": 835836753000951800,
+        "id_str": "835836753000951808",
+        "name": "Rafał Bugaj",
+        "screen_name": "r_bugaj",
+        "location": "Kraków",
+        "description": "W szpitalu ktoś mnie musiał zarazić jakąś chorobą sportową, bo zainteresowanie sportem mam we krwi.\nGłównie #skijumpingfamily, czasem inne sporty zimowe",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 249,
+        "friends_count": 140,
+        "listed_count": 3,
+        "created_at": "Sun Feb 26 12:59:45 +0000 2017",
+        "favourites_count": 8081,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 972,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/942386983313330176/rx0uyW-s_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/942386983313330176/rx0uyW-s_normal.jpg",
+        "profile_link_color": "FC0000",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 3,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Thu Dec 19 23:34:08 +0000 2019",
+      "id": 1207806349033255000,
+      "id_str": "1207806349033254912",
+      "text": "RT @re_Natka08: @D_Tarczynski Jakaś chora moda na permanentne ordynarnie brwi, w usta botoks czy inny syf i wyglądają jak krzyżówka Kleopat…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "re_Natka08",
+            "name": "Pani Renatka 🚜🇵🇱👩‍👩‍👧‍👦✝",
+            "id": 1204819732022599700,
+            "id_str": "1204819732022599681",
+            "indices": [
+              3,
+              14
+            ]
+          },
+          {
+            "screen_name": "D_Tarczynski",
+            "name": "TARCZYŃSKI Dominik",
+            "id": 347228796,
+            "id_str": "347228796",
+            "indices": [
+              16,
+              29
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2435348095,
+        "id_str": "2435348095",
+        "name": "Sylwia Gozdz",
+        "screen_name": "SylwiaGozdz",
+        "location": "",
+        "description": "Kto szuka Mądrości, znajdzie ją łatwo.  PRAWO-UWr. Prawo Karne Materialne i Procesowe - UJ.   Doktor nauk prawnych.  Katolik. Konserwatysta. Karnista.",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 127,
+        "friends_count": 178,
+        "listed_count": 2,
+        "created_at": "Wed Apr 09 11:53:53 +0000 2014",
+        "favourites_count": 5297,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 5635,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1201152248094568448/EZy8LUWQ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1201152248094568448/EZy8LUWQ_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/2435348095/1501189498",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Thu Dec 19 20:56:42 +0000 2019",
+        "id": 1207766729293783000,
+        "id_str": "1207766729293783040",
+        "text": "@D_Tarczynski Jakaś chora moda na permanentne ordynarnie brwi, w usta botoks czy inny syf i wyglądają jak krzyżówka… https://t.co/04rjBfDWCF",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [
+            {
+              "screen_name": "D_Tarczynski",
+              "name": "TARCZYŃSKI Dominik",
+              "id": 347228796,
+              "id_str": "347228796",
+              "indices": [
+                0,
+                13
+              ]
+            }
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/04rjBfDWCF",
+              "expanded_url": "https://twitter.com/i/web/status/1207766729293783040",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "pl",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": 1207734375309303800,
+        "in_reply_to_status_id_str": "1207734375309303810",
+        "in_reply_to_user_id": 347228796,
+        "in_reply_to_user_id_str": "347228796",
+        "in_reply_to_screen_name": "D_Tarczynski",
+        "user": {
+          "id": 1204819732022599700,
+          "id_str": "1204819732022599681",
+          "name": "Pani Renatka 🚜🇵🇱👩‍👩‍👧‍👦✝",
+          "screen_name": "re_Natka08",
+          "location": "Wielka Polska 🇵🇱✝",
+          "description": "Ciemnogród",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 2818,
+          "friends_count": 1717,
+          "listed_count": 0,
+          "created_at": "Wed Dec 11 17:46:42 +0000 2019",
+          "favourites_count": 3178,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 475,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1205449648732868611/1GYqBUTa_normal.png",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1205449648732868611/1GYqBUTa_normal.png",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/1204819732022599681/1576219591",
+          "profile_link_color": "106F70",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 4,
+        "favorite_count": 23,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pl"
+      },
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Thu Dec 19 22:49:47 +0000 2019",
+      "id": 1207795189714182100,
+      "id_str": "1207795189714182144",
+      "text": "Co to za moda nastała u was w kraju .. ( nie wiem kto to jest ? ) te ogolone łby 🤮.. co to ma być ten styl kretyńsk… https://t.co/TLZPKVTGp2",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/TLZPKVTGp2",
+            "expanded_url": "https://twitter.com/i/web/status/1207795189714182144",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1109663574861987800,
+        "id_str": "1109663574861987840",
+        "name": "magdziu@magdziu",
+        "screen_name": "magdziumagdziu1",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 122,
+        "friends_count": 145,
+        "listed_count": 0,
+        "created_at": "Sun Mar 24 03:49:47 +0000 2019",
+        "favourites_count": 11765,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 4831,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1136810791515099136/AAcr5qOu_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1136810791515099136/AAcr5qOu_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1109663574861987840/1553419345",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "pl"
+    },
+    {
+      "created_at": "Thu Dec 19 22:35:32 +0000 2019",
+      "id": 1207791601155788800,
+      "id_str": "1207791601155788800",
+      "text": "Domowa moda rządzi się własnymi prawami ✌️ https://t.co/6OH30vTvi7",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [],
+        "media": [
+          {
+            "id": 1207791581492908000,
+            "id_str": "1207791581492908032",
+            "indices": [
+              43,
+              66
+            ],
+            "media_url": "http://pbs.twimg.com/media/EMLwC1GXkAAw51J.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/EMLwC1GXkAAw51J.jpg",
+            "url": "https://t.co/6OH30vTvi7",
+            "display_url": "pic.twitter.com/6OH30vTvi7",
+            "expanded_url": "https://twitter.com/xxcziczi/status/1207791601155788800/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 680,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 2048,
+                "h": 2048,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1207791581492908000,
+            "id_str": "1207791581492908032",
+            "indices": [
+              43,
+              66
+            ],
+            "media_url": "http://pbs.twimg.com/media/EMLwC1GXkAAw51J.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/EMLwC1GXkAAw51J.jpg",
+            "url": "https://t.co/6OH30vTvi7",
+            "display_url": "pic.twitter.com/6OH30vTvi7",
+            "expanded_url": "https://twitter.com/xxcziczi/status/1207791601155788800/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 680,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 2048,
+                "h": 2048,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "pl",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 935031746,
+        "id_str": "935031746",
+        "name": "Bożna 🌊~",
+        "screen_name": "xxcziczi",
+        "location": "부산",
+        "description": "It’s not your job to be likable. It’s your job to be yourself. Someone will like you anyway.",
+        "url": "https://t.co/fIWnDIvRnJ",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/fIWnDIvRnJ",
+                "expanded_url": "https://instagram.com/_dong_ii",
+                "display_url": "instagram.com/_dong_ii",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 530,
+        "friends_count": 468,
+        "listed_count": 9,
+        "created_at": "Thu Nov 08 17:40:17 +0000 2012",
+        "favourites_count": 14186,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 36546,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "FFECF5",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+        "profile_background_tile": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1207535874415693824/PmdvzFld_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1207535874415693824/PmdvzFld_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/935031746/1538835160",
+        "profile_link_color": "B40000",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "F6F6F6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 3,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "pl"
     }
   ],
   "search_metadata": {
-    "completed_in": 0.054,
-    "max_id": 1207948427755176000,
-    "max_id_str": "1207948427755175936",
-    "next_results": "?max_id=1207945799230988287&q=warszawa&lang=pl&include_entities=1",
-    "query": "warszawa",
-    "refresh_url": "?since_id=1207948427755175936&q=warszawa&lang=pl&include_entities=1",
+    "completed_in": 0.056,
+    "max_id": 1207931452303839200,
+    "max_id_str": "1207931452303839237",
+    "next_results": "?max_id=1207791601155788799&q=moda&lang=pl&include_entities=1",
+    "query": "moda",
+    "refresh_url": "?since_id=1207931452303839237&q=moda&lang=pl&include_entities=1",
     "count": 15,
     "since_id": 0,
     "since_id_str": "0"
