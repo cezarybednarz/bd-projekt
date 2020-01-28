@@ -1,13 +1,5 @@
-CREATE OR REPLACE PROCEDURE greetings 
-AS 
-BEGIN 
-   dbms_output.put_line('Hello World!'); 
-END; 
-/
-
-CREATE OR REPLACE PROCEDURE upload_json
-AS
+CREATE OR REPLACE FUNCTION parse_json(char_json IN VARCHAR2) IS
+  json JSON_OBJECT_T;
 BEGIN
-  dbms_output.put_line('xddd');
-END;
-/
+  json := JSON_OBJECT_T.parse(char_json);
+  
