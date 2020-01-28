@@ -71,7 +71,7 @@ ALTER TABLE URL ADD CONSTRAINT URL_Tweet
     REFERENCES Tweet (id);
     
     
-/*
+
 ------------- testowanie ----------------------
 DROP TABLE test CASCADE CONSTRAINTS;
 CREATE TABLE test (
@@ -103,7 +103,7 @@ COMMIT WORK;
 
 
 ------------ koniec testowania ----------------
-*/
+
 
 
 
