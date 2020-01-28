@@ -17,7 +17,7 @@ INSERT INTO json_documents (id, ts, data)
 VALUES (SYS_GUID(), systimestamp,
         ' {
       "created_at": "Fri Dec 20 07:51:15 +0000 2019",
-      "id": 1207931452303839200,
+      "id": 1207931452303839200
       }');
 
 
