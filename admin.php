@@ -76,25 +76,21 @@ th {
     $data = json_decode($tweetjson);
     
     foreach($data->statuses as $tweet) {
+      $usr = $tweet->user;
       
-      echo $tweet->id;
-      echo "</br>";
-      /*
-      echo $data['search_metadata']['query'];
-      echo "<p>" . $data['statuses'][0] . " XDDD</p>";
-      $stmt = oci_parse($conn, "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (". $usr['id'] .","
-                                  . $usr['name'].","
-                                  . $usr['screen_name'].","
-                                  . $usr['location'].","
-                                  . $usr['description'].","
-                                  . $usr['followers_count'].","
-                                  . $usr['friends_count'].","
-                                  . $usr['favourites_count'].");");
+      $stmt = oci_parse($conn, "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (". $usr->id .","
+                                  . $usr->name.","
+                                  . $usr->screen_name.","
+                                  . $usr->location.","
+                                  . $usr->description.","
+                                  . $usr->followers_count.","
+                                  . $usr->friends_count.","
+                                  . $usr->favourites_count.");");
       if(!oci_execute($stmt, OCI_NO_AUTO_COMMIT)) {
-        echo "ERROR! tweet " . $i . " already exists in database, skipping</br>";
+        echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
       }    
       oci_commit($conn);  
-      */
+      
     }
     
   }
