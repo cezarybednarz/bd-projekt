@@ -27,14 +27,14 @@ th {
 </head>
 
 <HEAD>
-    <TITLE> Tweet <?PHP echo $_GET['ID'] ?> </TITLE>
+    <TITLE> Tweet <?PHP echo $_GET['id']; ?> </TITLE>
 </HEAD>
 
 <BODY>
 
 <center>
 
-<h2> Lista tweetów </h2>
+<h2> Tweet <?PHP echo $_GET['id']; ?> </h2>
 
 <center><a href="index.html">wróć do strony głównej</a></br>
 
