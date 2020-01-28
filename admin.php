@@ -58,10 +58,11 @@ th {
     echo $e['message'];
   }
   
-  echo '        <form action="dodajdruzyne2.php" method="post"> 
-            Nazwa drużyny : <input type="text" name="teamName" size="40" length="40" value="Nazwa druzyny"><BR> 
-            <input type="submit" name="submit" value="Zatwierd"> 
-            <input type="reset" name="reset" value="Wyczyć"> 
+  echo '<form action="admin.php" method="get"> 
+        adres pliku json (np. "json_files/Moda.json"): 
+        <input type="text" name="teamName" size="40" length="40" value="adres"><BR> 
+        <input type="submit" name="submit" value="Zatwierdź"> 
+        <input type="reset" name="reset" value="Wyczyść"> 
         </form> ';
   
   
