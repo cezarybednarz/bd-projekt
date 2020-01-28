@@ -80,6 +80,7 @@ th {
       
       echo $key;
       echo $val;
+      echo data['statuses'][$key];
       
       echo $data['search_metadata']['query'];
       echo "<p>" . $data['statuses'][0] . " XDDD</p>";
