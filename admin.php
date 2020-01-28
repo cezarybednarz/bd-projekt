@@ -78,6 +78,7 @@ th {
     foreach($data->statuses as $tweet) {
       
       echo $tweet->id;
+      echo "</br>";
       /*
       echo $data['search_metadata']['query'];
       echo "<p>" . $data['statuses'][0] . " XDDD</p>";
