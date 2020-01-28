@@ -110,8 +110,7 @@ th {
       echo "</tr>";
     }
     // jesli modyfikujemy to
-    echo "xd";
-    oci_commit($conn);
+    //oci_commit($conn);
   ?>
 </table>
 </center>
