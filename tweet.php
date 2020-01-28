@@ -64,7 +64,7 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
   
-  echo $row['TEXT'];
+  echo "<b>text: </b>" . $row['TEXT'] . "</br>";
   
 ?>
 
