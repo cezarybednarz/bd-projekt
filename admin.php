@@ -79,7 +79,8 @@ th {
       $tweet = $data['statuses'][i];
       $usr   = $tweet['user'];
       
-      echo "<p>" . $data['statuses'][0] . "XDDD</p>";
+      echo $data['search_metadata']['query'];
+      echo "<p>" . $data['statuses'][0] . " XDDD</p>";
       $stmt = oci_parse($conn, "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (". $usr['id'] .","
                                   . $usr['name'].","
                                   . $usr['screen_name'].","
