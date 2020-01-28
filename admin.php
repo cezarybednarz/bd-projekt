@@ -78,6 +78,7 @@ th {
     echo count($data['statuses']);
     
     for($i = 0; $i < count($data['statuses']); $i++) {
+      echo "xd";
       echo $data['statuses'][i];
     }
     
