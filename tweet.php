@@ -36,7 +36,7 @@ th {
 
 <h2> Tweet <?PHP echo $_GET['id']; ?> </h2>
 
-<center><a href="/public_html/bd-projket">wróć do strony głównej</a></br>
+<center><a href="~/bd-projkekt">wróć do strony głównej</a></br>
 
 <center><a href="javascript:history.back()">wróć do poprzedniej strony</a></br>
 
