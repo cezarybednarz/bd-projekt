@@ -68,12 +68,16 @@ th {
   
   if(isset($_GET['adres'])) {
     $tweetjson = file_get_contents($_GET['adres']);
+    
     if($tweetjson === false) {
       echo "wrong file name";
     }
+    
     $data = json_decode($tweetjson, true);
     
-    echo $data['statuses'];
+    for(int i = 0; i < count($data['statuses']); i++) {
+      echo $data['statuses'][i];
+    }
     
     
   }
