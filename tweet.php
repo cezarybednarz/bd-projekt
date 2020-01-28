@@ -64,7 +64,18 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
   
+  echo "<b>user_id: </b>" . $row['USER_ID'] . "</br>";
   echo "<b>text: </b>" . $row['TEXT'] . "</br>";
+  echo "<b>retweeted: </b>" . $row['RETWEETED'] . "</br>";
+  echo "<b>favourite_count: </b>" . $row['FAVOURITE_COUNT'] . "</br>";
+  echo "<b>retweet_count: </b>" . $row['RETWEET_COUNT'] . "</br>";
+  echo "<b>reply_count: </b>" . $row['REPLY_COUNT'] . "</br>";
+  echo "<b>query: </b>" . $row['QUERY'] . "</br>";
+  
+  echo "<b>hashtags: </b>";
+  
+  echo "<b>URLs: </b>";
+  
   
 ?>
 
