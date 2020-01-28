@@ -62,7 +62,7 @@ th {
             Nazwa drużyny : <input type="text" name="teamName" size="40" length="40" value="Nazwa druzyny"><BR> 
             <input type="submit" name="submit" value="Zatwierd"> 
             <input type="reset" name="reset" value="Wyczyć"> 
-        </form> ';}
+        </form> ';
   
   
   
