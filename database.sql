@@ -75,7 +75,7 @@ ALTER TABLE URL ADD CONSTRAINT URL_Tweet
 ------------- testowanie ----------------------
 DROP TABLE test CASCADE CONSTRAINTS;
 CREATE TABLE test (
-    id integer NOT NULL,
+    id integer NOT NULL ,
     val_a integer,
     val_b integer
 ) ;
