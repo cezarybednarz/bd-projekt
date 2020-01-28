@@ -75,7 +75,7 @@ th {
     
     $data = json_decode($tweetjson, true);
     
-    foreach($data['statuses'] as $tweet) {
+    foreach($data['statuses'] as &$tweet) {
       $usr   = $tweet['user'];
       
       echo $tweet;
