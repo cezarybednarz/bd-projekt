@@ -36,6 +36,10 @@ th {
 
 <h2> Lista użytkowników </h2>
 
+<center><a href="index.html">wróć do strony głównej</a></br>
+
+<center><a href="javascript:history.back()">wróć do poprzedniej strony</a></br>
+
 
 <?PHP
 
@@ -112,8 +116,6 @@ th {
   ?>
 </table>
 </center>
-
-<center><br><a href="javascript:history.back()">wróć do poprzedniej strony</a>
 
 </BODY>
 </HTML>
