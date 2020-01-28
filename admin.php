@@ -78,7 +78,7 @@ th {
     foreach($data->statuses as $tweet) {
       $usr = $tweet->user;
       
-      $sql_cmd = "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES(". $usr->id .","
+      /*$sql_cmd = "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES(". $usr->id .","
                         ."'". addslashes($usr->name)."',"
                         ."'". addslashes($usr->screen_name)."',"
                         ."'". addslashes($usr->location)."',"
@@ -86,7 +86,8 @@ th {
                         . $usr->followers_count.","
                         . $usr->friends_count.","
                         . $usr->favourites_count.");";
-      echo $sql_cmd . "</br>";                                  
+      */
+      $sql_cmd = "select * from usr";                                                 
       $stmt = oci_parse($conn, $sql_cmd);
       if(!oci_execute($stmt, OCI_NO_AUTO_COMMIT)) {
         echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
