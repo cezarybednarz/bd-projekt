@@ -58,11 +58,23 @@ th {
     echo $e['message'];
   }
   
+  
+  
   echo '<form action="admin.php" method="get"> 
-        adres pliku json (np. "json_files/Moda.json"):</br>
+        Adres pliku json do dodania (np. "json_files/Moda.json"):</br>
         <input type="text" name="adres" size="40" length="40" value=""><BR> 
         <input type="submit" name="" value="Zatwierdź"> 
         </form> ';
+  
+  if(isset($_GET['adres'])) {
+    $tweetjson = file_get_contents($_GET['adres']);
+    $data = json_decode($tweetjson, true);
+    
+    echo $data['statuses'];
+    
+    
+  }
+  
   
   
   
