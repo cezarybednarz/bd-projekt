@@ -58,10 +58,13 @@ th {
     echo $e['message'];
   }
   
-  echo "</b></b></b>";
-  echo "xddd";
-      
+  // wypisywanie danych z tweeta:
   
+  $stmt = oci_parse($conn, "SELECT * FROM tweet WHERE ID=" . $_GET['id']);
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  
+  echo $row['TEXT'];
   
 ?>
 
