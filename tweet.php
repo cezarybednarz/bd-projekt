@@ -85,7 +85,7 @@ th {
   $url = oci_parse($conn, "SELECT url FROM url WHERE TWEET_ID=" . $_GET['id']);
   oci_execute($url, OCI_NO_AUTO_COMMIT);
   while (($url_row = oci_fetch_array($url, OCI_BOTH))) {
-    echo $url_row['HASHTAG'] . "</br>";
+    echo $url_row['URL'] . "</br>";
   }
   
 ?>
