@@ -62,14 +62,14 @@ th {
   <a href="user_table.php?direction=asc&column=id">rosnąco </a>/
   <a href="user_table.php?direction=desc&column=id">malejąco </a></p>
   <p>followers
-  <a href="user_table.php?direction=asc&column=favourite_count">rosnąco </a>/
-  <a href="user_table.php?direction=desc&column=favourite_count">malejąco </a></p>
+  <a href="user_table.php?direction=asc&column=followers">rosnąco </a>/
+  <a href="user_table.php?direction=desc&column=followers">malejąco </a></p>
   <p>friends
-  <a href="user_table.php?direction=asc&column=retweet_count">rosnąco </a>/
-  <a href="user_table.php?direction=desc&column=retweet_count">malejąco </a></p>
+  <a href="user_table.php?direction=asc&column=friends">rosnąco </a>/
+  <a href="user_table.php?direction=desc&column=friends">malejąco </a></p>
   <p>statuses
-  <a href="user_table.php?direction=asc&column=reply_count">rosnąco </a>/
-  <a href="user_table.php?direction=desc&column=reply_count">malejąco </a></p>
+  <a href="user_table.php?direction=asc&column=statuses_count">rosnąco </a>/
+  <a href="user_table.php?direction=desc&column=statuses_count">malejąco </a></p>
 
 </center>
 
