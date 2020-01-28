@@ -75,10 +75,11 @@ th {
     
     $data = json_decode($tweetjson, true);
     
-    foreach($data['statuses'] as &$tweet) {
+    foreach($data['statuses'] as $key => $val) {
       $usr   = $tweet['user'];
       
-      echo $tweet;
+      echo $key;
+      echo $val;
       
       echo $data['search_metadata']['query'];
       echo "<p>" . $data['statuses'][0] . " XDDD</p>";
