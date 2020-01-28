@@ -87,11 +87,15 @@ th {
                         . $usr->friends_count.","
                         . $usr->favourites_count.");";
       */
-      $sql_cmd = "select * from usr";                                                 
+      $sql_cmd = "select * from usr";             
+      echo $sql_cmd . "</br>";                                    
       $stmt = oci_parse($conn, $sql_cmd);
       if(!oci_execute($stmt, OCI_NO_AUTO_COMMIT)) {
         echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
-      }    
+      }
+      else {
+        echo "sukces!\n";
+      }
       oci_commit($conn);  
       
     }
