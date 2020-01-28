@@ -88,6 +88,8 @@ th {
                         . $usr->favourites_count.");";
       */
       $sql_cmd = "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES  (123, 'Adam', 'adas', 'Warszawa', 'siema lubie costam', 3100, 24, 10101);";
+      
+      $sql_cmd = addslashes($sql_cmd);
       $stmt = oci_parse($conn, $sql_cmd);
       if(!oci_execute($stmt)) {
         //echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
