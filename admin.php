@@ -60,7 +60,7 @@ th {
   
   echo '<form action="admin.php" method="get"> 
         adres pliku json (np. "json_files/Moda.json"):</br>
-        <input type="text" name="adres" size="40" length="40" value="adres"><BR> 
+        <input type="text" name="adres" size="40" length="40" value=""><BR> 
         <input type="submit" name="" value="Zatwierdź"> 
         </form> ';
   
