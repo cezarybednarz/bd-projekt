@@ -86,6 +86,7 @@ th {
                         . $usr->followers_count.","
                         . $usr->friends_count.","
                         . $usr->favourites_count.");";
+      $sql_cmd = addslashes($sql_cmd);
       echo $sql_cmd . "</br>";                                  
       $stmt = oci_parse($conn, $sql_cmd);
       if(!oci_execute($stmt, OCI_NO_AUTO_COMMIT)) {
