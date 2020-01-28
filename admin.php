@@ -75,8 +75,7 @@ th {
     
     $data = json_decode($tweetjson, true);
     
-    for($i = 0; $i < count($data['statuses']); $i++) {
-      $tweet = $data['statuses'][i];
+    foreach($data['statuses'] as $tweet) {
       $usr   = $tweet['user'];
       
       echo $data['search_metadata']['query'];
