@@ -91,6 +91,7 @@ th {
       $stmt = oci_parse($conn, $sql_cmd);
       if(!oci_execute($stmt)) {
         echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
+        echo oci_error() . " error</br>";
       }
       else {
         echo "sukces!\n";
