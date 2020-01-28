@@ -78,11 +78,11 @@ th {
     <th>id</th>
     <th width="50%">text</th>
     <th>user_id</th>
-    <th>query</th>
     <th>retweeted</th>
     <th>favourites</th>
     <th>retweets</th>
     <th>replies</th>
+    <th><i>query</i></th>
   </tr>
   <?PHP
     $column = "ID";
