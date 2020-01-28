@@ -82,7 +82,7 @@ th {
     <th>favourites</th>
     <th>retweets</th>
     <th>replies</th>
-    <th><i>query</i></th>
+    <th>query</th>
   </tr>
   <?PHP
     $column = "ID";
@@ -106,11 +106,11 @@ th {
       echo "<td>" . $row['FAVOURITE_COUNT'] . "</td>";
       echo "<td>" . $row['RETWEET_COUNT'] . "</td>";
       echo "<td>" . $row['REPLY_COUNT'] . "</td>";
-      echo "<td>" . $row['QUERY'] . "</td>";
+      echo "<td><i>" . $row['QUERY'] . "</i></td>";
       echo "</tr>";
     }
-    // jesli modyfikujemy to
-    //oci_rollback($conn);
+    //jesli modyfikujemy to
+    //oci_commit($conn);
   ?>
 </table>
 </center>
