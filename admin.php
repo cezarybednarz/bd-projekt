@@ -78,8 +78,6 @@ th {
     foreach($data['statuses'] as $key => $val) {
       $usr   = $tweet['user'];
       
-      echo $key;
-      echo $val;
       echo data['statuses'][$key]['id'];
       
       echo $data['search_metadata']['query'];
