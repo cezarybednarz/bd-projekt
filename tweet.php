@@ -88,6 +88,14 @@ th {
     echo $url_row['URL'] . "</br>";
   }
   
+  echo "<b>Mentions: </b></br>";
+  
+  $ment = oci_parse($conn, "SELECT user_id FROM mention WHERE TWEET_ID=" . $_GET['id']);
+  oci_execute($ment, OCI_NO_AUTO_COMMIT);
+  while (($ment_row = oci_fetch_array($ment, OCI_BOTH))) {
+    echo $ment_row['USER_ID'] . "</br>";
+  }
+  
 ?>
 
 
