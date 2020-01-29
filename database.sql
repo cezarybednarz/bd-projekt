@@ -6,12 +6,12 @@ DROP TABLE Usr CASCADE CONSTRAINTS;
 
 CREATE TABLE Hashtag (
     Tweet_id integer  NOT NULL,
-    hashtag varchar2(256)  NOT NULL,
+    hashtag varchar2(256)  NOT NULL
 ) ;
 
 CREATE TABLE Mention (
     Tweet_id integer  NOT NULL,
-    User_id integer  NOT NULL,
+    User_id integer  NOT NULL
 ) ;
 
 CREATE TABLE Tweet (
@@ -26,7 +26,7 @@ CREATE TABLE Tweet (
 
 CREATE TABLE URL (
     Tweet_id integer  NOT NULL,
-    URL varchar2(256)  NOT NULL,
+    URL varchar2(256)  NOT NULL
 ) ;
 
 CREATE TABLE Usr (
