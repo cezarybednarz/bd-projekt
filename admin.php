@@ -283,9 +283,17 @@ th {
   $stmt = oci_parse($conn, "SELECT hashtag, COUNT(hashtag) as ile FROM hashtag GROUP BY hashtag ORDER BY ile DESC");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
-  echo "<b>najeczęściej wystepujący hashtag: (@): </b><i>#" . $row[0] . "</i> (" . $row[1] . " wystąpienia)</br>";
+  echo "<b>najeczęściej wystepujący hashtag: </b><i>#" . $row[0] . "</i> (" . $row[1] . " wystąpienia)</br>";
   
+    $stmt = oci_parse($conn, "SELECT url, COUNT(url) as ile FROM url GROUP BY url ORDER BY ile DESC");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>najeczęściej wystepujący URL: </b><i>" . $row[0] . "</i> (" . $row[1] . " wystąpienia)</br>";
   
+    $stmt = oci_parse($conn, "SELECT user_id, COUNT(user_id) as ile FROM mention GROUP BY user_id ORDER BY ile DESC");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>najeczęściej wystepujący mention: </b><i>@" . $row[0] . "</i> (" . $row[1] . " wystąpienia)</br>";
   
 ?>
 </table>
