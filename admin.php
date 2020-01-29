@@ -238,7 +238,7 @@ th {
   
   echo "<h3> Statystyki: </h3>";
   
-  $stmt = oci_parse($conn, "SELECT query, count(query) AS ile FROM tweet GROUP BY hashtag ORDER BY ile DESC");
+  $stmt = oci_parse($conn, "SELECT query, count(query) AS ile FROM tweet GROUP BY query ORDER BY ile DESC");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   echo "<b>zapytania z załadowanych plików: </b>";
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
