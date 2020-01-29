@@ -109,7 +109,7 @@ th {
       oci_bind_by_name($stmt, ':id', $tweet->id);
       oci_bind_by_name($stmt, ':user_id', $usr->id);
       oci_bind_by_name($stmt, ':text', $tweet->text);
-      oci_bind_by_name($stmt, ':retweeted', 0);
+      oci_bind_by_name($stmt, ':retweeted', true);
       oci_bind_by_name($stmt, ':favourite_count', $tweet->favourite_count);
       oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
       oci_bind_by_name($stmt, ':reply_count', $tweet->reply_count);
