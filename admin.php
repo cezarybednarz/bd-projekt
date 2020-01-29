@@ -240,7 +240,7 @@ th {
   
   $stmt = oci_parse($conn, "SELECT query, count(query) AS ile FROM tweet GROUP BY query ORDER BY ile DESC");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  echo "<b>tweety z zapytaniami z załadowanych plików: </b></br>";
+  echo "<b>Zapytania z załadowanych plików: </b></br>";
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
     echo "<i>" . $row[0] . "</i> (" . $row[1] . ")</br>";
   }
