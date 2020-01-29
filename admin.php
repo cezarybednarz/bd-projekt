@@ -78,16 +78,14 @@ th {
     foreach($data->statuses as $tweet) {
       $usr = $tweet->user;
       
-      $sql_cmd = 'INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES ('. $usr->id .","
-                        ."''". addslashes($usr->name)."'',"
-                        ."''". addslashes($usr->screen_name)."'',"
-                        ."''". addslashes($usr->location)."'',"
-                        ."''". addslashes($usr->description)."'',"
-                        . $usr->followers_count.","
-                        . $usr->friends_count.","
-                        . $usr->favourites_count.");";
+      $sql_cmd = "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (:id, :name, :screen_name, :location, :description, :followers, :friends, :statuses_count)");
+      
       
       $stmt = oci_parse($conn, $sql_cmd);
+      
+      oci_bind_by_name($stmt, ':id', $usr->id);
+      
+      
       if(!oci_execute($stmt)) {
         //echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
         print_r(oci_error($stmt));
