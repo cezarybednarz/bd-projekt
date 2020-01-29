@@ -198,10 +198,20 @@ th {
     // dodawanie userów
     foreach($data->statuses as $tweet) {
       
-      $sql_cmd = "DELETE FROM tweet WHERE id = :my_id";
-      
+      $sql_cmd = "DELETE FROM hashtag WHERE tweet_id = :my_id";
       $stmt = oci_parse($conn, $sql_cmd);
+      oci_bind_by_name($stmt, ':my_id', $tweet->id);
       
+      $sql_cmd = "DELETE FROM url WHERE tweet_id = :my_id";
+      $stmt = oci_parse($conn, $sql_cmd);
+      oci_bind_by_name($stmt, ':my_id', $tweet->id);
+      
+      $sql_cmd = "DELETE FROM mention WHERE tweet_id = :my_id";
+      $stmt = oci_parse($conn, $sql_cmd);
+      oci_bind_by_name($stmt, ':my_id', $tweet->id);
+      
+      $sql_cmd = "DELETE FROM tweet WHERE id = :my_id";
+      $stmt = oci_parse($conn, $sql_cmd);
       oci_bind_by_name($stmt, ':my_id', $tweet->id);
       
       if(!oci_execute($stmt)) {
