@@ -240,7 +240,7 @@ th {
   
   $stmt = oci_parse($conn, "SELECT COUNT(*) FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  $row = oci_fetch_array($stmt, OCI_BOTH)
+  $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane tweety:</b>" . $row[0] . "</br>";
   
   
