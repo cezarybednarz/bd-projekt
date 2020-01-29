@@ -245,7 +245,6 @@ th {
   
   $stmt = oci_parse($conn, "SELECT DISTINCT query FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>zapytania z załadowanych plików: </b></br>";
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
     echo "<i>" . $row[0] . "</i></br>";
