@@ -23,7 +23,6 @@ CREATE TABLE Tweet (
     id integer  NOT NULL,
     user_id integer  NOT NULL,
     text varchar2(256)  NOT NULL,
-    retweeted number(1)  NULL,
     favourite_count integer  NOT NULL,
     retweet_count integer  NOT NULL,
     reply_count integer  NOT NULL,
@@ -96,10 +95,10 @@ COMMIT WORK;
 INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES  (1111, 'Kacper', 'kkkacper', 'Warszawa', 'EIII', 333300, 233334, 10333101);
 COMMIT WORK;
 
-INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) VALUES (1, 1, 'hejka xD', 0, 410, 787, 334, 'animals');
+INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, reply_count, query) VALUES (1, 1, 'hejka xD', 410, 787, 334, 'animals');
 COMMIT WORK;
 
-INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) VALUES (2, 1111, 'elooooooooo elooooooo elooooo', 1, 4, 7, 3, 'animals');
+INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, reply_count, query) VALUES (2, 1111, 'elooooooooo elooooooo elooooo', 4, 7, 3, 'animals');
 COMMIT WORK;
 
 INSERT INTO hashtag (tweet_id, hashtag, id) VALUES (1, '#costam', 2);
