@@ -71,7 +71,7 @@ th {
   echo "<b>description: </b>" . $row['DESCRIPTION'] . "</br>";
   echo "<b>followers: </b>" . $row['FOLLOWERS'] . "</br>";
   echo "<b>friends: </b>" . $row['FRIENDS'] . "</br>";
-  echo "<b>statuses_count: </b>" . $row['STATUSES_COUNT'] . "/br";
+  echo "<b>statuses_count: </b>" . $row['STATUSES_COUNT'] . "</br>";
   
   
 ?>
