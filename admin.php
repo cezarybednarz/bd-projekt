@@ -255,25 +255,25 @@ th {
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane hashtagi: </b>" . $row[0] . "</br>";
   
-  $stmt = oci_parse($conn, "SELECT COUNT(DISTINCT hashtag) FROM hashtag");
-  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  $row = oci_fetch_array($stmt, OCI_BOTH);
-  echo "<b>załadowane unikalne hashtagi: </b>" . $row[0] . "</br>";
-  
   $stmt = oci_parse($conn, "SELECT COUNT(*) FROM url");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane URLe: </b>" . $row[0] . "</br>";
   
-  $stmt = oci_parse($conn, "SELECT COUNT(DISTINCT url) FROM url");
-  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  $row = oci_fetch_array($stmt, OCI_BOTH);
-  echo "<b>załadowane unikalne URLe: </b>" . $row[0] . "</br>";
-  
   $stmt = oci_parse($conn, "SELECT COUNT(*) FROM mention");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane mentiony (@): </b>" . $row[0] . "</br>";
+  
+  $stmt = oci_parse($conn, "SELECT COUNT(DISTINCT hashtag) FROM hashtag");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>załadowane unikalne hashtagi: </b>" . $row[0] . "</br>";
+  
+  $stmt = oci_parse($conn, "SELECT COUNT(DISTINCT url) FROM url");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>załadowane unikalne URLe: </b>" . $row[0] . "</br>";
   
   $stmt = oci_parse($conn, "SELECT COUNT(DISTINCT user_id) FROM mention");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
