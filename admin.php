@@ -248,7 +248,7 @@ th {
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane hashtagi: </b>" . $row[0] . "</br>";
   
-  $stmt = oci_parse($conn, "SELECT DISTINCT COUNT(hashtag) FROM hashtag");
+  $stmt = oci_parse($conn, "SELECT COUNT(DISTINCT hashtag) FROM hashtag");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane unikalne hashtagi: </b>" . $row[0] . "</br>";
