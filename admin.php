@@ -238,7 +238,7 @@ th {
   
   echo "<h3> Statystyki: </h3>";
   
-  $stmt = oci_parse($conn, "SELECT DISTINCT query FROM tweet");
+  $stmt = oci_parse($conn, "SELECT query, count(query) AS ile FROM tweet GROUP BY ile ORDER BY ile DESC");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   echo "<b>zapytania z załadowanych plików: </b>";
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
