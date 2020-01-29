@@ -102,7 +102,7 @@ th {
       
       // dodawanie Tweetów
       
-      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, reply_count, query) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query)";
+      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query)";
       
       $stmt = oci_parse($conn, $sql_cmd);
       
