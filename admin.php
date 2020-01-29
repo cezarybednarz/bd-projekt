@@ -157,7 +157,7 @@ th {
       // dodawanie mentionow
       
       foreach($tweet->entities->user_mentions as $mention) {
-        $sql_cmd = "INSERT INTO mention (tweet_id, mention) VALUES (:tweet_id, :mention)";
+        $sql_cmd = "INSERT INTO mention (tweet_id, user_id) VALUES (:tweet_id, :mention)";
         
         $stmt = oci_parse($conn, $sql_cmd);
         
