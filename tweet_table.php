@@ -85,7 +85,6 @@ th {
     <th>retweeted</th>
     <th>favourites</th>
     <th>retweets</th>
-    <th>replies</th>
     <th>query</th>
   </tr>
   <?PHP
@@ -106,13 +105,8 @@ th {
       echo "<td><a href='tweet.php/?id=" . $row['ID'] . "'>" . $row['ID'] . "</a></td>";
       echo "<td><small>" . $row['TEXT'] . "</small></td>";
       echo "<td><a href='user.php/?id=" . $row['USER_ID'] . "'>" . $row['USER_ID'] . "</a></td>";
-      if ($row['RETWEETED'])
-        echo "<td>yes</td>";
-      else
-        echo "<td>no</td>";
       echo "<td>" . $row['FAVOURITE_COUNT'] . "</td>";
       echo "<td>" . $row['RETWEET_COUNT'] . "</td>";
-      echo "<td>" . $row['REPLY_COUNT'] . "</td>";
       echo "<td><i>" . $row['QUERY'] . "</i></td>";
       echo "</tr>";
     }

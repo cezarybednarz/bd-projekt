@@ -25,7 +25,6 @@ CREATE TABLE Tweet (
     text varchar2(256)  NOT NULL,
     favourite_count integer  NOT NULL,
     retweet_count integer  NOT NULL,
-    reply_count integer  NOT NULL,
     query varchar2(256) NULL,
     CONSTRAINT Tweet_pk PRIMARY KEY (id)
 ) ;
@@ -70,7 +69,7 @@ ALTER TABLE URL ADD CONSTRAINT URL_Tweet
     REFERENCES Tweet (id);
     
     
-
+/*
 ------------- testowanie ----------------------
 DROP TABLE test CASCADE CONSTRAINTS;
 CREATE TABLE test (
@@ -118,6 +117,6 @@ COMMIT WORK;
 
 ------------ koniec testowania ----------------
 
-
+*/
 
 
