@@ -75,11 +75,12 @@ th {
     
     $data = json_decode($tweetjson);
     
+    
+    // dodawanie userów
     foreach($data->statuses as $tweet) {
       $usr = $tweet->user;
       
       $sql_cmd = "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (:id, :name, :screen_name, :location, :description, :followers, :friends, :statuses_count)";
-      
       
       $stmt = oci_parse($conn, $sql_cmd);
       
@@ -97,11 +98,31 @@ th {
         //print_r(oci_error($stmt));
       }
       oci_commit($conn);  
+      
+      
+      // dodawanie Tweetów
+      
+      $sql_cmd = "INSERT INTO tweet (id, user_id, text, retweeted, favourite_count, retweet_count, reply_count, query) VALUES (:id, :user_id, :text, :retweeted, :favourite_count, :retweet_count, :reply_count, :query)";
+      
+      $stmt = oci_parse($conn, $sql_cmd);
+      
+      oci_bind_by_name($stmt, ':id', $tweet->id);
+      oci_bind_by_name($stmt, ':user_id', $tweet->user_id);
+      oci_bind_by_name($stmt, ':text', $tweet->text);
+      oci_bind_by_name($stmt, ':retweeted', $tweet->retweeted);
+      oci_bind_by_name($stmt, ':favourite_count', $tweet->favourite_count);
+      oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
+      oci_bind_by_name($stmt, ':reply_count', $tweet->reply_count);
+      oci_bind_by_name($stmt, ':query', $tweet->query);
+      
+      if(!oci_execute($stmt)) {
+        echo "ERROR! tweet " . $tweet->id . " already exists in database, skipping</br>";
+        print_r(oci_error($stmt));
+      }
+      oci_commit($conn);  
     }
-    
   }
-  
-  
+    
   
   
 ?>
