@@ -201,19 +201,33 @@ th {
       $sql_cmd = "DELETE FROM hashtag WHERE tweet_id = :my_id";
       $stmt = oci_parse($conn, $sql_cmd);
       oci_bind_by_name($stmt, ':my_id', $tweet->id);
+      if(!oci_execute($stmt)) {
+        echo "ERROR! tweet " . $tweet->id . " doesn't exist in database, skipping</br>";
+        print_r(oci_error($stmt));
+      }
+      oci_commit($conn);  
       
       $sql_cmd = "DELETE FROM url WHERE tweet_id = :my_id";
       $stmt = oci_parse($conn, $sql_cmd);
       oci_bind_by_name($stmt, ':my_id', $tweet->id);
+      if(!oci_execute($stmt)) {
+        echo "ERROR! tweet " . $tweet->id . " doesn't exist in database, skipping</br>";
+        print_r(oci_error($stmt));
+      }
+      oci_commit($conn);  
       
       $sql_cmd = "DELETE FROM mention WHERE tweet_id = :my_id";
       $stmt = oci_parse($conn, $sql_cmd);
       oci_bind_by_name($stmt, ':my_id', $tweet->id);
+      if(!oci_execute($stmt)) {
+        echo "ERROR! tweet " . $tweet->id . " doesn't exist in database, skipping</br>";
+        print_r(oci_error($stmt));
+      }
+      oci_commit($conn);  
       
       $sql_cmd = "DELETE FROM tweet WHERE id = :my_id";
       $stmt = oci_parse($conn, $sql_cmd);
       oci_bind_by_name($stmt, ':my_id', $tweet->id);
-      
       if(!oci_execute($stmt)) {
         echo "ERROR! tweet " . $tweet->id . " doesn't exist in database, skipping</br>";
         print_r(oci_error($stmt));
