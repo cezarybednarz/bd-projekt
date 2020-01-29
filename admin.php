@@ -102,7 +102,7 @@ th {
       
       // dodawanie Tweetów
       
-      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, reply_count, query) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :reply_count, :query)";
+      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, reply_count, query) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query)";
       
       $stmt = oci_parse($conn, $sql_cmd);
       
@@ -111,7 +111,6 @@ th {
       oci_bind_by_name($stmt, ':text', $tweet->text);
       oci_bind_by_name($stmt, ':favourite_count', $tweet->favorite_count);
       oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
-      oci_bind_by_name($stmt, ':reply_count', $tweet->reply_count);
       oci_bind_by_name($stmt, ':query', $data->search_metadata->query);
       
       if(!oci_execute($stmt)) {
