@@ -238,6 +238,14 @@ th {
   
   echo "<h3> Statystyki: </h3>";
   
+  $stmt = oci_parse($conn, "SELECT DISTINCT query FROM tweet");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  echo "<b>zapytania z załadowanych plików: </b>";
+  while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
+    echo "<i>" . $row[0] . ",</i> ";
+  }
+  echo "</br>";
+  
   $stmt = oci_parse($conn, "SELECT COUNT(*) FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
@@ -273,15 +281,10 @@ th {
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane unikalne mentiony (@): </b>" . $row[0] . "</br>";
   
-  
-  $stmt = oci_parse($conn, "SELECT DISTINCT query FROM tweet");
+  $stmt = oci_parse($conn, "SELECT COUNT(hashtag) as ile FROM hashtag GROUP BY hashtag ORDER BY ile DESC");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  echo "<b>zapytania z załadowanych plików: </b>";
-  while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
-    echo "<i>" . $row[0] . ",</i> ";
-  }
-  echo "</br>";
-  
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>najeczesciej wystepujacy hashtag: (@): </b><i>#" . $row[0] . "</i></br>";
   
   
   
