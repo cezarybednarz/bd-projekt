@@ -88,9 +88,9 @@ th {
       oci_bind_by_name($stmt, ':screen_name', $usr->screen_name);
       oci_bind_by_name($stmt, ':location', $usr->location);
       oci_bind_by_name($stmt, ':description', $usr->description);
-      oci_bind_by_name($stmt, ':followers', $usr->followers);
-      oci_bind_by_name($stmt, ':friends', $usr->friends);
-      oci_bind_by_name($stmt, ':statuses_count', $usr->statuses_cound);
+      oci_bind_by_name($stmt, ':followers', $usr->followers_count);
+      oci_bind_by_name($stmt, ':friends', $usr->friends_count);
+      oci_bind_by_name($stmt, ':statuses_count', $usr->statuses_count);
       
       if(!oci_execute($stmt)) {
         //echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
@@ -98,7 +98,7 @@ th {
         echo "</br>";
       }
       else {
-        echo "sukces!\n";
+        echo "sukces!</br></br>";
       }
       oci_commit($conn);  
       
