@@ -70,7 +70,7 @@ th {
     $tweetjson = file_get_contents($_GET['adres']);
     
     if($tweetjson === false) {
-      echo "wrong file name";
+      echo "ERROR: Wrong file name";
     }
     
     $data = json_decode($tweetjson);
@@ -93,12 +93,11 @@ th {
       oci_bind_by_name($stmt, ':statuses_count', $usr->statuses_count);
       
       if(!oci_execute($stmt)) {
-        //echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
-        print_r(oci_error($stmt));
-        echo "</br>";
+        echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
+        //print_r(oci_error($stmt));
       }
       else {
-        echo "sukces!</br></br>";
+        echo "Success!</br>";
       }
       oci_commit($conn);  
       
