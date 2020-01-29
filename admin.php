@@ -73,7 +73,7 @@ th {
       echo "ERROR: Wrong file name";
     }
     
-    $data = json_decode($tweetjson, JSON_UNESCAPED_UNICODE);
+    $data = json_decode($tweetjson);
     
     
     // dodawanie userów
@@ -118,7 +118,29 @@ th {
         print_r(oci_error($stmt));
       }
       oci_commit($conn);  
-    }
+      
+       
+      // dodawanie Hashtagów  
+      
+      foreach($tweet->entities->hashtags as $hashtag) {
+        
+      }
+      
+      
+      // dodawanie URLi
+      
+      foreach($tweet->entities->hashtags as $hashtag) {
+      
+      
+      }
+      
+      // dodawanie Mentionow
+      
+      foreach($tweet->entities->hashtags as $hashtag) {
+      
+      
+      }
+     
   }
     
   

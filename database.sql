@@ -67,56 +67,5 @@ ALTER TABLE Tweet ADD CONSTRAINT Tweet_User
 ALTER TABLE URL ADD CONSTRAINT URL_Tweet
     FOREIGN KEY (Tweet_id)
     REFERENCES Tweet (id);
-    
-    
-/*
-------------- testowanie ----------------------
-DROP TABLE test CASCADE CONSTRAINTS;
-CREATE TABLE test (
-    id integer NOT NULL ,
-    val_a integer,
-    val_b integer
-) ;
-
-INSERT INTO test (id, val_a, val_b) VALUES (1, 2, 3);
-COMMIT WORK;
-INSERT INTO test (id, val_a, val_b) VALUES (2, 2, 2);
-COMMIT WORK;
-INSERT INTO test (id, val_a, val_b) VALUES (3, 3, 3);
-COMMIT WORK;
-INSERT INTO test (id, val_a, val_b) VALUES (10, 10, 1000);
-COMMIT WORK;
-
-
-INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES  (1, 'Adam', 'adas', 'Warszawa', 'siema lubie costam', 3100, 24, 10101);
-COMMIT WORK;
-
-INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES  (1111, 'Kacper', 'kkkacper', 'Warszawa', 'EIII', 333300, 233334, 10333101);
-COMMIT WORK;
-
-INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, reply_count, query) VALUES (1, 1, 'hejka xD', 410, 787, 334, 'animals');
-COMMIT WORK;
-
-INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, reply_count, query) VALUES (2, 1111, 'elooooooooo elooooooo elooooo', 4, 7, 3, 'animals');
-COMMIT WORK;
-
-INSERT INTO hashtag (tweet_id, hashtag, id) VALUES (1, '#costam', 2);
-COMMIT WORK;
-
-INSERT INTO hashtag (tweet_id, hashtag, id) VALUES (1, '#noniewiem', 7);
-COMMIT WORK;
-
-INSERT INTO hashtag (tweet_id, hashtag, id) VALUES (2, '#costam', 3);
-COMMIT WORK;
-
-INSERT INTO url (tweet_id, url, id) VALUES (1, 'https://aaaaaaaaaaa.a', 1);
-COMMIT WORK;
-
-INSERT INTO url (tweet_id, url, id) VALUES (1, 'http://vvvvvaaa.a', 2);
-COMMIT WORK;
-
------------- koniec testowania ----------------
-
-*/
 
 
