@@ -177,7 +177,7 @@ th {
   // USUWANIE
   
   echo '<form action="admin.php" method="get"> 
-        Adres pliku json do usunięcia:</br>
+        Adres pliku json do usunięcia ("np. "json_files/Warszawa.json"):</br>
         <input type="text" name="delete" size="40" length="40" value=""><BR> 
         <input type="submit" name="" value="Zatwierdź"> 
         </form> ';
@@ -247,6 +247,11 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane hashtagi: </b>" . $row[0] . "</br>";
+  
+  $stmt = oci_parse($conn, "SELECT DISTINCT COUNT(hashtag) FROM hashtag");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>załadowane unikalne hashtagi: </b>" . $row[0] . "</br>";
   
   $stmt = oci_parse($conn, "SELECT COUNT(*) FROM url");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
