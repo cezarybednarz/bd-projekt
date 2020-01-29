@@ -114,7 +114,7 @@ th {
       oci_bind_by_name($stmt, ':query', $data->search_metadata->query);
       
       if(!oci_execute($stmt)) {
-        echo "ERROR! tweet " . $tweet->id . " already exists in database, skipping</br>";
+        echo "<r>ERROR! tweet " . $tweet->id . " already exists in database, skipping</r></br>";
         continue; // to jest wazne do hashtagow, urli itp.
       }
       oci_commit($conn); 
