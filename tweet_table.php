@@ -71,9 +71,6 @@ th {
   <p>retweets
   <a href="tweet_table.php?direction=asc&column=retweet_count">rosnąco </a>/
   <a href="tweet_table.php?direction=desc&column=retweet_count">malejąco </a></p>
-  <p>replies
-  <a href="tweet_table.php?direction=asc&column=reply_count">rosnąco </a>/
-  <a href="tweet_table.php?direction=desc&column=reply_count">malejąco </a></p>
 
 </center>
 
@@ -82,7 +79,6 @@ th {
     <th>id</th>
     <th width="50%">text</th>
     <th>user_id</th>
-    <th>retweeted</th>
     <th>favourites</th>
     <th>retweets</th>
     <th>query</th>
