@@ -4,19 +4,14 @@ DROP TABLE Tweet CASCADE CONSTRAINTS;
 DROP TABLE URL CASCADE CONSTRAINTS;
 DROP TABLE Usr CASCADE CONSTRAINTS;
 
-
 CREATE TABLE Hashtag (
     Tweet_id integer  NOT NULL,
     hashtag varchar2(256)  NOT NULL,
-    id integer  NOT NULL,
-    CONSTRAINT Hashtag_pk PRIMARY KEY (id)
 ) ;
 
 CREATE TABLE Mention (
     Tweet_id integer  NOT NULL,
     User_id integer  NOT NULL,
-    id integer  NOT NULL,
-    CONSTRAINT Mention_pk PRIMARY KEY (id)
 ) ;
 
 CREATE TABLE Tweet (
@@ -32,8 +27,6 @@ CREATE TABLE Tweet (
 CREATE TABLE URL (
     Tweet_id integer  NOT NULL,
     URL varchar2(256)  NOT NULL,
-    id integer  NOT NULL,
-    CONSTRAINT URL_pk PRIMARY KEY (id)
 ) ;
 
 CREATE TABLE Usr (
@@ -55,10 +48,6 @@ ALTER TABLE Hashtag ADD CONSTRAINT Hashtag_Tweet
 ALTER TABLE Mention ADD CONSTRAINT Mention_Tweet
     FOREIGN KEY (Tweet_id)
     REFERENCES Tweet (id);
-
-ALTER TABLE Mention ADD CONSTRAINT Mention_User
-    FOREIGN KEY (User_id)
-    REFERENCES Usr (id);
 
 ALTER TABLE Tweet ADD CONSTRAINT Tweet_User
     FOREIGN KEY (user_id)

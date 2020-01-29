@@ -115,11 +115,62 @@ th {
       
       if(!oci_execute($stmt)) {
         echo "ERROR! tweet " . $tweet->id . " already exists in database, skipping</br>";
-        print_r(oci_error($stmt));
+        continue; // to jest wazne do hashtagow, urli itp.
       }
       oci_commit($conn); 
-       
-     
+      
+      
+      // dodawanie hashtagow
+      
+      foreach($tweet->entities->hashtags as $hashtag) {
+        $sql_cmd = "INSERT INTO hashtag (tweet_id, hashtag) VALUES (:tweet_id, :hashtag)";
+        
+        $stmt = oci_parse($conn, $sql_cmd);
+        
+        oci_bind_by_name($stmt, ':tweet_id', $tweet->id);
+        oci_bind_by_name($stmt, ':hashtag', $hashtag);
+        
+        if(!oci_execute($stmt)) {
+          print_r(oci_error($stmt));
+        }
+        
+        oci_commit($conn); 
+      }
+      
+      // dodawanie URLi
+      
+      foreach($tweet->entities->urls as $url) {
+        $sql_cmd = "INSERT INTO url (tweet_id, url) VALUES (:tweet_id, :url)";
+        
+        $stmt = oci_parse($conn, $sql_cmd);
+        
+        oci_bind_by_name($stmt, ':tweet_id', $tweet->id);
+        oci_bind_by_name($stmt, ':url', $url);
+        
+        if(!oci_execute($stmt)) {
+          print_r(oci_error($stmt));
+        }
+        
+        oci_commit($conn); 
+      }
+      
+      // dodawanie mentionow
+      
+      foreach($tweet->entities->user_mentions as $mention) {
+        $sql_cmd = "INSERT INTO mention (tweet_id, mention) VALUES (:tweet_id, :mention)";
+        
+        $stmt = oci_parse($conn, $sql_cmd);
+        
+        oci_bind_by_name($stmt, ':tweet_id', $tweet->id);
+        oci_bind_by_name($stmt, ':mention', $mention);
+        
+        if(!oci_execute($stmt)) {
+          print_r(oci_error($stmt));
+        }
+        
+        oci_commit($conn); 
+      }
+    }  
   }
     
   
