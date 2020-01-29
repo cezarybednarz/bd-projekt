@@ -23,7 +23,7 @@ CREATE TABLE Tweet (
     id integer  NOT NULL,
     user_id integer  NOT NULL,
     text varchar2(256)  NOT NULL,
-    retweeted number(1)  NOT NULL,
+    retweeted number(1)  NULL,
     favourite_count integer  NOT NULL,
     retweet_count integer  NOT NULL,
     reply_count integer  NOT NULL,
