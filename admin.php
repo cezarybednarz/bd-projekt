@@ -128,7 +128,7 @@ th {
         $stmt = oci_parse($conn, $sql_cmd);
         
         oci_bind_by_name($stmt, ':tweet_id', $tweet->id);
-        oci_bind_by_name($stmt, ':hashtag', $hashtag);
+        oci_bind_by_name($stmt, ':hashtag', $hashtag->text);
         
         if(!oci_execute($stmt)) {
           print_r(oci_error($stmt));
@@ -145,7 +145,7 @@ th {
         $stmt = oci_parse($conn, $sql_cmd);
         
         oci_bind_by_name($stmt, ':tweet_id', $tweet->id);
-        oci_bind_by_name($stmt, ':url', $url);
+        oci_bind_by_name($stmt, ':url', $url->expanded_url);
         
         if(!oci_execute($stmt)) {
           print_r(oci_error($stmt));
@@ -162,7 +162,7 @@ th {
         $stmt = oci_parse($conn, $sql_cmd);
         
         oci_bind_by_name($stmt, ':tweet_id', $tweet->id);
-        oci_bind_by_name($stmt, ':mention', $mention);
+        oci_bind_by_name($stmt, ':mention', $mention->id);
         
         if(!oci_execute($stmt)) {
           print_r(oci_error($stmt));
