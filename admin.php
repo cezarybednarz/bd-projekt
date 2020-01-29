@@ -95,10 +95,8 @@ th {
       oci_bind_by_name($stmt, ':friends', $usr->friends_count);
       oci_bind_by_name($stmt, ':statuses_count', $usr->statuses_count);
       
-      if(!oci_execute($stmt)) {
-        echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
-        //print_r(oci_error($stmt));
-      }
+      oci_execute($stmt);
+      
       oci_commit($conn);  
       
       
@@ -238,7 +236,12 @@ th {
   
   
   
-  echo "<h2> Statystyki: </h2>";
+  echo "<h3> Statystyki: </h3>";
+  
+  $stmt = oci_parse($conn, "SELECT COUNT(*) FROM tweet");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH)
+  echo "<b>załadowane tweety:</b>" . $row[0] . "</br>";
   
   
 ?>
