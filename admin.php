@@ -107,7 +107,7 @@ th {
       $stmt = oci_parse($conn, $sql_cmd);
       
       oci_bind_by_name($stmt, ':id', $tweet->id);
-      oci_bind_by_name($stmt, ':user_id', $tweet->user_id);
+      oci_bind_by_name($stmt, ':user_id', $usr->id);
       oci_bind_by_name($stmt, ':text', $tweet->text);
       oci_bind_by_name($stmt, ':retweeted', $tweet->retweeted);
       oci_bind_by_name($stmt, ':favourite_count', $tweet->favourite_count);
