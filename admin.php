@@ -73,7 +73,7 @@ th {
       echo "ERROR: Wrong file name";
     }
     
-    $data = json_decode($tweetjson);
+    $data = json_decode($tweetjson, JSON_UNESCAPED_UNICODE);
     
     
     // dodawanie userów
