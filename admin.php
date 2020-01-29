@@ -96,11 +96,7 @@ th {
         echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
         //print_r(oci_error($stmt));
       }
-      else {
-        echo "Success!</br>";
-      }
       oci_commit($conn);  
-      
     }
     
   }
