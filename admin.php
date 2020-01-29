@@ -117,29 +117,8 @@ th {
         echo "ERROR! tweet " . $tweet->id . " already exists in database, skipping</br>";
         print_r(oci_error($stmt));
       }
-      oci_commit($conn);  
-      
+      oci_commit($conn); 
        
-      // dodawanie Hashtagów  
-      
-      foreach($tweet->entities->hashtags as $hashtag) {
-        
-      }
-      
-      
-      // dodawanie URLi
-      
-      foreach($tweet->entities->hashtags as $hashtag) {
-      
-      
-      }
-      
-      // dodawanie Mentionow
-      
-      foreach($tweet->entities->hashtags as $hashtag) {
-      
-      
-      }
      
   }
     
