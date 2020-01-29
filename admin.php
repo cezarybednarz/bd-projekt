@@ -284,7 +284,7 @@ th {
   $stmt = oci_parse($conn, "SELECT COUNT(hashtag) as ile FROM hashtag GROUP BY hashtag ORDER BY ile DESC");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $row = oci_fetch_array($stmt, OCI_BOTH);
-  echo "<b>najeczesciej wystepujacy hashtag: (@): </b><i>#" . $row['HASHTAG'] . "</i></br>";
+  echo "<b>najeczesciej wystepujacy hashtag: (@): </b><i>#" . $row[1] . "</i></br>";
   
   
   
