@@ -59,6 +59,7 @@ th {
   }
   
   
+  // dodawanie
   
   echo '<form action="admin.php" method="get"> 
         Adres pliku json do dodania (np. "json_files/Moda.json"):</br>
@@ -66,6 +67,7 @@ th {
         <input type="submit" name="" value="Zatwierdź"> 
         </form> ';
   
+
   if(isset($_GET['adres'])) {
     $tweetjson = file_get_contents($_GET['adres']);
     
@@ -172,7 +174,43 @@ th {
       }
     }  
   }
+   
+   
+  // USUWANIE
+  
+  echo '<form action="admin.php" method="get"> 
+        Adres pliku json do usunięcia:</br>
+        <input type="text" name="delete" size="40" length="40" value=""><BR> 
+        <input type="submit" name="" value="Zatwierdź"> 
+        </form> ';
+  
+
+  if(isset($_GET['delete'])) {
+    $tweetjson = file_get_contents($_GET['delete']);
     
+    if($tweetjson === false) {
+      echo "ERROR: Wrong file name";
+    }
+    
+    $data = json_decode($tweetjson);
+    
+    
+    // dodawanie userów
+    foreach($data->statuses as $tweet) {
+      
+      $sql_cmd = "DELETE FROM tweet WHERE id = :my_id";
+      
+      $stmt = oci_parse($conn, $sql_cmd);
+      
+      oci_bind_by_name($stmt, ':my_id', $tweet->id);
+      
+      if(!oci_execute($stmt)) {
+        echo "ERROR! tweet " . $tweet->id . " doesn't exist in database, skipping</br>";
+        print_r(oci_error($stmt));
+      }
+      oci_commit($conn);  
+    }
+  }
   
   
 ?>
