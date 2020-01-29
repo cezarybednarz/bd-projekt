@@ -243,6 +243,22 @@ th {
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>załadowane tweety: </b>" . $row[0] . "</br>";
   
+  $stmt = oci_parse($conn, "SELECT COUNT(*) FROM hashtag");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>załadowane hashtagi: </b>" . $row[0] . "</br>";
+  
+  $stmt = oci_parse($conn, "SELECT COUNT(*) FROM url");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>załadowane URLe: </b>" . $row[0] . "</br>";
+  
+  $stmt = oci_parse($conn, "SELECT COUNT(*) FROM mention");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "<b>załadowane mentiony (@): </b>" . $row[0] . "</br>";
+  
+  
   $stmt = oci_parse($conn, "SELECT DISTINCT query FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   echo "<b>zapytania z załadowanych plików: </b>";
@@ -250,6 +266,8 @@ th {
     echo "<i>" . $row[0] . ",</i> ";
   }
   echo "</br>";
+  
+  
   
   
 ?>
