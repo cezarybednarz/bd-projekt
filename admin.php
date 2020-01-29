@@ -113,7 +113,7 @@ th {
       oci_bind_by_name($stmt, ':favourite_count', $tweet->favourite_count);
       oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
       oci_bind_by_name($stmt, ':reply_count', $tweet->reply_count);
-      oci_bind_by_name($stmt, ':query', $tweet->query);
+      oci_bind_by_name($stmt, ':query', $data->search_metadata->query);
       
       if(!oci_execute($stmt)) {
         echo "ERROR! tweet " . $tweet->id . " already exists in database, skipping</br>";
