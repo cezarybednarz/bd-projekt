@@ -237,6 +237,10 @@ th {
   }
   
   
+  
+  echo "<h2> Statystyki: </h2>";
+  
+  
 ?>
 </table>
 </center>
