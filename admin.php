@@ -242,7 +242,7 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   echo "<b>zapytania z załadowanych plików: </b>";
   while (($row = oci_fetch_array($stmt, OCI_BOTH))) {
-    echo "<i>" . $row[0] . ",</i> ";
+    echo "<i>" . $row[0] . "</i> (" . $row[1] . "razy)</br>";
   }
   echo "</br>";
   
