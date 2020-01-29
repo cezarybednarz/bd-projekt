@@ -78,7 +78,7 @@ th {
     foreach($data->statuses as $tweet) {
       $usr = $tweet->user;
       
-      $sql_cmd = "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (:id, :name, :screen_name, :location, :description, :followers, :friends, :statuses_count)");
+      $sql_cmd = "INSERT INTO usr (id, name, screen_name, location, description, followers, friends, statuses_count) VALUES (:id, :name, :screen_name, :location, :description, :followers, :friends, :statuses_count)";
       
       
       $stmt = oci_parse($conn, $sql_cmd);
