@@ -84,7 +84,13 @@ th {
       $stmt = oci_parse($conn, $sql_cmd);
       
       oci_bind_by_name($stmt, ':id', $usr->id);
-      
+      oci_bind_by_name($stmt, ':name', $usr->name);
+      oci_bind_by_name($stmt, ':screen_name', $usr->screen_name);
+      oci_bind_by_name($stmt, ':location', $usr->location);
+      oci_bind_by_name($stmt, ':description', $usr->description);
+      oci_bind_by_name($stmt, ':followers', $usr->followers);
+      oci_bind_by_name($stmt, ':friends', $usr->friends);
+      oci_bind_by_name($stmt, ':statuses_count', $usr->statuses_cound);
       
       if(!oci_execute($stmt)) {
         //echo "ERROR! user " . $usr->id . " already exists in database, skipping</br>";
