@@ -61,6 +61,12 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $rows = oci_fetch_all($stmt, OCI_BOTH);
+  
+  /*<?php
+                  foreach($rows as $row) {
+                    echo "[" . $row[0] . ", " . $row[1] . "],";
+                  } 
+               ?>*/
 ?>
 
 
@@ -84,25 +90,22 @@ th {
       <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
       </div>
       <script language = "JavaScript">
-         
-         
          function drawChart() {
             // Define the chart to be drawn.
-            var data = document.getElementById("hours");
             var data = google.visualization.arrayToDataTable([
-               ['plik JSONa', 'godzina'], ["1", 1]
-               /*<?php
-                  foreach($rows as $row) {
-                    echo "[" . $row[0] . ", " . $row[1] . "],";
-                  } 
-               ?>*/
+               ['Student Roll No', 'height'],
+               ['1', 80],['2', 55],['3', 68],['4', 80],['5', 54],
+               ['6', 70],['7', 85],['8', 78],['9', 70],['10', 58],
+               ['11', 90],['12', 65],['13', 88],['14', 82],['15', 65],
+               ['16', 86],['17', 45],['18', 62],['19', 84],['20', 75],
+               ['21', 82],['22', 75],['23', 58],['24', 70],['25', 85]		  
             ]);
               
             // Set chart options
             var options = {
-               title: 'Godziny postowania tweetów',
+               title: 'Students height, in cms',
                legend: { position: 'none' },
-               histogram: { bucketSize: 1 }
+               histogram: { bucketSize: 5 }
             };				
 
             // Instantiate and draw the chart.
