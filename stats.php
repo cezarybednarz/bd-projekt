@@ -79,7 +79,7 @@ th {
   $myImage = new pImage(500, 300, $myData);
   
   $myImage->setFontProperties(array(
-    "FontName" => PCHART_PATH . "/fonts/GeosansLight.ttf",
+    "FontName" => PCHART_PATH . "pChart/fonts/GeosansLight.ttf",
     "FontSize" => 15));
     
   $myImage->setGraphArea(25,25, 475,275);
