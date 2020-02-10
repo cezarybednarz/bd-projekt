@@ -101,8 +101,8 @@ th {
       
       
       // dodawanie Tweetów
-      
-      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query)";
+      // "Mon Dec 09 11:10:02 +0000 2019"
+      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query, created_at) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query, convert(:created_at, 'DAY MON HH:MI:SS TZD YYYY)'";
       
       $stmt = oci_parse($conn, $sql_cmd);
       

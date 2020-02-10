@@ -70,6 +70,7 @@ th {
   echo "<b>favourite_count: </b>" . $row['FAVOURITE_COUNT'] . "</br>";
   echo "<b>retweet_count: </b>" . $row['RETWEET_COUNT'] . "</br>";
   echo "<b>query: </b>" . $row['QUERY'] . "</br>";
+  echo "<b>created at: " . $row['CREATED_AT'] . "</br>";
   
   echo "<b>hashtags: </b></br>";
   

@@ -21,6 +21,8 @@ CREATE TABLE Tweet (
     favourite_count integer  NOT NULL,
     retweet_count integer  NOT NULL,
     query varchar2(256) NULL,
+    created_at date NULL,             -- nowe
+    from_file varchar2(256) NOT NULL, -- nowe
     CONSTRAINT Tweet_pk PRIMARY KEY (id)
 ) ;
 

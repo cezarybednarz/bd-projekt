@@ -73,7 +73,6 @@ th {
   echo "<b>friends: </b>" . $row['FRIENDS'] . "</br>";
   echo "<b>statuses_count: </b>" . $row['STATUSES_COUNT'] . "</br>";
   
-  echo "<h4> Statystyki załadowanych tweetów: </h4>";
 ?>
 
 
