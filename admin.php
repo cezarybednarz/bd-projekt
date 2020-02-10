@@ -119,7 +119,6 @@ th {
           }
         }
       }
-      echo $date;
       
       
       $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query, created_at, from_file) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query, :created_at, :from_file)";
