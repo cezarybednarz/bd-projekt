@@ -38,6 +38,11 @@ th {
 
 <h2> Wykresy </h2>
 
+
+<center><a href="http://students.mimuw.edu.pl/~cb406099/bd-projekt">wróć do strony głównej</a></br>
+
+<center><a href="javascript:history.back()">wróć do poprzedniej strony</a></br>
+
 <body>
 
 
