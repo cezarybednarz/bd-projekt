@@ -67,7 +67,7 @@ th {
   require_once "pChart/class/pImage.class.php";
 */
 
-  define("PCHART_PATH", "pChart");
+  define("PCHART_PATH", "/public_html/bd-projekt/pChart");
   set_include_path(get_include_path() . PATH_SEPARATOR . PCHART_PATH);
   
   require_once "class/pData.class.php";
