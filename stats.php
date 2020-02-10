@@ -90,12 +90,12 @@ th {
             // Define the chart to be drawn.
             var data = document.getElementById("hours");
             var data = google.visualization.arrayToDataTable([
-               ['plik JSONa', 'godzina'],
-               <?php
+               ['plik JSONa', 'godzina'], ["1", 1]
+               /*<?php
                   foreach($rows as $row) {
                     echo "[" . $row[0] . ", " . $row[1] . "],";
                   } 
-               ?>
+               ?>*/
             ]);
               
             // Set chart options
