@@ -113,7 +113,9 @@ th {
       oci_bind_by_name($stmt, ':favourite_count', $tweet->favorite_count);
       oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
       oci_bind_by_name($stmt, ':query', $data->search_metadata->query);
-      oci_bind_by_name($stmt, ':created_at', $tweet->created_at);
+      
+      $date = "select to_date(" . $tweet->created_at . ", 'DAY MON HH:MI:SS TZD YYYY') from dual";
+      oci_bind_by_name($stmt, ':created_at', $date);
       
       if(!oci_execute($stmt)) {
         print_r(oci_error($stmt));
