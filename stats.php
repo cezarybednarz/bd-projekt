@@ -65,11 +65,12 @@ th {
   require_once "pChart/class/pData.class.php";
   require_once "pChart/class/pDraw.class.php";
   require_once "pChart/class/pImage.class.php";
-  /*
+  
   define("PCHART_PATH", "pChart");
   set_include_path(get_include_path() . PATH_SEPARATOR . PCHART_PATH);
+  
+  require_once "class/pData.class.php";
   require_once "class/pDraw.class.php";
-  */
   
   $myDataset = array(0, 1, 1, 2, 3, 5, 8, 13);
   
@@ -79,7 +80,7 @@ th {
   $myImage = new pImage(500, 300, $myData);
   
   $myImage->setFontProperties(array(
-    "FontName" => PCHART_PATH . "pChart/fonts/GeosansLight.ttf",
+    "FontName" => PCHART_PATH . "/fonts/GeosansLight.ttf",
     "FontSize" => 15));
     
   $myImage->setGraphArea(25,25, 475,275);
