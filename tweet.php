@@ -71,6 +71,7 @@ th {
   echo "<b>retweet_count: </b>" . $row['RETWEET_COUNT'] . "</br>";
   echo "<b>query: </b>" . $row['QUERY'] . "</br>";
   echo "<b>created at: </b>" . $row['CREATED_AT'] . "</br>";
+  echo "<b>added from JSON: </b>" . $row['FROM_FILE'] . "</br>";
   
   echo "<b>hashtags: </b></br>";
   

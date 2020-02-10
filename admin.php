@@ -122,7 +122,7 @@ th {
       echo $date;
       
       
-      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query, created_at) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query, :created_at)";
+      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query, created_at, from_file) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query, :created_at, :from_file)";
       
       $stmt = oci_parse($conn, $sql_cmd);
       
@@ -133,6 +133,7 @@ th {
       oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
       oci_bind_by_name($stmt, ':query', $data->search_metadata->query);
       oci_bind_by_name($stmt, ':created_at', $date);
+      oci_bind_by_name($stmt, ':from_file', $_GET['adres']);
       
       if(!oci_execute($stmt)) {
         print_r(oci_error($stmt));
