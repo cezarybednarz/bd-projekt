@@ -102,7 +102,7 @@ th {
       
       // dodawanie Tweetów
       // "Mon Dec 09 11:10:02 +0000 2019"
-      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query, created_at) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query, convert(:created_at, 'DAY MON HH:MI:SS TZD YYYY)'";
+      $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query, created_at) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query, :created_at)";
       
       $stmt = oci_parse($conn, $sql_cmd);
       
@@ -112,7 +112,7 @@ th {
       oci_bind_by_name($stmt, ':favourite_count', $tweet->favorite_count);
       oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
       oci_bind_by_name($stmt, ':query', $data->search_metadata->query);
-      oci_bind_by_name($stmt, ':created_at', $tweet->created_at);
+      oci_bind_by_name($stmt, ':created_at', "to_date(" . $tweet->created_at . ", 'DAY MON HH:MI:SS TZD YYYY)'");
       
       if(!oci_execute($stmt)) {
         print_r(oci_error($stmt));
