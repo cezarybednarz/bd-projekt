@@ -105,7 +105,7 @@ th {
             var options = {
                title: 'Students height, in cms',
                legend: { position: 'none' },
-               histogram: { bucketSize: 5 }
+               histogram: { bucketSize: 1 }
             };				
 
             // Instantiate and draw the chart.
