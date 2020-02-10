@@ -62,7 +62,7 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
   
-  echo "<b>Załadowane pliki:</b></br>";
+  echo "<br><b>Załadowane pliki:</b></br>";
   $stmt = oci_parse($conn, "SELECT DISTINCT from_file FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   while (($stmt_row = oci_fetch_array($stmt, OCI_BOTH))) {
