@@ -95,9 +95,9 @@ th {
             var data = google.visualization.arrayToDataTable([
                ['Student Roll No', 'height'],
                <?php
-                  foreach($rows as $row) {
-                    echo "[" . $row[0] . ", " . $row[1] . "],";
-                  } 
+                  for($i = 0; $i < 10; $i++) {
+                    echo "['1', " . $i . "],";
+                  }
                ?>	  
             ]);
               
