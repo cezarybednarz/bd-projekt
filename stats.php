@@ -66,7 +66,8 @@ th {
   require_once "pChart/class/pDraw.class.php";
   require_once "pChart/class/pImage.class.php";
 */
-
+  phpinfo();
+  /*
   define("PCHART_PATH", "/public_html/bd-projekt/pChart");
   set_include_path(get_include_path() . PATH_SEPARATOR . PCHART_PATH);
   
@@ -94,7 +95,7 @@ th {
   
   header("Content-Type: image/png");
   $myImage->Render(null);
-  
+  */
   
 ?>
 
