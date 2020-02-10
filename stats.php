@@ -62,6 +62,10 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
   
+  foreach($rows as $row) {
+    echo $row[0];
+  }
+  
   /*<?php
                   foreach($rows as $row) {
                     echo "[" . $row[0] . ", " . $row[1] . "],";
@@ -93,7 +97,7 @@ th {
          function drawChart() {
             // Define the chart to be drawn.
             var data = google.visualization.arrayToDataTable([
-               ['Student Roll No', 'height'],
+               ['From file', 'Hour'],
                <?php
                   for($i = 0; $i < 10; $i++) {
                     echo "['1', " . $i . "],";
