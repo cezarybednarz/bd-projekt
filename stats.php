@@ -95,6 +95,7 @@ th {
   header("Content-Type: image/png");
   $myImage->Render(null);
   
+  echo "XDDD";
   
 ?>
 
