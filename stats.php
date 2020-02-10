@@ -43,9 +43,9 @@ th {
 
 <?PHP
 
-  include("pChart2.1.4/class/pData.class.php");
-  include("pChart2.1.4/class/pDraw.class.php");
-  include("pChart2.1.4/class/pImage.class.php");
+  include("/pChart2.1.4/class/pData.class.php");
+  include("/pChart2.1.4/class/pDraw.class.php");
+  include("/pChart2.1.4/class/pImage.class.php");
   
   
   session_start(); 
