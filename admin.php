@@ -135,7 +135,6 @@ th {
       oci_bind_by_name($stmt, ':from_file', $_GET['adres']);
       
       if(!oci_execute($stmt)) {
-        print_r(oci_error($stmt));
         echo "<r>ERROR! tweet " . $tweet->id . " already exists in database, skipping</r></br>";
         continue; // to jest wazne do hashtagow, urli itp.
       }

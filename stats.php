@@ -64,7 +64,10 @@ th {
   
 ?>
 
-
+<input type="checkbox" value="1" name="checkbox[]">
+<input type="checkbox" value="2" name="checkbox[]">
+<input type="checkbox" value="2" name="checkbox[]">
+<input type="checkbox" value="3" name="checkbox[]">
 
 
 
@@ -73,7 +76,7 @@ th {
 
 <html>
    <head>
-      <title>Google Charts Tutorial</title>
+      <title></title>
       <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
       </script>
       <script type = "text/javascript">
