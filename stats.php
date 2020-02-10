@@ -61,15 +61,14 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') as TIME FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
+  
+  echo "<b>Załadowane pliki:</b></br>";
+  $stmt = oci_parse($conn, "SELECT DISTINCT from_file FROM tweet");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  while (($stmt_row = oci_fetch_array($stmt, OCI_BOTH))) {
+    echo "<i>" . $stmt_row[0] . "</i></br>";
+  }
 ?>
-
-
- <input type="checkbox" name="vehicle1" value="Bike">
-<label for="vehicle1"> I have a bike</label><br>
-<input type="checkbox" name="vehicle2" value="Car">
-<label for="vehicle2"> I have a car</label><br>
-<input type="checkbox" name="vehicle3" value="Boat" checked>
-<label for="vehicle3"> I have a boat</label><br> 
 
 
 
