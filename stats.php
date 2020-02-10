@@ -122,8 +122,14 @@ $Config = array("FontR"=>0, "FontG"=>0, "FontB"=>0, "FontName"=>"fonts/pf_arma_f
 );
 $myPicture->drawLegend(560,16,$Config);
 
-$myPicture->stroke();
+#$myPicture->stroke();
+$myPicture->Render("basic.png");
+
 ?>
+
+<img src="basic.png"> 
+
+
 </table>
 </center>
 
