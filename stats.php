@@ -61,7 +61,7 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') as TIME FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
-  
+  echo $nrows;
   for($i = 0; $i < $nrows; $i++) {
     echo "<p>" . $rows[$i][0] . "</p";
   }
