@@ -63,7 +63,7 @@ th {
   $nrows = oci_fetch_all($stmt, $rows);
   
   foreach($rows as $row) {
-    echo $row[0];
+    echo "<p>" . row[1] . "</p>";
   }
   
   /*<?php
