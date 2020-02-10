@@ -101,8 +101,8 @@ th {
             var data = google.visualization.arrayToDataTable([
                ['From file', 'Hour'],
                <?php
-                  for($i = 0; $i < 10; $i++) {
-                    echo "['1', " . $i . "],";
+                  for($i = 0; $i < $nrows; $i++) {
+                    echo "[" . $rows[FROM_FILE][$i] . ", " . $rows[TIME][$i] . "],";
                   }
                ?>	  
             ]);
