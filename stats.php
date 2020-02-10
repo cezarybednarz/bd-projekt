@@ -27,14 +27,14 @@ th {
 </head>
 
 <HEAD>
-    <TITLE> Sekcja admina </TITLE>
+    <TITLE> Wykresy </TITLE>
 </HEAD>
 
 <BODY>
 
 <center>
 
-<h2> Dodawanie/usuwanie JSONów </h2>
+<h2> Wykresy </h2>
 
 <center><a href="http://students.mimuw.edu.pl/~cb406099/bd-projekt">wróć do strony głównej</a></br>
 
@@ -86,7 +86,7 @@ th {
   $myPicture->drawRectangle(0,0,699,229,array("R"=>0,"G"=>0,"B"=>0));
 
   /* Set the default font */
-  $myPicture->setFontProperties(array("FontName"=>"../fonts/pf_arma_five.ttf","FontSize"=>6));
+  $myPicture->setFontProperties(array("FontName"=>"/pChart2.1.4/fonts/pf_arma_five.ttf","FontSize"=>6));
 
   /* Define the chart area */
   $myPicture->setGraphArea(60,40,650,200);
