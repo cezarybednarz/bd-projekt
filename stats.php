@@ -58,12 +58,12 @@ th {
     echo $e['message'];
   }
   
-  $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') FROM tweet");
+  $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') as TIME FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
   
-  foreach($rows as $row) {
-    echo "<p>" . row[1] . "</p>";
+  for($i = 0; $i < $nrows; $i++) {
+    echo "<p>" . $rows[$i][0] . "</p";
   }
   
   /*<?php
