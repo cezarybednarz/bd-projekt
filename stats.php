@@ -61,12 +61,6 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') as TIME FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
-  echo $nrows;
-  print_r($rows);
-  
-  for($i = 0; $i < $nrows; $i++) {
-    echo "[" . $rows[FROM_FILE][$i] . ", " . $rows[TIME][$i] . "],";
-  }
   
 ?>
 
@@ -104,8 +98,9 @@ th {
               
             // Set chart options
             var options = {
-               title: 'Students height, in cms',
+               title: 'Godziny postowania tweetów',
                legend: { position: 'none' },
+               colors: ['#5C3292', '#1A8763', '#871B47', '#999999'],
                histogram: { bucketSize: 1 }
             };				
 
