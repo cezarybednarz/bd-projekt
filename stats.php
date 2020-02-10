@@ -65,7 +65,7 @@ th {
   print_r($rows);
   
   for($i = 0; $i < $nrows; $i++) {
-    echo "<p>" . $rows[FROM_FILE][0] . " xd </p>";
+    echo "<p>" . $rows[FROM_FILE][$i] . "  " . $rows[TIME][$i] . " </p>";
   }
   
   /*<?php
