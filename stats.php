@@ -41,34 +41,46 @@ th {
 <body>
 
 
-<div id="piechart"></div>
+<html>
+   <head>
+      <title>Google Charts Tutorial</title>
+      <script type = "text/javascript" src = "https://www.gstatic.com/charts/loader.js">
+      </script>
+      <script type = "text/javascript">
+         google.charts.load('current', {packages: ['corechart']});     
+      </script>
+   </head>
+   
+   <body>
+      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      </div>
+      <script language = "JavaScript">
+         function drawChart() {
+            // Define the chart to be drawn.
+            var data = google.visualization.arrayToDataTable([
+               ['Student Roll No', 'height'],
+               ['1', 80],['2', 55],['3', 68],['4', 80],['5', 54],
+               ['6', 70],['7', 85],['8', 78],['9', 70],['10', 58],
+               ['11', 90],['12', 65],['13', 88],['14', 82],['15', 65],
+               ['16', 86],['17', 45],['18', 62],['19', 84],['20', 75],
+               ['21', 82],['22', 75],['23', 58],['24', 70],['25', 85]		  
+            ]);
+              
+            // Set chart options
+            var options = {
+               title: 'Students height, in cm',
+               legend: { position: 'none' },
+            };				
 
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-<script type="text/javascript">
-// Load google charts
-google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawChart);
-
-// Draw the chart and set the chart values
-function drawChart() {
-  var data = google.visualization.arrayToDataTable([
-  ['Task', 'Hours per Day'],
-  ['Work', 8],
-  ['Eat', 2],
-  ['TV', 4],
-  ['Gym', 2],
-  ['Sleep', 8]
-]);
-
-  // Optional; add a title and set the width and height of the chart
-  var options = {'title':'My Average Day', 'width':550, 'height':400};
-
-  // Display the chart inside the <div> element with id="piechart"
-  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-  chart.draw(data, options);
-}
-</script>
+            // Instantiate and draw the chart.
+            var chart = new google.visualization.Histogram(document.getElementById
+            ('container'));
+            chart.draw(data, options);
+         }
+         google.charts.setOnLoadCallback(drawChart);
+      </script>
+   </body>
+</html>
 
 </body>
 </html>
