@@ -71,6 +71,10 @@ th {
 ?>
 
 
+<input type="checkbox" name="product_id[]" value="1">Product #1<br/>
+<input type="checkbox" name="product_id[]" value="2">Product #2<br/>
+<input type="checkbox" name="product_id[]" value="3">Product #3<br/>
+
 
 
 
