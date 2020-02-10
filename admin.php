@@ -114,7 +114,8 @@ th {
       oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
       oci_bind_by_name($stmt, ':query', $data->search_metadata->query);
       
-      $date = "select to_date(" . $tweet->created_at . ", 'DAY MON HH:MI:SS TZD YYYY') from dual";
+      $date = "to_date(" . $tweet->created_at . ", 'DAY MON HH:MI:SS TZD YYYY')";
+      echo $date;
       oci_bind_by_name($stmt, ':created_at', $date);
       
       if(!oci_execute($stmt)) {
