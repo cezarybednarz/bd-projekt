@@ -63,7 +63,7 @@ th {
   $nrows = oci_fetch_all($stmt, $rows);
   echo $nrows;
   for($i = 0; $i < $nrows; $i++) {
-    echo "<p>" . $rows[$i]['TIME'] . " xd </p>";
+    echo "<p>" . $rows[0][$i] . " xd </p>";
   }
   
   /*<?php
