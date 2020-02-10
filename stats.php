@@ -27,7 +27,7 @@ th {
 </head>
 
 <HEAD>
-    <TITLE> Wykrresy </TITLE>
+    <TITLE> Wykresy </TITLE>
 </HEAD>
 
 <BODY>
