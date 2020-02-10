@@ -68,11 +68,6 @@ th {
     echo "[" . $rows[FROM_FILE][$i] . ", " . $rows[TIME][$i] . "],";
   }
   
-  /*<?php
-                  foreach($rows as $row) {
-                    echo "[" . $row[0] . ", " . $row[1] . "],";
-                  } 
-               ?>*/
 ?>
 
 
@@ -101,8 +96,8 @@ th {
             var data = google.visualization.arrayToDataTable([
                ['From file', 'Hour'],
                <?php
-                  for($i = 0; $i < 10; $i++) {
-                    echo "['1', " . $i . "],";
+                  for($i = 0; $i < $nrows; $i++) {
+                    echo "['" . $rows[FROM_FILE][$i] . "', " . $rows[TIME][$i] . "],";
                   }
                ?>	  
             ]);
