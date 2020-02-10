@@ -80,7 +80,7 @@ th {
     $data = json_decode($tweetjson);
     
     // ustalanie formatu daty
-    $stmt = oci_parse($conn, "alter session set nls_date_format = '### MON DD HH:MI:SS ##### YYYY'");
+    $stmt = oci_parse($conn, "alter session set nls_date_format = 'MON DD HH:MI:SS YYYY'");
     if(!oci_execute($stmt)) {
         print_r(oci_error($stmt));
     }
@@ -110,7 +110,18 @@ th {
       
       // dodawanie Tweetów
       // "Mon Dec 09 11:10:02 +0000 2019"
-      // DAY MON HH:MI:SS ##### YYYY
+      $date = "";
+      for($i = 3; $i < strlen($tweet->created_at); $i++) {
+        $date = $date . $tweet->created_at[$i];
+        if($tweet->created_at[$i] == '+') {
+          for($j = 0; $j < 4; $j++) {
+            $i++;
+          }
+        }
+      }
+      echo $date;
+      
+      
       $sql_cmd = "INSERT INTO tweet (id, user_id, text, favourite_count, retweet_count, query, created_at) VALUES (:id, :user_id, :text, :favourite_count, :retweet_count, :query, :created_at)";
       
       $stmt = oci_parse($conn, $sql_cmd);
@@ -121,7 +132,7 @@ th {
       oci_bind_by_name($stmt, ':favourite_count', $tweet->favorite_count);
       oci_bind_by_name($stmt, ':retweet_count', $tweet->retweet_count);
       oci_bind_by_name($stmt, ':query', $data->search_metadata->query);
-      oci_bind_by_name($stmt, ':created_at', $tweet->created_at);
+      oci_bind_by_name($stmt, ':created_at', $date);
       
       if(!oci_execute($stmt)) {
         print_r(oci_error($stmt));
