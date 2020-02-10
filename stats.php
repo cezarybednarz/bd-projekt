@@ -68,13 +68,13 @@ th {
               
             // Set chart options
             var options = {
-               title: 'Students height, in cm',
+               title: 'Godziny postowania tweetów',
                legend: { position: 'none' },
+               histogram: { bucketSize: 1 }
             };				
 
             // Instantiate and draw the chart.
-            var chart = new google.visualization.Histogram(document.getElementById
-            ('container'));
+            var chart = new google.visualization.Histogram(document.getElementById('container'));
             chart.draw(data, options);
          }
          google.charts.setOnLoadCallback(drawChart);

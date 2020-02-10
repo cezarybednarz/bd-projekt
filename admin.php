@@ -80,7 +80,7 @@ th {
     $data = json_decode($tweetjson);
     
     // ustalanie formatu daty
-    $stmt = oci_parse($conn, "alter session set nls_date_format = 'MON DD HH:MI:SS YYYY'");
+    $stmt = oci_parse($conn, "alter session set nls_date_format = 'MON DD HH24:MI:SS YYYY'");
     if(!oci_execute($stmt)) {
         print_r(oci_error($stmt));
     }
