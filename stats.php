@@ -1,28 +1,71 @@
-<!DOCTYPE html>
-<html>
-<head><title>Histogram Call File</title></head>
-<body>
-<h4>Tito's Histogram</h4>
-<p>The following Histogram takes in an array of monthly salaries offered for PHP Programmers in Mexico City for the months of September and October 2016.
-<br>
-All Values are in New Mexican Pesos <em>in Thousands</em>
-<?
-include 'Histogram.php';
-
-$Salaries=array(13,13,15,9,17,5,11,25,15,17,13,7,13,11,19,11,19,9,17,13,15,30,17,7,15,19,17,9,19,13,13,9,17,11,17,17,15,11,19,15,17,25,19,7,11,17,11,30,13,11,30,17,17,15,15,7,17,9,5,9,17,19,15,22,22,22,19,15,17,5,5,25,15);
-
-$histogram=new histogram();
+<HTML>
 
 
-$chart=$histogram->histogramTitos('Starting Monthly Salaries',$Salaries);
-echo $chart['Result'];
-echo $chart['Notes'];
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+
+<head>
+<style>
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4267B2;
+  color: white;
+}
+</style>
+
+</head>
+
+<HEAD>
+    <TITLE> Sekcja admina </TITLE>
+</HEAD>
+
+<BODY>
+
+<center>
+
+<h2> Dodawanie/usuwanie JSONów </h2>
+
+<center><a href="http://students.mimuw.edu.pl/~cb406099/bd-projekt">wróć do strony głównej</a></br>
+
+<center><a href="javascript:history.back()">wróć do poprzedniej strony</a></br>
 
 
+<?PHP
+
+  session_start(); 
+  $_SESSION['LOGIN'] = 'cb406099';
+  $_SESSION['PASS'] = 'xxx';
+  
+  $conn = oci_connect($_SESSION['LOGIN'] , $_SESSION['PASS']);
+  
+  if (!$conn) {
+    
+    echo "oci_connect failed\n";
+  	$e = oci_error();
+    echo $e['message'];
+  }
+  
+  
+  // dodawanie
+  
+  
+  
+  
 ?>
-</p>
-<p>
-You may output as many histograms in a single file as needed just be sure to change the title for each!
-</p>
-</body>
-</html>
+</table>
+</center>
+
+</BODY>
+</HTML>
+
