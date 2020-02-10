@@ -101,6 +101,8 @@ th {
                title: 'Godziny postowania tweetów',
                legend: { position: 'none' },
                colors: ['#5C3292', '#1A8763', '#871B47', '#999999'],
+               histogram: { minValue: 1 },
+               histogram: { maxValue: 24 },
                histogram: { bucketSize: 1 }
             };				
 
