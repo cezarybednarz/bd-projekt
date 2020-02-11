@@ -58,11 +58,13 @@ th {
     echo $e['message'];
   }
   
+  // pierwszy wykres
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') as TIME FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
   
-  $stmt = oci_parse($conn, "SELECT favourite_count, retweet_count FROM tweet");
+  // drugi wykres
+  $stmt = oci_parse($conn, "SELECT favourite_count, retweet_count, from_file FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_vs_rows = oci_fetch_all($stmt, $vs_rows);
 ?>
@@ -158,9 +160,9 @@ th {
           ['favourites', 'retweets'],
           <?php
             for($i = 0; $i < $n_vs_rows; $i++) {
-              //if(in_array($vs_rows[FAVOURITE_COUNT][$i], $loaded)) {
+              if(in_array($vs_rows[FROM_FILE][$i], $loaded)) {
                 echo "[" . 1 . ", " . 2 . "],";
-              //}
+              }
             }
          ?>	 
         ]);
