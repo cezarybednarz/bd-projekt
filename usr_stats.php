@@ -118,10 +118,10 @@ th {
   
   $followers = 10000;
   $statuses = 10000;
-  if(isset($_GET['followers']) {
+  if(isset($_GET['followers'])) {
     $followers = $_GET['followers'];
   }
-  if(isset($_GET['statuses']) {
+  if(isset($_GET['statuses'])) {
     $statuses = $_GET['statuses'];
   }
   
