@@ -119,13 +119,15 @@ th {
   
   $stmt = oci_parse($conn, "SELECT TIME, COUNT(TIME) AS NUM FROM (" . $cmd . $loaded_string . ") GROUP BY TIME");
   
-  echo $cmd . $loaded_string;
   
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_date_rows = oci_fetch_all($stmt, $date_rows);
   
   print_r(oci_error($stmt));
-  echo $n_date_rows;
+  
+  for($i = 0; $i < $n_date_rows; $i++) {
+              echo "[new Date(" . $date_rows[TIME][$i] . ")," . $date_rows[NUM][$i] . "],";
+            }
 ?>
 
 
@@ -233,7 +235,7 @@ th {
 
        var options = {
          title: "Dni postowania tweetów",
-         height: 700,
+         height: 350,
        };
 
        chart.draw(dataTable, options);
@@ -241,7 +243,7 @@ th {
     </script>
   </head>
   <body>
-    <div id="calendar_basic" style="width: 1000px; height: 700px;"></div>
+    <div id="calendar_basic" style="width: 1000px; height: 350px;"></div>
   </body>
 </html>
 
