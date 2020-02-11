@@ -111,7 +111,7 @@ th {
     $loaded_string = $loaded_string . "'". $load . "', ";
   }
   if(strlen($loaded_string) != 1) {
-    $loaded_string[strlen($loaded_string) - 1] = ')'
+    $loaded_string[strlen($loaded_string) - 1] = ')';
   } 
   else {
     $loaded_string = $loaded_string . ")";
