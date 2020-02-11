@@ -256,7 +256,7 @@ th {
       
       // usuwanie userow
       $usr = $tweet->user;
-      $stmt = oci_parse($conn, "SELECT * FROM tweet WHERE id = " . $usr->id);
+      $stmt = oci_parse($conn, "SELECT * FROM tweet WHERE user_id = " . $usr->id);
       oci_execute($stmt);
       $num = oci_fetch_all($stmt, $whatever);
       if($num != 0) {
