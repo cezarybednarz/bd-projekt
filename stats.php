@@ -108,7 +108,7 @@ th {
    </head>
    
    <body>
-      <div id = "container" style = "width: 550px; height: 400px; margin: 0 auto">
+      <div id = "container" style = "width: 800px; height: 400px; margin: 0 auto">
       </div>
       <script language = "JavaScript">
          function drawChart() {
@@ -128,7 +128,7 @@ th {
             var options = {
                title: 'Godziny postowania tweetów',
                legend: { position: 'none' },
-               colors: ['#5C3292', '#1A8763', '#871B47', '#999999'],
+               colors: ['#5C3292'],
                histogram: { minValue: 1 },
                histogram: { maxValue: 24 },
                histogram: { bucketSize: 1 }
