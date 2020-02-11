@@ -61,25 +61,26 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') as TIME FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
-  
-  echo "Filtruj załadowane pliki:</br>";
 ?>
 
 <form action="#" method="post">
 <?php
   $stmt = oci_parse($conn, "SELECT DISTINCT from_file FROM tweet");
+  echo "<br/><table>";
+  echo "<tr><th width='20%'>Filtruj załadowane pliki</th></tr>";
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   while (($stmt_row = oci_fetch_array($stmt, OCI_BOTH))) {
-    echo '<input type="checkbox" name="check_list[]" value="' . $stmt_row[0] . '"><label>' . $stmt_row[0] . '</label><br/>';
+    echo '<tr><td><input type="checkbox" name="check_list[]" value="' . $stmt_row[0] . '"><label>' . $stmt_row[0] . '</label></td></tr>';
   }
 ?>
 
 <input type="submit" name="submit" value="Filtruj"/>
 </form>
 <?php
+  echo "<br/>";
   $loaded = [];
   echo "<table>";
-  echo "<tr><th width='50%'>akutalnie załadowane pliki</th></tr>";
+  echo "<tr><th width='20%'>akutalnie załadowane pliki</th></tr>";
   if(isset($_POST['submit'])){//to run PHP script on submit
     if(!empty($_POST['check_list'])){
     // Loop to store and display values of individual checked checkbox.
