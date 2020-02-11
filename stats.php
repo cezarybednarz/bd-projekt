@@ -61,6 +61,10 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'HH24') as TIME FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
+  
+  $stmt = oci_parse($conn, "SELECT favourite_count, retweet_count FROM tweet");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $n_vs_rows = oci_fetch_all($stmt, $vs_rows);
 ?>
 
 <?php
@@ -94,7 +98,6 @@ th {
   echo "</table>";
   
 ?>
-
 
 
 <html>
@@ -152,19 +155,19 @@ th {
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Age', 'Weight'],
-          [ 8,      12],
-          [ 4,      5.5],
-          [ 11,     14],
-          [ 4,      5],
-          [ 3,      3.5],
-          [ 6.5,    7]
+          <?php
+            for($i = 0; $i < $n_vs_rows; $i++) {
+              if(in_array($vs_rows[FROM_FILE][$i], $loaded)) {
+                echo "['" . $vs_rows[FAVOURITE_COUNT][$i] . "', " . $vs_rows[RETWEET_COUNT][$i] . "],";
+              }
+            }
+          ?>	
         ]);
 
         var options = {
-          title: 'Age vs. Weight comparison',
-          hAxis: {title: 'Age', minValue: 0, maxValue: 15},
-          vAxis: {title: 'Weight', minValue: 0, maxValue: 15},
+          title: 'Porównanie favourites vs. retweets',
+          hAxis: {title: 'Favourites'},
+          vAxis: {title: 'Retweets'},
           legend: 'none'
         };
 
