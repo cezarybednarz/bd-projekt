@@ -108,7 +108,7 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet WHERE from_file IN :loaded");
   $loaded_string = "(";
   foreach($loaded as $load) {
-    $loaded_string = $loaded_string . ", " . $load;
+    $loaded_string = $loaded_string . $load . ", ";
   }
   
   $loaded_string = $loaded_string . ")";
