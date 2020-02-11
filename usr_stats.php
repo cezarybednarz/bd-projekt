@@ -116,9 +116,14 @@ th {
         <input type="submit" name="" value="Filter"> 
         </form> ';
   
-  
-  $followers = $_GET['followers'];
-  $statuses = $GET['statuses'];
+  $followers = 10000;
+  $statuses = 10000;
+  if(isset($_GET['followers']) {
+    $followers = $_GET['followers'];
+  }
+  if(isset($_GET['statuses']) {
+    $statuses = $_GET['statuses'];
+  }
   
   $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr WHERE statuses_count <= :statuses AND followers <= :followers");
   oci_bind_by_name($stmt, ":statuses", $statuses);
