@@ -214,7 +214,7 @@ th {
     $data = json_decode($tweetjson);
     
     
-    // dodawanie userów
+    // usuwanie 
     foreach($data->statuses as $tweet) {
       
       $sql_cmd = "DELETE FROM hashtag WHERE tweet_id = :my_id";
@@ -252,6 +252,26 @@ th {
         print_r(oci_error($stmt));
       }
       oci_commit($conn);  
+      
+      
+      // usuwanie userow
+      $usr = $tweet->user;
+      $stmt = oci_parse($conn, "SELECT * FROM tweet WHERE id = " . $usr->id);
+      oci_execute($stmt);
+      $num = oci_fetch_all($stmt, $whatever);
+      if($num != 0) {
+        continue;
+      }
+      
+      $sql_cmd = "DELETE FROM usr WHERE id = :my_id";
+      $stmt = oci_parse($conn, $sql_cmd);
+      oci_bind_by_name($stmt, ':my_id', $usr->id);
+      if(!oci_execute($stmt)) {
+        echo "ERROR! USER!!!! " . $tweet->id . " doesn't exist in database, skipping</br>";
+        print_r(oci_error($stmt));
+      }
+      oci_commit($conn);  
+      
     }
   }
   
