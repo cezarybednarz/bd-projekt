@@ -72,6 +72,7 @@ th {
   while (($stmt_row = oci_fetch_array($stmt, OCI_BOTH))) {
     echo '<tr><td><input type="checkbox" name="check_list[]" value="' . $stmt_row[0] . '"><label>' . $stmt_row[0] . '</label></td></tr>';
   }
+  echo "</table>";
 ?>
 
 <input type="submit" name="submit" value="Filtruj"/>
