@@ -146,6 +146,8 @@ th {
     array_push($hist_tweets, [$hash_row[CNT], $url_row[CNT], $mention_row[CNT]]);
   }
   
+  print_r($hist_tweets);
+  
 ?>
 
 
