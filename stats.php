@@ -227,7 +227,7 @@ th {
           <?php
             for($i = 0; $i < $n_date_rows; $i++) {
               // w javascripcie miesiace sa od 0
-              $date_rows[TIME][$i][7]--;
+              $date_rows[TIME][$i][7] = $date_rows[TIME][$i][7] - 1;
               echo "[new Date(" . $date_rows[TIME][$i] . ")," . $date_rows[NUM][$i] . "],";
             }
           ?>
