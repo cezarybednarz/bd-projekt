@@ -130,7 +130,7 @@ th {
           legend: 'none'
         };
 
-        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div2'));
 
         chart.draw(data, options);
       }
