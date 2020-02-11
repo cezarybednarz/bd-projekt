@@ -159,7 +159,7 @@ th {
           <?php
             for($i = 0; $i < $n_vs_rows; $i++) {
               if(in_array($vs_rows[FAVOURITE_COUNT][$i], $loaded)) {
-                echo "[" . 1 . ", " . $vs_rows[RETWEET_COUNT][$i] . "],";
+                echo "[" . 1 . ", " . 2 . "],";
               }
             }
          ?>	 
