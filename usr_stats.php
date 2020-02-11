@@ -153,7 +153,7 @@ th {
         ]);
 
         var options = {
-          title: 'Porównanie statuses vs. followers',
+          title: 'Porównanie statuses vs. followers (z ograniczeniami)',
           hAxis: {title: 'Statuses'},
           vAxis: {title: 'Followers'},
           legend: 'none'
