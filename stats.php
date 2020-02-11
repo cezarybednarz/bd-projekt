@@ -73,13 +73,11 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_date_rows = oci_fetch_all($stmt, $date_rows);
   
-  echo "<p>".$n_date_rows."</p>";
-  
   for($i = 0; $i < $n_date_rows; $i++) {
-              if(in_array($date_rows[FROM_FILE][$i], $loaded)) {
-                echo "[new Date(" . $date_rows[TIME] . "), 1],";
-              }
-            }
+    if(in_array($date_rows[FROM_FILE][$i], $loaded)) {
+      echo "<p>[new Date(" . $date_rows[TIME][$i] . "), 1],</p>";
+    }
+  }
 ?>
 
 <?php
@@ -214,7 +212,7 @@ th {
           <?php
             for($i = 0; $i < $n_date_rows; $i++) {
               if(in_array($date_rows[FROM_FILE][$i], $loaded)) {
-                echo "[new Date(" . $date_rows[TIME] . "), 1],";
+                echo "[new Date(" . $date_rows[TIME][$i] . "), 1],";
               }
             }
           ?>
