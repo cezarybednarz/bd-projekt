@@ -260,7 +260,7 @@ th {
       <div id = "container2" style = "width: 800px; height: 400px; margin: 0 auto">
       </div>
       <script language = "JavaScript">
-         function drawChart() {
+         function drawChart2() {
             var data = google.visualization.arrayToDataTable([
               ['Quarks', 'Leptons', 'Gauge Bosons', 'Scalar Bosons'],
               [2/3, -1, 0, 0],
