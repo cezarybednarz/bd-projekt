@@ -105,7 +105,7 @@ th {
 
 <?php
   // drugi wykres
-  $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr WHERE statuses_count <= 1000 AND followers <= 1000");
+  $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr WHERE statuses_count <= 10000 AND followers <= 10000");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $s_nrows = oci_fetch_all($stmt, $s_rows);
  
