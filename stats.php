@@ -290,7 +290,7 @@ th {
       <script language = "JavaScript">
          function drawChart2() {
             var data = google.visualization.arrayToDataTable([
-              ['Hashtagi', 'URLe', 'Mentiony', 'Scalar Bosons'],
+              ['Hashtagi', 'URLe', 'Mentiony'],
               <?php
                 foreach($hist_tweets as $tuple) {
                   echo "[" . $tuple[0] . ", " . $tuple[1] . ", " . $tuple[2] . "],";
@@ -301,7 +301,7 @@ th {
             var options = {
               title: 'Charges of subatomic particles',
               legend: { position: 'top', maxLines: 2 },
-              colors: ['#5C3292', '#1A8763', '#871B47', '#999999'],
+              colors: ['#5C3292', '#1A8763', '#871B47'],
               interpolateNulls: false,
             };				
 
