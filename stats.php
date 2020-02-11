@@ -67,6 +67,11 @@ th {
   $stmt = oci_parse($conn, "SELECT favourite_count, retweet_count, from_file FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_vs_rows = oci_fetch_all($stmt, $vs_rows);
+  
+  // trzeci wykres
+  $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $n_date_rows = oci_fetch_all($stmt, $date_rows);
 ?>
 
 <?php
@@ -184,6 +189,46 @@ th {
     <div id="chart_div" style="width: 900px; height: 500px;"></div>
   </body>
 </html>
+
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["calendar"]});
+      google.charts.setOnLoadCallback(drawChart);
+
+   function drawChart() {
+       var dataTable = new google.visualization.DataTable();
+       dataTable.addColumn({ type: 'date', id: 'Date' });
+       dataTable.addColumn({ type: 'number', id: 'Won/Loss' });
+       dataTable.addRows([
+          [ new Date(2012, 3, 13), 37032 ],
+          [ new Date(2012, 3, 14), 38024 ],
+          <?php
+            for($i = 0; $i < $n_date_rows; $i++) {
+              if(in_array($date_rows[FROM_FILE][$i], $loaded) {
+                echo "[new Date(" . $date_rows[TIME] . "), 1],";
+              }
+            }
+        ]);
+
+       var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
+
+       var options = {
+         title: "Dni postowania tweetów",
+         height: 350,
+       };
+
+       chart.draw(dataTable, options);
+   }
+    </script>
+  </head>
+  <body>
+    <div id="calendar_basic" style="width: 1000px; height: 350px;"></div>
+  </body>
+</html>
+
 
 
 </body>
