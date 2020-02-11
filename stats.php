@@ -68,27 +68,6 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_vs_rows = oci_fetch_all($stmt, $vs_rows);
   
-  // trzeci wykres
-  $stmt = oci_parse($conn, "SELECT from_file TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet WHERE from_file IN :loaded");
-  $loaded_string = "(";
-  foreach($loaded as $load) {
-    $loaded_string = $loaded_string . ", " . $load;
-  }
-  
-  $loaded_string = $loaded_string . ")";
-  oci_bind_by_name($stmt, ':loaded', $loaded_string);
-  
-  echo $loaded_string;
-  
-  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  $n_date_rows = oci_fetch_all($stmt, $date_rows);
-  
-  print_r(oci_error($stmt));
-  echo $n_date_rows;
-  for($i = 0; $i < $n_date_rows; $i++) {
-    echo "[new Date(" . $date_rows[TIME][$i] . ")," . $date_rows[NUM][$i] . "],";
-    
-  }
 ?>
 
 <?php
@@ -121,6 +100,31 @@ th {
   }
   echo "</table>";
   
+?>
+
+
+<?php 
+    // trzeci wykres
+  $stmt = oci_parse($conn, "SELECT from_file TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet WHERE from_file IN :loaded");
+  $loaded_string = "(";
+  foreach($loaded as $load) {
+    $loaded_string = $loaded_string . ", " . $load;
+  }
+  
+  $loaded_string = $loaded_string . ")";
+  oci_bind_by_name($stmt, ':loaded', $loaded_string);
+  
+  echo $loaded_string;
+  
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $n_date_rows = oci_fetch_all($stmt, $date_rows);
+  
+  print_r(oci_error($stmt));
+  echo $n_date_rows;
+  for($i = 0; $i < $n_date_rows; $i++) {
+    echo "[new Date(" . $date_rows[TIME][$i] . ")," . $date_rows[NUM][$i] . "],";
+    
+  }
 ?>
 
 
