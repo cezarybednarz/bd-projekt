@@ -146,14 +146,8 @@ th {
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     $mention_row = oci_fetch_array($stmt, OCI_BOTH);
     
-    array_push($hist_tweets, [$hash_row[0], $url_row[0], $mention_row[0]]);
-    
+    array_push($hist_tweets, [$hash_row[0], $url_row[0], $mention_row[0]]); 
   }
-  foreach($hist_tweets as $tuple) {
-    echo $tuple[0] . " " . $tuple[1] . " " . $tuple[2] . "<br>";
-  }
-  print_r($hist_tweets);
-  
 ?>
 
 
@@ -292,14 +286,12 @@ th {
       <script language = "JavaScript">
          function drawChart2() {
             var data = google.visualization.arrayToDataTable([
-              ['Quarks', 'Leptons', 'Gauge Bosons', 'Scalar Bosons'],
-              [2/3, -1, 0, 0],
-              [2/3, -1, 0, null],
-              [2/3, -1, 0, null],
-              [-1/3, 0, 1, null],
-              [-1/3, 0, -1, null],
-              [-1/3, 0, null, null],
-              [-1/3, 0, null, null]
+              ['Hashtagi', 'URLe', 'Mentiony'],
+              <?php
+                foreach($hist_tweets as $tuple) {
+                  echo "[" . $tuple[0] . ", " . $tuple[1] . ", " . $tuple[2] . "],"
+                }
+              ?>
             ]);
 
             var options = {
