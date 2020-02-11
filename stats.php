@@ -69,7 +69,7 @@ th {
   $n_vs_rows = oci_fetch_all($stmt, $vs_rows);
   
   // trzeci wykres
-  $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet");
+  $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'YYYY, MM, DD') as TIME, COUNT(*) AS CNT FROM tweet GROUP BY TIME");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_date_rows = oci_fetch_all($stmt, $date_rows);
   
