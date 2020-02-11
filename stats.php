@@ -72,6 +72,12 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_date_rows = oci_fetch_all($stmt, $date_rows);
+  
+  for($i = 0; $i < $n_date_rows; $i++) {
+              if(in_array($date_rows[FROM_FILE][$i], $loaded)) {
+                echo "[new Date(" . $date_rows[TIME] . "), 1],";
+              }
+            }
 ?>
 
 <?php
