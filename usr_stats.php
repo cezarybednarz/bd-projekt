@@ -115,7 +115,7 @@ th {
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['statuses count', 'followers'],
+          ['statuses count2', 'followers2'],
           <?php
             for($i = 0; $i < $s_nrows; $i++) {
               echo "[" . $s_rows[STATUSES_COUNT][$i] . ", " . $s_rows[FOLLOWERS][$i] . "],";
@@ -125,8 +125,8 @@ th {
 
         var options = {
           title: 'Porównanie statuses vs. followers',
-          hAxis: {title: 'Statuses'},
-          vAxis: {title: 'Followers'},
+          hAxis: {title: 'Statuses2'},
+          vAxis: {title: 'Followers2'},
           legend: 'none'
         };
 
@@ -137,7 +137,7 @@ th {
     </script>
   </head>
   <body>
-    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+    <div id="chart_div2" style="width: 900px; height: 500px;"></div>
   </body>
 </html>
 
