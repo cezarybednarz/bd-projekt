@@ -203,8 +203,6 @@ th {
        dataTable.addColumn({ type: 'date', id: 'Date' });
        dataTable.addColumn({ type: 'number', id: 'Won/Loss' });
        dataTable.addRows([
-          [ new Date(2012, 3, 13), 37032 ],
-          [ new Date(2012, 3, 14), 38024 ],
           <?php
             for($i = 0; $i < $n_date_rows; $i++) {
               if(in_array($date_rows[FROM_FILE][$i], $loaded)) {
