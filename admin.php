@@ -336,6 +336,11 @@ th {
   $row = oci_fetch_array($stmt, OCI_BOTH);
   echo "<b>najeczęściej wystepujący mention: </b><i>@" . $row[0] . "</i> (" . $row[1] . " wystąpienia)</br>";
   
+  $stmt = oci_parse($conn, "SELECT COUNT(*) FROM usr");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $row = oci_fetch_array($stmt, OCI_BOTH);
+  echo "</br><b>liczba userów: </b>" . $row[0] . "</br>";
+  
 ?>
 </table>
 </center>
