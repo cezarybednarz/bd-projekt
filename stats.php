@@ -257,27 +257,27 @@ th {
    </head>
    
    <body>
-      <div id = "containe2r" style = "width: 800px; height: 400px; margin: 0 auto">
+      <div id = "container2" style = "width: 800px; height: 400px; margin: 0 auto">
       </div>
       <script language = "JavaScript">
          function drawChart() {
             var data = google.visualization.arrayToDataTable([
-                ['Quarks', 'Leptons', 'Gauge Bosons', 'Scalar Bosons'],
-                [2/3, -1, 0, 0],
-                [2/3, -1, 0, null],
-                [2/3, -1, 0, null],
-                [-1/3, 0, 1, null],
-                [-1/3, 0, -1, null],
-                [-1/3, 0, null, null],
-                [-1/3, 0, null, null]
-              ]);
+              ['Quarks', 'Leptons', 'Gauge Bosons', 'Scalar Bosons'],
+              [2/3, -1, 0, 0],
+              [2/3, -1, 0, null],
+              [2/3, -1, 0, null],
+              [-1/3, 0, 1, null],
+              [-1/3, 0, -1, null],
+              [-1/3, 0, null, null],
+              [-1/3, 0, null, null]
+            ]);
 
-              var options = {
-                title: 'Charges of subatomic particles',
-                legend: { position: 'top', maxLines: 2 },
-                colors: ['#5C3292', '#1A8763', '#871B47', '#999999'],
-                interpolateNulls: false,
-              };				
+            var options = {
+              title: 'Charges of subatomic particles',
+              legend: { position: 'top', maxLines: 2 },
+              colors: ['#5C3292', '#1A8763', '#871B47', '#999999'],
+              interpolateNulls: false,
+            };				
 
             var chart = new google.visualization.Histogram(document.getElementById('container2'));
             chart.draw(data, options);
