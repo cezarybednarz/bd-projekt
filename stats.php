@@ -132,7 +132,6 @@ th {
   for($i = 0; $i < $hist_nrows; $i++) {
   
     $curr_id = $hist_rows[ID][$i];
-    echo "<p>" . $curr_id . "</p>";
     
     $stmt = oci_parse($conn, "SELECT count(*) FROM hashtag WHERE tweet_id = " . $curr_id);
     oci_execute($stmt, OCI_NO_AUTO_COMMIT);
