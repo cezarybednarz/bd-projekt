@@ -112,7 +112,9 @@ th {
                ['From file', 'Hour'],
                <?php
                   for($i = 0; $i < $nrows; $i++) {
-                    echo "['" . $rows[FROM_FILE][$i] . "', " . $rows[TIME][$i] . "],";
+                    if(in_array($rows[FROM_FILE][$i], $loaded)) {
+                      echo "['" . $rows[FROM_FILE][$i] . "', " . $rows[TIME][$i] . "],";
+                    }
                   }
                ?>	  
             ]);
