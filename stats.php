@@ -150,7 +150,7 @@ th {
   }
   
   foreach($hist_tweets as $tuple) {
-                  echo "[" . $tuple[0] . ", " . $tuple[1] . ", " . $tuple[2] . "],"
+                  echo "[" . $tuple[0] . ", " . $tuple[1] . ", " . $tuple[2] . "],";
                 }
 ?>
 
