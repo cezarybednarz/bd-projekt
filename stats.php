@@ -108,7 +108,7 @@ th {
   $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet WHERE from_file IN :loaded");
   $loaded_string = "(";
   foreach($loaded as $load) {
-    $loaded_string = $loaded_string . "'". $load . "', ";
+    $loaded_string = $loaded_string . "'". $load . "',";
   }
   if(strlen($loaded_string) != 1) {
     $loaded_string[strlen($loaded_string) - 1] = ')';
@@ -147,7 +147,6 @@ th {
       </div>
       <script language = "JavaScript">
          function drawChart() {
-            // Define the chart to be drawn.
             var data = google.visualization.arrayToDataTable([
                ['From file', 'Hour'],
                <?php
@@ -159,7 +158,6 @@ th {
                ?>	  
             ]);
               
-            // Set chart options
             var options = {
                title: 'Godziny postowania tweetów',
                legend: { position: 'none' },
@@ -169,7 +167,6 @@ th {
                histogram: { bucketSize: 1 }
             };				
 
-            // Instantiate and draw the chart.
             var chart = new google.visualization.Histogram(document.getElementById('container'));
             chart.draw(data, options);
          }
