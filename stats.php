@@ -280,7 +280,7 @@ th {
    </head>
    
    <body>
-      <div id = "container2" style = "width: 800px; height: 400px; margin: 0 auto">
+      <div id = "container2" style = "width: 1000px; height: 500px; margin: 0 auto">
       </div>
       <script language = "JavaScript">
          function drawChart2() {
@@ -294,7 +294,7 @@ th {
             ]);
 
             var options = {
-              title: 'Charges of subatomic particles',
+              title: '',
               legend: { position: 'top', maxLines: 2 },
               colors: ['#5C3292', '#1A8763', '#49C050'],
               histogram: { bucketSize: 1 },
