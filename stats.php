@@ -89,9 +89,8 @@ th {
   $loaded = [];
   echo "<table>";
   echo "<tr><th width='20%'>akutalnie załadowane pliki</th></tr>";
-  if(isset($_POST['submit'])){//to run PHP script on submit
+  if(isset($_POST['submit'])){
     if(!empty($_POST['check_list'])){
-    // Loop to store and display values of individual checked checkbox.
       foreach($_POST['check_list'] as $selected) {
         echo "<tr><td><i>" . $selected."</i></td></tr>";
         array_push($loaded, $selected);
@@ -123,6 +122,29 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_date_rows = oci_fetch_all($stmt, $date_rows);
   
+  
+  // czwarty wykres
+  
+  $stmt = oci_parse($conn, "SELECT DISTINCT id, from_file FROM tweet WHERE from_file IN" . $loaded_string);
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $hist_nrows = oci_fetch_all($stmt, $hist_rows);
+  $hist_tweets = [];
+  for($i = 0; $i < $hist_nrows; $i++) {
+  
+    $curr_id = $hist_rows[ID][$i];
+    $stmt = oci_parse($conn, "SELECT count(*) AS cnt FROM hashtag WHERE tweet_id = " . $curr_id);
+    $hash_row = oci_fetch_array($stmt, OCI_BOTH);
+    
+    $curr_id = $hist_rows[ID][$i];
+    $stmt = oci_parse($conn, "SELECT count(*) AS cnt FROM url WHERE tweet_id = " . $curr_id);
+    $url_row = oci_fetch_array($stmt, OCI_BOTH);
+    
+    $curr_id = $hist_rows[ID][$i];
+    $stmt = oci_parse($conn, "SELECT count(*) AS cnt FROM mention WHERE tweet_id = " . $curr_id);
+    $mention_row = oci_fetch_array($stmt, OCI_BOTH);
+    
+    array_push($hist_tweets, [$hash_row[CNT], $url_row[CNT], $mention_row[CNT]]);
+  }
   
 ?>
 
