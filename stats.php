@@ -211,6 +211,7 @@ th {
                 echo "[new Date(" . $date_rows[TIME] . "), 1],";
               }
             }
+          ?>
         ]);
 
        var chart = new google.visualization.Calendar(document.getElementById('calendar_basic'));
