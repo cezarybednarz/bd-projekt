@@ -63,10 +63,10 @@ th {
   $nrows = oci_fetch_all($stmt, $rows);
 ?>
 
-<form action="#" method="post">
 <?php
   $stmt = oci_parse($conn, "SELECT DISTINCT from_file FROM tweet");
   echo "<br/><table>";
+  echo '<form action="#" method="post">';
   echo "<tr><th width='20%'>Filtruj załadowane pliki</th></tr>";
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   while (($stmt_row = oci_fetch_array($stmt, OCI_BOTH))) {
