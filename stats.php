@@ -65,7 +65,6 @@ th {
   $stmt = oci_parse($conn, "SELECT favourite_count, retweet_count FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_vs_rows = oci_fetch_all($stmt, $vs_rows);
-  echo $n_vs_rows;
 ?>
 
 <?php
@@ -159,9 +158,9 @@ th {
           ['favourites', 'retweets'],
           <?php
             for($i = 0; $i < $n_vs_rows; $i++) {
-              if(in_array($vs_rows[FAVOURITE_COUNT][$i], $loaded)) {
+              //if(in_array($vs_rows[FAVOURITE_COUNT][$i], $loaded)) {
                 echo "[" . 1 . ", " . 2 . "],";
-              }
+              //}
             }
          ?>	 
         ]);
