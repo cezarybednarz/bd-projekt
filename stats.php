@@ -117,7 +117,7 @@ th {
     $loaded_string = $loaded_string . ")";
   }
   
-  $stmt = oci_parse($conn, $cmd . $loaded_string);
+  $stmt = oci_parse($conn, "SELECT TIME, COUNT(TIME) AS NUM FROM (" . $cmd . $loaded_string . ") GROUP BY TIME");
   
   echo $cmd . $loaded_string;
   
