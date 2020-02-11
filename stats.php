@@ -10,7 +10,7 @@
 <style>
 table {
   border-collapse: collapse;
-  width: 20%;
+  width: 80%;
 }
 
 th, td {
@@ -79,7 +79,7 @@ th {
 <?php
   $loaded = [];
   echo "<table>";
-  echo "<tr><th>akutalnie załadowane pliki</th></tr>";
+  echo "<tr><th width='50%'>akutalnie załadowane pliki</th></tr>";
   if(isset($_POST['submit'])){//to run PHP script on submit
     if(!empty($_POST['check_list'])){
     // Loop to store and display values of individual checked checkbox.
