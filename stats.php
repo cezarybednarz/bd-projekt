@@ -143,7 +143,7 @@ th {
     $stmt = oci_parse($conn, "SELECT count(*) AS cnt FROM mention WHERE tweet_id = " . $curr_id);
     $mention_row = oci_fetch_array($stmt, OCI_BOTH);
     
-    array_push($hist_tweets, [$hash_row[CNT], $url_row[CNT], $mention_row[CNT]]);
+    array_push($hist_tweets, [$hash_row[0], $url_row[0], $mention_row[0]]);
     
   }
   foreach($hist_tweets as $tuple) {
