@@ -144,8 +144,11 @@ th {
     $mention_row = oci_fetch_array($stmt, OCI_BOTH);
     
     array_push($hist_tweets, [$hash_row[CNT], $url_row[CNT], $mention_row[CNT]]);
+    
   }
-  
+  foreach($hist_tweets as $tuple) {
+    echo $tuple[0] . " " . $tuple[1] . " " . $tuple[2] . "<br>";
+  }
   print_r($hist_tweets);
   
 ?>
