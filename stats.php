@@ -65,6 +65,7 @@ th {
   $stmt = oci_parse($conn, "SELECT favourite_count, retweet_count FROM tweet");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_vs_rows = oci_fetch_all($stmt, $vs_rows);
+  echo $n_vs_rows;
 ?>
 
 <?php
