@@ -148,10 +148,6 @@ th {
     
     array_push($hist_tweets, [$hash_row[0], $url_row[0], $mention_row[0]]); 
   }
-  
-  foreach($hist_tweets as $tuple) {
-                  echo "[" . $tuple[0] . ", " . $tuple[1] . ", " . $tuple[2] . "],";
-                }
 ?>
 
 
