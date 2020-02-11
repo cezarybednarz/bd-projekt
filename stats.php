@@ -119,6 +119,7 @@ th {
   oci_bind_by_name($stmt, ':loaded', $loaded_string);
   
   echo $loaded_string;
+  echo $stmt;
   
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $n_date_rows = oci_fetch_all($stmt, $date_rows);
