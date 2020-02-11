@@ -291,13 +291,11 @@ th {
          function drawChart2() {
             var data = google.visualization.arrayToDataTable([
               ['Hashtagi', 'URLe', 'Mentiony', 'Scalar Bosons'],
-              [2/3, -1, 0, 0],
-              [2/3, -1, 0, null],
-              [2/3, -1, 0, null],
-              [-1/3, 0, 1, null],
-              [-1/3, 0, -1, null],
-              [-1/3, 0, null, null],
-              [-1/3, 0, null, null]
+              <?php
+                foreach($hist_tweets as $tuple) {
+                  echo "[" . $tuple[0] . ", " . $tuple[1] . ", " . $tuple[2] . "],";
+                }
+              ?>
             ]);
 
             var options = {
