@@ -207,7 +207,7 @@ th {
           [ new Date(2012, 3, 14), 38024 ],
           <?php
             for($i = 0; $i < $n_date_rows; $i++) {
-              if(in_array($date_rows[FROM_FILE][$i], $loaded) {
+              if(in_array($date_rows[FROM_FILE][$i], $loaded)) {
                 echo "[new Date(" . $date_rows[TIME] . "), 1],";
               }
             }
