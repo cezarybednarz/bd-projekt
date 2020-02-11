@@ -155,13 +155,14 @@ th {
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
+          ['favourites', 'retweets'],
           <?php
             for($i = 0; $i < $n_vs_rows; $i++) {
-              if(in_array($vs_rows[FROM_FILE][$i], $loaded)) {
+              if(in_array($vs_rows[FAVOURITE_COUNT][$i], $loaded)) {
                 echo "['" . $vs_rows[FAVOURITE_COUNT][$i] . "', " . $vs_rows[RETWEET_COUNT][$i] . "],";
               }
             }
-          ?>	
+         ?>	 
         ]);
 
         var options = {
