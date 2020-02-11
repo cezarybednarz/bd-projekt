@@ -62,6 +62,12 @@ th {
   $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr");
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
+  
+  // drugi wykres
+  // pierwszy wykres
+  $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr WHERE statuses_count <= 1000 AND followers <= 1000");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $nrows2 = oci_fetch_all($stmt, $rows2);
 ?>
 
 
@@ -79,6 +85,41 @@ th {
           <?php
             for($i = 0; $i < $nrows; $i++) {
               echo "[" . $rows[STATUSES_COUNT][$i] . ", " . $rows[FOLLOWERS][$i] . "],";
+            }
+         ?>	 
+        ]);
+
+        var options = {
+          title: 'Porównanie statuses vs. followers',
+          hAxis: {title: 'Statuses'},
+          vAxis: {title: 'Followers'},
+          legend: 'none'
+        };
+
+        var chart = new google.visualization.ScatterChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
+
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['statuses count', 'followers'],
+          <?php
+            for($i = 0; $i < $nrows2; $i++) {
+              echo "[" . $rows2[STATUSES_COUNT][$i] . ", " . $rows2[FOLLOWERS][$i] . "],";
             }
          ?>	 
         ]);
