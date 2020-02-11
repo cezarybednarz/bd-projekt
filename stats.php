@@ -233,7 +233,7 @@ th {
 
        var options = {
          title: "Dni postowania tweetów",
-         height: 350,
+         height: 700,
        };
 
        chart.draw(dataTable, options);
@@ -241,7 +241,7 @@ th {
     </script>
   </head>
   <body>
-    <div id="calendar_basic" style="width: 1000px; height: 350px;"></div>
+    <div id="calendar_basic" style="width: 1000px; height: 700px;"></div>
   </body>
 </html>
 
