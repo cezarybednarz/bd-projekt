@@ -108,9 +108,7 @@ th {
   
   echo '<form action="usr_stats.php" method="get"> 
         Ograniczenie followersów:</br>
-        <input type="number" name="followers" size="40" length="40" value=""><BR> 
-        <input type="submit" name="" value="Filter"> 
-        </form> ';
+        <input type="number" name="followers" size="40" length="40" value=""><BR>';
   
   echo '<form action="usr_stats.php" method="get"> 
         Ograniczenie statusów:</br>
