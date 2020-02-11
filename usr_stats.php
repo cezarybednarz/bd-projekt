@@ -29,14 +29,14 @@ th {
 </head>
 
 <HEAD>
-    <TITLE> Wykresy </TITLE>
+    <TITLE> Wykresy userów</TITLE>
 </HEAD>
 
 <BODY>
 
 <center>
 
-<h2> Wykresy </h2>
+<h2> Wykresy userów </h2>
 
 
 <center><a href="http://students.mimuw.edu.pl/~cb406099/bd-projekt">wróć do strony głównej</a></br>
