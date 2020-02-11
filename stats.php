@@ -78,7 +78,7 @@ th {
 </form>
 <?php
   $loaded = [];
-  echo "akutalnie załadowane pliki:<br>";
+  echo "<tr><th>akutalnie załadowane pliki</th></tr>";
   echo "<table>";
   if(isset($_POST['submit'])){//to run PHP script on submit
     if(!empty($_POST['check_list'])){
