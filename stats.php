@@ -302,6 +302,7 @@ th {
               title: 'Charges of subatomic particles',
               legend: { position: 'top', maxLines: 2 },
               colors: ['#5C3292', '#1A8763', '#871B47'],
+              histogram: { bucketSize: 1 }
               interpolateNulls: false,
             };				
 
