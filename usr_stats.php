@@ -111,9 +111,9 @@ th {
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
-      google.charts.setOnLoadCallback(drawChart);
+      google.charts.setOnLoadCallback(drawChart2);
 
-      function drawChart() {
+      function drawChart2() {
         var data = google.visualization.arrayToDataTable([
           ['statuses count2', 'followers2'],
           <?php
