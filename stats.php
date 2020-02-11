@@ -105,13 +105,17 @@ th {
 
 <?php 
     // trzeci wykres
-  $stmt = oci_parse($conn, "SELECT from_file TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet WHERE from_file IN :loaded");
+  $stmt = oci_parse($conn, "SELECT from_file, TO_CHAR(created_at, 'YYYY, MM, DD') as TIME FROM tweet WHERE from_file IN :loaded");
   $loaded_string = "(";
   foreach($loaded as $load) {
     $loaded_string = $loaded_string . "'". $load . "', ";
   }
-  
-  $loaded_string = $loaded_string . ")";
+  if(strlen($loaded_string) != 1) {
+    $loaded_string[strlen($loaded_string) - 1] = ')'
+  } 
+  else {
+    $loaded_string = $loaded_string . ")";
+  }
   oci_bind_by_name($stmt, ':loaded', $loaded_string);
   
   echo $loaded_string;
