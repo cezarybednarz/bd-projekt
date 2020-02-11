@@ -78,13 +78,13 @@ th {
 </form>
 <?php
   $loaded = [];
-  echo "<br/><p>akutalnie załadowane pliki:</p><br>";
+  echo "akutalnie załadowane pliki:<br>";
   echo "<table>";
   if(isset($_POST['submit'])){//to run PHP script on submit
     if(!empty($_POST['check_list'])){
     // Loop to store and display values of individual checked checkbox.
       foreach($_POST['check_list'] as $selected) {
-        echo "<tr><td><i>" . $selected."</i></td></tr></br>";
+        echo "<tr><td><i>" . $selected."</i></td></tr>";
         array_push($loaded, $selected);
       }
     }
