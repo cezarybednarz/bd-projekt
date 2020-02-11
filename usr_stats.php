@@ -107,12 +107,24 @@ th {
   // drugi wykres
   
   echo '<form action="usr_stats.php" method="get"> 
-        Ogranieczenie followersów:</br>
+        Ograniczenie followersów:</br>
         <input type="number" name="followers" size="40" length="40" value=""><BR> 
         <input type="submit" name="" value="Filter"> 
         </form> ';
   
-  $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr WHERE statuses_count <= 10000 AND followers <= 10000");
+  echo '<form action="usr_stats.php" method="get"> 
+        Ograniczenie statusów:</br>
+        <input type="number" name="statuses" size="40" length="40" value=""><BR> 
+        <input type="submit" name="" value="Filter"> 
+        </form> ';
+  
+  
+  $followers = $_GET['followers'];
+  $statuses = $GET['statuses'];
+  
+  $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr WHERE statuses_count <= :statuses AND followers <= :followers");
+  oci_bind_by_name($stmt, ":statuses", $statuses);
+  oci_bind_by_name($stmt, ":followers", $followers);
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $s_nrows = oci_fetch_all($stmt, $s_rows);
  
