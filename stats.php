@@ -76,9 +76,8 @@ th {
   print_r(oci_error($stmt));
   echo $n_date_rows;
   for($i = 0; $i < $n_date_rows; $i++) {
-                  if(in_array($date_rows[FROM_FILE][$i], $loaded)) {
     echo "[new Date(" . $date_rows[TIME][$i] . ")," . $date_rows[NUM][$i] . "],";
-    }
+    
   }
 ?>
 
