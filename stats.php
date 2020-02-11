@@ -134,13 +134,13 @@ th {
     $curr_id = $hist_rows[ID][$i];
     echo "<p>" . $curr_id . "</p>";
     
-    $stmt = oci_parse($conn, "SELECT count(*) AS cnt FROM hashtag WHERE tweet_id = " . $curr_id);
+    $stmt = oci_parse($conn, "SELECT count(*) FROM hashtag WHERE tweet_id = " . $curr_id);
     $hash_row = oci_fetch_array($stmt, OCI_BOTH);
     
-    $stmt = oci_parse($conn, "SELECT count(*) AS cnt FROM url WHERE tweet_id = " . $curr_id);
+    $stmt = oci_parse($conn, "SELECT count(*) FROM url WHERE tweet_id = " . $curr_id);
     $url_row = oci_fetch_array($stmt, OCI_BOTH);
     
-    $stmt = oci_parse($conn, "SELECT count(*) AS cnt FROM mention WHERE tweet_id = " . $curr_id);
+    $stmt = oci_parse($conn, "SELECT count(*) FROM mention WHERE tweet_id = " . $curr_id);
     $mention_row = oci_fetch_array($stmt, OCI_BOTH);
     
     array_push($hist_tweets, [$hash_row[0], $url_row[0], $mention_row[0]]);
