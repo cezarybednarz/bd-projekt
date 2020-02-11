@@ -84,7 +84,7 @@ th {
     if(!empty($_POST['check_list'])){
     // Loop to store and display values of individual checked checkbox.
       foreach($_POST['check_list'] as $selected) {
-        echo "<i>" . $selected."</i></br>";
+        echo "<tr><td><i>" . $selected."</i></td></tr></br>";
         array_push($loaded, $selected);
       }
     }
