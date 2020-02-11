@@ -10,7 +10,7 @@
 <style>
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 20%;
 }
 
 th, td {
