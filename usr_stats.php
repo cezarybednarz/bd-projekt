@@ -106,9 +106,9 @@ th {
 <?php
   // drugi wykres
   
-  echo '<form action="usr_stats.php" method="post"> 
+  echo '<form action="usr_stats.php" method="get"> 
         Ogranieczenie followersów:</br>
-        <input type="range" name="followers" size="40" length="40" value=""><BR> 
+        <input type="number" name="followers" size="40" length="40" value=""><BR> 
         <input type="submit" name="" value="Filter"> 
         </form> ';
   
