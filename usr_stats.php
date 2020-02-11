@@ -63,10 +63,6 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
   
-  // drugi wykres
-  $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr WHERE statuses_count <= 1000 AND followers <= 1000");
-  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  $s_nrows = oci_fetch_all($stmt, $s_rows);
 ?>
 
 
@@ -106,6 +102,16 @@ th {
   </body>
 </html>
 
+
+<?php
+  // drugi wykres
+  $stmt = oci_parse($conn, "SELECT statuses_count, followers FROM usr WHERE statuses_count <= 1000 AND followers <= 1000");
+  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
+  $s_nrows = oci_fetch_all($stmt, $s_rows);
+ 
+ 
+?>
+
 <html>
   <head>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -125,8 +131,8 @@ th {
 
         var options = {
           title: 'Porównanie statuses vs. followers',
-          hAxis: {title: 'Statuses2'},
-          vAxis: {title: 'Followers2'},
+          hAxis: {title: 'Statuses'},
+          vAxis: {title: 'Followers'},
           legend: 'none'
         };
 
