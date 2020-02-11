@@ -62,12 +62,7 @@ th {
   oci_execute($stmt, OCI_NO_AUTO_COMMIT);
   $nrows = oci_fetch_all($stmt, $rows);
   
-  echo "<br><b>Załadowane pliki:</b></br>";
-  $stmt = oci_parse($conn, "SELECT DISTINCT from_file FROM tweet");
-  oci_execute($stmt, OCI_NO_AUTO_COMMIT);
-  while (($stmt_row = oci_fetch_array($stmt, OCI_BOTH))) {
-    echo "<i>" . $stmt_row[0] . "</i></br>";
-  }
+  echo "Filtruj załadowane pliki:</br>";
 ?>
 
 <form action="#" method="post">
@@ -78,12 +73,8 @@ th {
     echo '<input type="checkbox" name="check_list[]" value="' . $stmt_row[0] . '"><label>' . $stmt_row[0] . '</label><br/>';
   }
 ?>
-  /*
-<input type="checkbox" name="check_list[]" value="C/C++"><label>C/C++</label><br/>
-<input type="checkbox" name="check_list[]" value="Java"><label>Java</label><br/>
-<input type="checkbox" name="check_list[]" value="PHP"><label>PHP</label><br/>
-*/
-<input type="submit" name="submit" value="Submit"/>
+
+<input type="submit" name="submit" value="Filtruj"/>
 </form>
 <?php
   if(isset($_POST['submit'])){//to run PHP script on submit
