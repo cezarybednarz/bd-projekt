@@ -161,7 +161,7 @@ th {
           <?php
             for($i = 0; $i < $n_vs_rows; $i++) {
               if(in_array($vs_rows[FROM_FILE][$i], $loaded)) {
-                echo "[" . 1 . ", " . 2 . "],";
+                echo "[" . $vs_rows[FAVOURITE_COUNT][$i] . ", " . $vs_rows[RETWEET_COUNT][$i] . "],";
               }
             }
          ?>	 
