@@ -226,7 +226,9 @@ th {
        dataTable.addRows([
           <?php
             for($i = 0; $i < $n_date_rows; $i++) {
-              echo "[new Date(" . ($date_rows[TIME][$i] - 1 + 12) % 12 . ")," . $date_rows[NUM][$i] . "],";
+              // w javascripcie miesiace sa od 0
+              $date_rows[TIME][$i][7]--;
+              echo "[new Date(" . $date_rows[TIME][$i] . ")," . $date_rows[NUM][$i] . "],";
             }
           ?>
         ]);
