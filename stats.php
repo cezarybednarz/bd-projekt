@@ -124,9 +124,6 @@ th {
   $n_date_rows = oci_fetch_all($stmt, $date_rows);
   
   
-  for($i = 0; $i < $n_date_rows; $i++) {
-              echo "[new Date(" . $date_rows[TIME][$i] . ")," . $date_rows[NUM][$i] . "],";
-            }
 ?>
 
 
