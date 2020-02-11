@@ -135,15 +135,16 @@ th {
     echo "<p>" . $curr_id . "</p>";
     
     $stmt = oci_parse($conn, "SELECT count(*) FROM hashtag WHERE tweet_id = " . $curr_id);
+    oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     $hash_row = oci_fetch_array($stmt, OCI_BOTH);
     
     $stmt = oci_parse($conn, "SELECT count(*) FROM url WHERE tweet_id = " . $curr_id);
+    oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     $url_row = oci_fetch_array($stmt, OCI_BOTH);
     
     $stmt = oci_parse($conn, "SELECT count(*) FROM mention WHERE tweet_id = " . $curr_id);
+    oci_execute($stmt, OCI_NO_AUTO_COMMIT);
     $mention_row = oci_fetch_array($stmt, OCI_BOTH);
-    
-    print_r($mention_row);
     
     array_push($hist_tweets, [$hash_row[0], $url_row[0], $mention_row[0]]);
     
